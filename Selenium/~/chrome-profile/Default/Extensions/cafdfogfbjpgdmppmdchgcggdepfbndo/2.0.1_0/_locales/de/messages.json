@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Videos und Bilder mit Hotkeys zoomen, dehnen, neu positionieren, drehen und spiegeln."
+   },
+   "app_name": {
+      "message": "Videotransformator"
+   },
+   "commands_capture_event": {
+      "message": "Capture-Ereignis"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Horizontal komprimieren"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Vertikal komprimieren"
+   },
+   "commands_flip_horizontal": {
+      "message": "Horizontal spiegeln"
+   },
+   "commands_flip_vertical": {
+      "message": "Vertikal spiegeln"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontal dehnen"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertikal strecken"
+   },
+   "commands_position_down": {
+      "message": "Nach unten bewegen 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Nach unten links bewegen 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Nach unten rechts bewegen 🡦"
+   },
+   "commands_position_left": {
+      "message": "Nach links bewegen 🡠"
+   },
+   "commands_position_right": {
+      "message": "Nach rechts bewegen 🡢"
+   },
+   "commands_position_up": {
+      "message": "Nach oben bewegen 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Bewegen Sie sich nach oben links 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Nach oben rechts 🡥"
+   },
+   "commands_recenter": {
+      "message": "Neu zentrieren"
+   },
+   "commands_reload": {
+      "message": "Erweiterung neu laden"
+   },
+   "commands_reset": {
+      "message": "Transformationen zurücksetzen"
+   },
+   "commands_rotate_clockwise": {
+      "message": "⭮ drehen"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "⭮ um 90 Grad drehen"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "⭯ drehen"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "⭯ um 90 Grad drehen"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Hotkeys umschalten (Videos)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Hotkeys umschalten (Bilder)"
+   },
+   "commands_zoom_in": {
+      "message": "Hineinzoomen"
+   },
+   "commands_zoom_out": {
+      "message": "Rauszoomen"
+   },
+   "popup_feedback": {
+      "message": "Rückmeldung"
+   },
+   "popup_homepage": {
+      "message": "Startseite"
+   },
+   "popup_settings": {
+      "message": "Einstellungen"
+   },
+   "popup_store": {
+      "message": "Speichern"
+   },
+   "settings_add": {
+      "message": "Hinzufügen"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternative"
+   },
+   "settings_always_on": {
+      "message": "Immer auf"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Brauch"
+   },
+   "settings_default_hotkeys": {
+      "message": "Standard"
+   },
+   "settings_disable_alt": {
+      "message": "Deaktivieren Sie den Alt-Menü-Hotkey"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Verhindern Sie versehentliches Drücken der Alt-Taste. Deaktivieren Sie den Hotkey für das Alt-Menü des Browsers."
+   },
+   "settings_error_always_on": {
+      "message": "Ungültiger Always-On-Modus."
+   },
+   "settings_error_bad_function": {
+      "message": "Ungültige Funktion ausgewählt."
+   },
+   "settings_error_bad_number": {
+      "message": "Ungültige Nummer."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hotkey wurde bereits einmal verwendet."
+   },
+   "settings_function": {
+      "message": "Funktion"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Bildmodus"
+   },
+   "settings_incognito": {
+      "message": "Erlaubt in"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privates Surfen"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Umschaltbar auf der Erweiterungsverwaltungsseite des Browsers. Wenn Sie es ändern, wird die Erweiterung neu geladen, wodurch diese Einstellungsseite geschlossen wird."
+   },
+   "settings_off_mode": {
+      "message": "Aus"
+   },
+   "settings_position_increment": {
+      "message": "Positionsinkrement"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Wie viel Position in Pixel verschoben werden soll. Standard 20."
+   },
+   "settings_preset": {
+      "message": "Hotkey-Voreinstellung"
+   },
+   "settings_reset": {
+      "message": "Zurücksetzen"
+   },
+   "settings_rotate_increment": {
+      "message": "Inkrement drehen"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Wie viel zu drehen in Grad. Standard 5."
+   },
+   "settings_saved": {
+      "message": "Optionen gespeichert"
+   },
+   "settings_scale_increment": {
+      "message": "Skaleninkrement"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Wie viel in Prozent gezoomt oder gestreckt werden soll. Standard 5."
+   },
+   "settings_video_mode": {
+      "message": "Video Modus"
+   }
+}

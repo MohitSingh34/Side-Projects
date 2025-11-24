@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoom, stræk, flyt, roter og vend video og billeder ved hjælp af genvejstaster."
+   },
+   "app_name": {
+      "message": "Video Transformer"
+   },
+   "commands_capture_event": {
+      "message": "Optag begivenhed"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Komprimer vandret"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Komprimer lodret"
+   },
+   "commands_flip_horizontal": {
+      "message": "Vend vandret"
+   },
+   "commands_flip_vertical": {
+      "message": "Vend lodret"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Vandret stræk"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Lodret stræk"
+   },
+   "commands_position_down": {
+      "message": "Flyt ned 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Flyt ned til venstre 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Flyt ned til højre 🡦"
+   },
+   "commands_position_left": {
+      "message": "Flyt til venstre 🡠"
+   },
+   "commands_position_right": {
+      "message": "Flyt til højre 🡢"
+   },
+   "commands_position_up": {
+      "message": "Flyt op 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Flyt op til venstre 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Flyt op til højre 🡥"
+   },
+   "commands_recenter": {
+      "message": "Gencentrer"
+   },
+   "commands_reload": {
+      "message": "Genindlæs udvidelse"
+   },
+   "commands_reset": {
+      "message": "Nulstil transformationer"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Roter ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Roter ⭮ 90 grader"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Roter ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Roter ⭯ 90 grader"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Skift genvejstaster (videoer)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Skift genvejstaster (billeder)"
+   },
+   "commands_zoom_in": {
+      "message": "Zoom ind"
+   },
+   "commands_zoom_out": {
+      "message": "Zoome ud"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_homepage": {
+      "message": "Hjemmeside"
+   },
+   "popup_settings": {
+      "message": "Indstillinger"
+   },
+   "popup_store": {
+      "message": "Butik"
+   },
+   "settings_add": {
+      "message": "Tilføje"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativ"
+   },
+   "settings_always_on": {
+      "message": "Altid på"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Brugerdefinerede"
+   },
+   "settings_default_hotkeys": {
+      "message": "Standard"
+   },
+   "settings_disable_alt": {
+      "message": "Deaktiver Alt Menu-genvejstast"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Undgå utilsigtet tryk på Alt-tasten. Deaktiver browserens Alt-menu-genvejstast."
+   },
+   "settings_error_always_on": {
+      "message": "Ugyldig Always On-tilstand."
+   },
+   "settings_error_bad_function": {
+      "message": "Ugyldig funktion valgt."
+   },
+   "settings_error_bad_number": {
+      "message": "Ugyldigt nummer."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Genvejstasten er allerede blevet brugt én gang."
+   },
+   "settings_function": {
+      "message": "Fungere"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Genvejstast"
+   },
+   "settings_image_mode": {
+      "message": "Billedtilstand"
+   },
+   "settings_incognito": {
+      "message": "Tilladt ind"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privat browsing"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Kan slås til/fra på browserens administrationsside for udvidelser. Ændring af den vil genindlæse udvidelsen, hvilket får denne indstillingsside til at lukke."
+   },
+   "settings_off_mode": {
+      "message": "Af"
+   },
+   "settings_position_increment": {
+      "message": "Positionsforøgelse"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Hvor meget skal du flytte position i pixels. Standard 20."
+   },
+   "settings_preset": {
+      "message": "Genvejstast forudindstilling"
+   },
+   "settings_reset": {
+      "message": "Nulstil"
+   },
+   "settings_rotate_increment": {
+      "message": "Roter stigning"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Hvor meget skal man rotere i grader. Standard 5."
+   },
+   "settings_saved": {
+      "message": "Indstillinger gemt"
+   },
+   "settings_scale_increment": {
+      "message": "Skalaforøgelse"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Hvor meget der skal zoomes eller strækkes i procent. Standard 5."
+   },
+   "settings_video_mode": {
+      "message": "Videotilstand"
+   }
+}

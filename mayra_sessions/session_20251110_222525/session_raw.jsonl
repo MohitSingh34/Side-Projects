@@ -1,0 +1,2 @@
+{"timestamp": "2025-11-10 22:25:30", "role": "user", "content": "hello"}
+{"timestamp": "2025-11-10 22:25:33", "role": "assistant", "content": "[Gemini returned no text; raw: {\"error\": {\"code\": 503, \"message\": \"The model is overloaded. Please try again later.\", \"status\": \"UNAVAILABLE\"}}]"}

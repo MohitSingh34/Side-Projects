@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Масштабуйте, розтягуйте, змінюйте положення, повертайте та перевертайте відео та зображення за допомогою гарячих клавіш."
+   },
+   "app_name": {
+      "message": "Відео трансформатор"
+   },
+   "commands_capture_event": {
+      "message": "Захопити подію"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Стиснути по горизонталі"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Вертикально стиснути"
+   },
+   "commands_flip_horizontal": {
+      "message": "Перевернути по горизонталі"
+   },
+   "commands_flip_vertical": {
+      "message": "Перевернути вертикально"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Розтягнення по горизонталі"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Вертикально розтягнути"
+   },
+   "commands_position_down": {
+      "message": "Рух вниз 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Перемістіть ліворуч вниз 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Перемістіть вниз праворуч 🡦"
+   },
+   "commands_position_left": {
+      "message": "Рух ліворуч 🡠"
+   },
+   "commands_position_right": {
+      "message": "Рух праворуч 🡢"
+   },
+   "commands_position_up": {
+      "message": "Рух вгору 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Перемістіть вгору ліворуч 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Переміщення вгору праворуч 🡥"
+   },
+   "commands_recenter": {
+      "message": "Перецентрувати"
+   },
+   "commands_reload": {
+      "message": "Перезавантажити розширення"
+   },
+   "commands_reset": {
+      "message": "Скинути трансформації"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Обертати ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Поворот ⭮ 90 градусів"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Обертати ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Поворот ⭯ 90 градусів"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Перемикання гарячих клавіш (відео)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Перемикати гарячі клавіші (зображення)"
+   },
+   "commands_zoom_in": {
+      "message": "Приближувати"
+   },
+   "commands_zoom_out": {
+      "message": "Зменшення"
+   },
+   "popup_feedback": {
+      "message": "Зворотній зв'язок"
+   },
+   "popup_homepage": {
+      "message": "Домашня сторінка"
+   },
+   "popup_settings": {
+      "message": "Налаштування"
+   },
+   "popup_store": {
+      "message": "Магазин"
+   },
+   "settings_add": {
+      "message": "Додати"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Альтернатива"
+   },
+   "settings_always_on": {
+      "message": "Завжди"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Custom"
+   },
+   "settings_default_hotkeys": {
+      "message": "За замовчуванням"
+   },
+   "settings_disable_alt": {
+      "message": "Вимкнути гарячу клавішу меню Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Запобігайте випадковому натисканню клавіші Alt. Вимкніть гарячу клавішу меню Alt браузера."
+   },
+   "settings_error_always_on": {
+      "message": "Недійсний режим Always On."
+   },
+   "settings_error_bad_function": {
+      "message": "Вибрано недійсну функцію."
+   },
+   "settings_error_bad_number": {
+      "message": "Недійсний номер."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Гаряча клавіша вже була використана один раз."
+   },
+   "settings_function": {
+      "message": "Функція"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Гаряча клавіша"
+   },
+   "settings_image_mode": {
+      "message": "Режим зображення"
+   },
+   "settings_incognito": {
+      "message": "Дозволено в"
+   },
+   "settings_incognito_chrome": {
+      "message": "Інкогніто"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Приватний перегляд"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Перемикається на сторінці керування розширеннями браузера. Якщо змінити його, розширення буде перезавантажено, і сторінка налаштувань закриється."
+   },
+   "settings_off_mode": {
+      "message": "Вимкнено"
+   },
+   "settings_position_increment": {
+      "message": "Приріст позиції"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "На скільки зрушити позицію в пікселях. За замовчуванням 20."
+   },
+   "settings_preset": {
+      "message": "Попереднє налаштування гарячих клавіш"
+   },
+   "settings_reset": {
+      "message": "Скинути"
+   },
+   "settings_rotate_increment": {
+      "message": "Повернути приріст"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "На скільки обертати в градусах. За замовчуванням 5."
+   },
+   "settings_saved": {
+      "message": "Параметри збережено"
+   },
+   "settings_scale_increment": {
+      "message": "Приріст масштабу"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Наскільки збільшити або розтягнути у відсотках. За замовчуванням 5."
+   },
+   "settings_video_mode": {
+      "message": "Режим відео"
+   }
+}

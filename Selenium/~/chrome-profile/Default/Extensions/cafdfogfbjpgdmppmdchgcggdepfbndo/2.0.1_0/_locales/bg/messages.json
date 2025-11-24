@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Мащабиране, разтягане, препозициониране, завъртане и обръщане на видео и изображения с помощта на клавишни комбинации."
+   },
+   "app_name": {
+      "message": "Видео трансформатор"
+   },
+   "commands_capture_event": {
+      "message": "Заснемане на събитие"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Хоризонтално компресиране"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Вертикално компресиране"
+   },
+   "commands_flip_horizontal": {
+      "message": "Обърнете хоризонтално"
+   },
+   "commands_flip_vertical": {
+      "message": "Обърнете вертикално"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Хоризонтално разтягане"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Вертикално разтягане"
+   },
+   "commands_position_down": {
+      "message": "Преместване надолу 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Преместете надолу вляво 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Преместете надолу надясно 🡦"
+   },
+   "commands_position_left": {
+      "message": "Преместване наляво 🡠"
+   },
+   "commands_position_right": {
+      "message": "Преместване надясно 🡢"
+   },
+   "commands_position_up": {
+      "message": "Преместване нагоре 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Преместване нагоре наляво 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Преместване нагоре надясно 🡥"
+   },
+   "commands_recenter": {
+      "message": "Центриране отново"
+   },
+   "commands_reload": {
+      "message": "Презареждане на разширение"
+   },
+   "commands_reset": {
+      "message": "Нулиране на трансформациите"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Завъртете ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Завъртете ⭮ на 90 градуса"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Завъртете ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Завъртане ⭯ на 90 градуса"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Превключване на клавишни комбинации (видеоклипове)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Превключване на клавишни комбинации (изображения)"
+   },
+   "commands_zoom_in": {
+      "message": "Увеличавам"
+   },
+   "commands_zoom_out": {
+      "message": "Отдалечавам"
+   },
+   "popup_feedback": {
+      "message": "Обратна връзка"
+   },
+   "popup_homepage": {
+      "message": "Начална страница"
+   },
+   "popup_settings": {
+      "message": "Настройки"
+   },
+   "popup_store": {
+      "message": "Магазин"
+   },
+   "settings_add": {
+      "message": "Добавете"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Алтернатива"
+   },
+   "settings_always_on": {
+      "message": "Винаги включен"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Персонализиран"
+   },
+   "settings_default_hotkeys": {
+      "message": "По подразбиране"
+   },
+   "settings_disable_alt": {
+      "message": "Деактивирайте бързия клавиш на менюто Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Предотвратете случайно натискане на клавиш Alt. Деактивирайте бързия клавиш на менюто Alt на браузъра."
+   },
+   "settings_error_always_on": {
+      "message": "Невалиден режим Always On."
+   },
+   "settings_error_bad_function": {
+      "message": "Избрана е невалидна функция."
+   },
+   "settings_error_bad_number": {
+      "message": "Невалиден номер."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Клавишната комбинация вече е използвана веднъж."
+   },
+   "settings_function": {
+      "message": "Функция"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Бърз клавиш"
+   },
+   "settings_image_mode": {
+      "message": "Режим на изображение"
+   },
+   "settings_incognito": {
+      "message": "Разрешено влизане"
+   },
+   "settings_incognito_chrome": {
+      "message": "Инкогнито"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Поверително сърфиране"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Може да се превключва в страницата за управление на разширенията на браузъра. Промяната му ще презареди разширението, което ще доведе до затваряне на тази страница с настройки."
+   },
+   "settings_off_mode": {
+      "message": "Изкл"
+   },
+   "settings_position_increment": {
+      "message": "Увеличаване на позицията"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Колко да се премести позицията в пиксели. По подразбиране 20."
+   },
+   "settings_preset": {
+      "message": "Предварително зададени клавишни комбинации"
+   },
+   "settings_reset": {
+      "message": "Нулиране"
+   },
+   "settings_rotate_increment": {
+      "message": "Завъртане на увеличението"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Колко да се върти в градуси. По подразбиране 5."
+   },
+   "settings_saved": {
+      "message": "Опциите са запазени"
+   },
+   "settings_scale_increment": {
+      "message": "Увеличение на мащаба"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Колко да увеличите или разтегнете в проценти. По подразбиране 5."
+   },
+   "settings_video_mode": {
+      "message": "Видео режим"
+   }
+}

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoom, regangkan, reposisi, putar, dan balik video dan gambar menggunakan tombol pintas."
+   },
+   "app_name": {
+      "message": "Transformator Video"
+   },
+   "commands_capture_event": {
+      "message": "Tangkap Acara"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Kompres Horisontal"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Kompres Vertikal"
+   },
+   "commands_flip_horizontal": {
+      "message": "Balik Horizontal"
+   },
+   "commands_flip_vertical": {
+      "message": "Balik Secara Vertikal"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Peregangan Horisontal"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Peregangan Vertikal"
+   },
+   "commands_position_down": {
+      "message": "Pindahkan ke Bawah 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Pindah ke Bawah Kiri 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Pindah Bawah Kanan 🡦"
+   },
+   "commands_position_left": {
+      "message": "Pindah ke Kiri 🡠"
+   },
+   "commands_position_right": {
+      "message": "Pindah Kanan 🡢"
+   },
+   "commands_position_up": {
+      "message": "Pindahkan ke Atas 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Pindahkan Ke Kiri 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Pindahkan Ke Kanan 🡥"
+   },
+   "commands_recenter": {
+      "message": "Pusat"
+   },
+   "commands_reload": {
+      "message": "Muat Ulang Ekstensi"
+   },
+   "commands_reset": {
+      "message": "Setel Ulang Transformasi"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Putar ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Putar ⭮ 90 Derajat"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Putar ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Putar ⭯ 90 Derajat"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Alihkan Tombol Pintas (Video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Toggle Hotkeys (Gambar)"
+   },
+   "commands_zoom_in": {
+      "message": "Perbesar"
+   },
+   "commands_zoom_out": {
+      "message": "Perkecil"
+   },
+   "popup_feedback": {
+      "message": "Masukan"
+   },
+   "popup_homepage": {
+      "message": "Beranda"
+   },
+   "popup_settings": {
+      "message": "Pengaturan"
+   },
+   "popup_store": {
+      "message": "Toko"
+   },
+   "settings_add": {
+      "message": "Menambahkan"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatif"
+   },
+   "settings_always_on": {
+      "message": "Selalu Aktif"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Kebiasaan"
+   },
+   "settings_default_hotkeys": {
+      "message": "Bawaan"
+   },
+   "settings_disable_alt": {
+      "message": "Nonaktifkan Hotkey Menu Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Cegah penekanan tombol Alt yang tidak disengaja. Nonaktifkan hotkey menu Alt browser."
+   },
+   "settings_error_always_on": {
+      "message": "Mode Selalu Aktif tidak valid."
+   },
+   "settings_error_bad_function": {
+      "message": "Fungsi yang dipilih tidak valid."
+   },
+   "settings_error_bad_number": {
+      "message": "Nomor tidak valid."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hotkey telah digunakan sekali."
+   },
+   "settings_function": {
+      "message": "Fungsi"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Modus Gambar"
+   },
+   "settings_incognito": {
+      "message": "Diizinkan masuk"
+   },
+   "settings_incognito_chrome": {
+      "message": "Penyamaran"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Penjelajahan Pribadi"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Dapat dialihkan di halaman pengelolaan ekstensi browser. Mengubahnya akan memuat ulang ekstensi, menyebabkan halaman pengaturan ini ditutup."
+   },
+   "settings_off_mode": {
+      "message": "Mati"
+   },
+   "settings_position_increment": {
+      "message": "Peningkatan Posisi"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Berapa banyak untuk memindahkan posisi dalam piksel. Default 20."
+   },
+   "settings_preset": {
+      "message": "Prasetel Hotkey"
+   },
+   "settings_reset": {
+      "message": "Mengatur ulang"
+   },
+   "settings_rotate_increment": {
+      "message": "Putar Peningkatan"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Berapa banyak untuk memutar dalam derajat. Default 5."
+   },
+   "settings_saved": {
+      "message": "Opsi Disimpan"
+   },
+   "settings_scale_increment": {
+      "message": "Peningkatan Skala"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Berapa banyak untuk memperbesar atau meregangkan dalam persentase. Default 5."
+   },
+   "settings_video_mode": {
+      "message": "Modus Video"
+   }
+}

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Amplieu, estireu, reposicioneu, gireu i gireu el vídeo i les imatges mitjançant tecles d'accés directe."
+   },
+   "app_name": {
+      "message": "Transformador de Vídeo"
+   },
+   "commands_capture_event": {
+      "message": "Captura l'esdeveniment"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Comprimir horitzontalment"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Comprimir verticalment"
+   },
+   "commands_flip_horizontal": {
+      "message": "Gira horitzontalment"
+   },
+   "commands_flip_vertical": {
+      "message": "Gira verticalment"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Estirament horitzontal"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Estirar verticalment"
+   },
+   "commands_position_down": {
+      "message": "Mou cap avall 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Mou cap avall a l'esquerra 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Mou cap avall a la dreta 🡦"
+   },
+   "commands_position_left": {
+      "message": "Mou a l'esquerra 🡠"
+   },
+   "commands_position_right": {
+      "message": "Mou a la dreta 🡢"
+   },
+   "commands_position_up": {
+      "message": "Mou cap amunt 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Mou cap amunt a l'esquerra 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Mou cap amunt a la dreta 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recentreu"
+   },
+   "commands_reload": {
+      "message": "Torna a carregar l'extensió"
+   },
+   "commands_reset": {
+      "message": "Restablir transformacions"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Gira ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Gira ⭮ 90 graus"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Gira ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Gira ⭯ 90 graus"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Commuta les tecles d'accés directe (vídeos)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Alterna les tecles d'accés directe (imatges)"
+   },
+   "commands_zoom_in": {
+      "message": "Ampliar"
+   },
+   "commands_zoom_out": {
+      "message": "Disminuir el zoom"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_homepage": {
+      "message": "Pàgina d'inici"
+   },
+   "popup_settings": {
+      "message": "Configuració"
+   },
+   "popup_store": {
+      "message": "Botiga"
+   },
+   "settings_add": {
+      "message": "Afegeix"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativa"
+   },
+   "settings_always_on": {
+      "message": "Sempre encés"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Personalitzat"
+   },
+   "settings_default_hotkeys": {
+      "message": "Per defecte"
+   },
+   "settings_disable_alt": {
+      "message": "Desactiva la tecla d'accés directe del menú Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Eviteu les pressions accidentals de la tecla Alt. Desactiveu la tecla d'accés ràpid del menú Alt del navegador."
+   },
+   "settings_error_always_on": {
+      "message": "El mode Sempre activat no és vàlid."
+   },
+   "settings_error_bad_function": {
+      "message": "S'ha seleccionat una funció no vàlida."
+   },
+   "settings_error_bad_number": {
+      "message": "Número no vàlid."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "La tecla d'accés directe ja s'ha utilitzat una vegada."
+   },
+   "settings_function": {
+      "message": "Funció"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Tecla ràpida"
+   },
+   "settings_image_mode": {
+      "message": "Mode d'imatge"
+   },
+   "settings_incognito": {
+      "message": "Permès entrar"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incògnit"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Navegació privada"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Es pot canviar a la pàgina de gestió d'extensions del navegador. En canviar-lo, es tornarà a carregar l'extensió i es tancarà aquesta pàgina de configuració."
+   },
+   "settings_off_mode": {
+      "message": "Apagat"
+   },
+   "settings_position_increment": {
+      "message": "Increment de posició"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Quant moure la posició en píxels. Per defecte 20."
+   },
+   "settings_preset": {
+      "message": "Tecla predeterminada"
+   },
+   "settings_reset": {
+      "message": "Restableix"
+   },
+   "settings_rotate_increment": {
+      "message": "Increment de rotació"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Quant girar en graus. Per defecte 5."
+   },
+   "settings_saved": {
+      "message": "Opcions desades"
+   },
+   "settings_scale_increment": {
+      "message": "Increment d'escala"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Quant s'ha de fer zoom o estirar en percentatge. Per defecte 5."
+   },
+   "settings_video_mode": {
+      "message": "Mode de vídeo"
+   }
+}

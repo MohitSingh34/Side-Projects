@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Powiększaj, rozciągaj, zmieniaj położenie, obracaj i odwracaj wideo i obrazy za pomocą skrótów klawiszowych."
+   },
+   "app_name": {
+      "message": "Transformator wideo"
+   },
+   "commands_capture_event": {
+      "message": "Przechwyć zdarzenie"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Kompresuj w poziomie"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Kompresuj w pionie"
+   },
+   "commands_flip_horizontal": {
+      "message": "Obróć poziomo"
+   },
+   "commands_flip_vertical": {
+      "message": "Odwróć w pionie"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Rozciągnij w poziomie"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Rozciąganie w pionie"
+   },
+   "commands_position_down": {
+      "message": "Przesuń w dół 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Przesuń w dół w lewo 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Przesuń w dół w prawo 🡦"
+   },
+   "commands_position_left": {
+      "message": "Przesuń w lewo 🡠"
+   },
+   "commands_position_right": {
+      "message": "Przesuń w prawo 🡢"
+   },
+   "commands_position_up": {
+      "message": "Przenieś w górę 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Przesuń w górę w lewo 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Przesuń w górę w prawo 🡥"
+   },
+   "commands_recenter": {
+      "message": "Najnowsze"
+   },
+   "commands_reload": {
+      "message": "Przeładuj rozszerzenie"
+   },
+   "commands_reset": {
+      "message": "Resetuj przekształcenia"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Obróć ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Obróć ⭮ o 90 stopni"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Obróć ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Obróć ⭯ 90 stopni"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Przełącz skróty klawiszowe (wideo)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Przełącz skróty klawiszowe (obrazy)"
+   },
+   "commands_zoom_in": {
+      "message": "Zbliżenie"
+   },
+   "commands_zoom_out": {
+      "message": "Pomniejsz"
+   },
+   "popup_feedback": {
+      "message": "Informacja zwrotna"
+   },
+   "popup_homepage": {
+      "message": "Strona główna"
+   },
+   "popup_settings": {
+      "message": "Ustawienia"
+   },
+   "popup_store": {
+      "message": "Sklep"
+   },
+   "settings_add": {
+      "message": "Dodać"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatywny"
+   },
+   "settings_always_on": {
+      "message": "Zawsze włączone"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Zwyczaj"
+   },
+   "settings_default_hotkeys": {
+      "message": "Domyślny"
+   },
+   "settings_disable_alt": {
+      "message": "Wyłącz klawisz skrótu Alt Menu"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Zapobiegaj przypadkowym naciśnięciom klawisza Alt. Wyłącz skrót klawiszowy Alt w menu przeglądarki."
+   },
+   "settings_error_always_on": {
+      "message": "Nieprawidłowy tryb Zawsze włączony."
+   },
+   "settings_error_bad_function": {
+      "message": "Wybrano nieprawidłową funkcję."
+   },
+   "settings_error_bad_number": {
+      "message": "Nieprawidłowy numer."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Klawisz skrótu został już użyty raz."
+   },
+   "settings_function": {
+      "message": "Funkcjonować"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Klawisz skrótu"
+   },
+   "settings_image_mode": {
+      "message": "Tryb obrazu"
+   },
+   "settings_incognito": {
+      "message": "Dozwolone w"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Prywatne przeglądanie"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Przełączane na stronie zarządzania rozszerzeniami przeglądarki. Zmiana spowoduje ponowne załadowanie rozszerzenia, co spowoduje zamknięcie tej strony ustawień."
+   },
+   "settings_off_mode": {
+      "message": "Wyłączony"
+   },
+   "settings_position_increment": {
+      "message": "Przyrost pozycji"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "O ile przesunąć pozycję w pikselach. Domyślnie 20."
+   },
+   "settings_preset": {
+      "message": "Ustawienie klawisza skrótu"
+   },
+   "settings_reset": {
+      "message": "Resetowanie"
+   },
+   "settings_rotate_increment": {
+      "message": "Przyrost obrotu"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "O ile obrócić w stopniach. Domyślnie 5."
+   },
+   "settings_saved": {
+      "message": "Opcje zapisane"
+   },
+   "settings_scale_increment": {
+      "message": "Przyrost skali"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "O ile powiększyć lub rozciągnąć w procentach. Domyślnie 5."
+   },
+   "settings_video_mode": {
+      "message": "Tryb wideo"
+   }
+}

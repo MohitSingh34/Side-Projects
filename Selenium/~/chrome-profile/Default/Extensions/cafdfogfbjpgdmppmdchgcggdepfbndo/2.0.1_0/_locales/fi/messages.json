@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoomaa, venytä, sijoita uudelleen, kierrä ja käännä videota ja kuvia pikanäppäimillä."
+   },
+   "app_name": {
+      "message": "Video muuntaja"
+   },
+   "commands_capture_event": {
+      "message": "Kaappaa tapahtuma"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Pakkaa vaakatasossa"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Pakkaa pystysuunnassa"
+   },
+   "commands_flip_horizontal": {
+      "message": "Käännä vaakatasossa"
+   },
+   "commands_flip_vertical": {
+      "message": "Käännä pystysuunnassa"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Vaakasuuntaisesti venyttävä"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Pystysuoraan venyttävä"
+   },
+   "commands_position_down": {
+      "message": "Siirrä alas 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Siirrä alas vasemmalle 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Siirrä alas oikealle 🡦"
+   },
+   "commands_position_left": {
+      "message": "Siirrä vasemmalle 🡠"
+   },
+   "commands_position_right": {
+      "message": "Siirrä oikealle 🡢"
+   },
+   "commands_position_up": {
+      "message": "Siirrä ylös 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Siirrä ylös vasemmalle 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Siirrä ylös oikealle 🡥"
+   },
+   "commands_recenter": {
+      "message": "Äskettäin"
+   },
+   "commands_reload": {
+      "message": "Lataa laajennus uudelleen"
+   },
+   "commands_reset": {
+      "message": "Nollaa muunnokset"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Kierrä ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Kierrä ⭮ 90 astetta"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Kierrä ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Kierrä ⭯ 90 astetta"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Vaihda pikanäppäimet (videot)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Vaihda pikanäppäimet (kuvat)"
+   },
+   "commands_zoom_in": {
+      "message": "Lähennä"
+   },
+   "commands_zoom_out": {
+      "message": "Loitontaa"
+   },
+   "popup_feedback": {
+      "message": "Palaute"
+   },
+   "popup_homepage": {
+      "message": "Kotisivu"
+   },
+   "popup_settings": {
+      "message": "Asetukset"
+   },
+   "popup_store": {
+      "message": "Store"
+   },
+   "settings_add": {
+      "message": "Lisätä"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Vaihtoehtoinen"
+   },
+   "settings_always_on": {
+      "message": "Aina päällä"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Mukautettu"
+   },
+   "settings_default_hotkeys": {
+      "message": "Oletus"
+   },
+   "settings_disable_alt": {
+      "message": "Poista Alt-valikon pikanäppäin käytöstä"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Estä tahattomat Alt-näppäimen painallukset. Poista selaimen Alt-valikon pikanäppäin käytöstä."
+   },
+   "settings_error_always_on": {
+      "message": "Virheellinen Aina päällä -tila."
+   },
+   "settings_error_bad_function": {
+      "message": "Virheellinen toiminto valittu."
+   },
+   "settings_error_bad_number": {
+      "message": "Väärä numero."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Pikanäppäintä on jo käytetty kerran."
+   },
+   "settings_function": {
+      "message": "Toiminto"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Pikanäppäin"
+   },
+   "settings_image_mode": {
+      "message": "Kuvatila"
+   },
+   "settings_incognito": {
+      "message": "Sallittu sisään"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Yksityinen selaaminen"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Vaihdettavissa selaimen laajennusten hallintasivulla. Sen muuttaminen lataa laajennuksen uudelleen, jolloin tämä asetussivu sulkeutuu."
+   },
+   "settings_off_mode": {
+      "message": "Vinossa"
+   },
+   "settings_position_increment": {
+      "message": "Aseman lisäys"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Kuinka paljon siirrettävä sijainti pikseleinä. Oletus 20."
+   },
+   "settings_preset": {
+      "message": "Pikanäppäin esiasetus"
+   },
+   "settings_reset": {
+      "message": "Nollaa"
+   },
+   "settings_rotate_increment": {
+      "message": "Kierrä lisäys"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Kuinka paljon käännetään asteina. Oletus 5."
+   },
+   "settings_saved": {
+      "message": "Valinnat tallennettu"
+   },
+   "settings_scale_increment": {
+      "message": "Skaalauslisäys"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Kuinka paljon zoomata tai venyttää prosentteina. Oletus 5."
+   },
+   "settings_video_mode": {
+      "message": "Videotila"
+   }
+}

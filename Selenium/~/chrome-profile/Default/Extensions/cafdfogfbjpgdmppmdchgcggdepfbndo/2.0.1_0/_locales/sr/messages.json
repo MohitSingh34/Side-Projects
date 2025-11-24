@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Зумирајте, растегните, позиционирајте, ротирајте и преокрените видео и слике помоћу интервентних тастера."
+   },
+   "app_name": {
+      "message": "Видео Трансформер"
+   },
+   "commands_capture_event": {
+      "message": "Снимите догађај"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Хоризонтално компримујте"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Вертицал Цомпресс"
+   },
+   "commands_flip_horizontal": {
+      "message": "Окрените хоризонтално"
+   },
+   "commands_flip_vertical": {
+      "message": "Окрените вертикално"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Хоризонтално растезање"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Вертицал Стретцх"
+   },
+   "commands_position_down": {
+      "message": "Помери надоле 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Помери доле лево 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Помери доле десно 🡦"
+   },
+   "commands_position_left": {
+      "message": "Помери лево 🡠"
+   },
+   "commands_position_right": {
+      "message": "Помери десно 🡢"
+   },
+   "commands_position_up": {
+      "message": "Помери горе 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Помери горе лево 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Помери горе десно 🡥"
+   },
+   "commands_recenter": {
+      "message": "Рецентер"
+   },
+   "commands_reload": {
+      "message": "Релоад Ектенсион"
+   },
+   "commands_reset": {
+      "message": "Ресетујте трансформације"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Ротирај ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Ротирајте ⭮ за 90 степени"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Ротирај ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Ротирајте ⭯ за 90 степени"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Укључи пречице (видео записи)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Укључи пречице (слике)"
+   },
+   "commands_zoom_in": {
+      "message": "Увеличати"
+   },
+   "commands_zoom_out": {
+      "message": "Зоом Оут"
+   },
+   "popup_feedback": {
+      "message": "Повратна информација"
+   },
+   "popup_homepage": {
+      "message": "Почетна страница"
+   },
+   "popup_settings": {
+      "message": "Подешавања"
+   },
+   "popup_store": {
+      "message": "Продавница"
+   },
+   "settings_add": {
+      "message": "Додати"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Алтернатива"
+   },
+   "settings_always_on": {
+      "message": "Увек"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Обичај"
+   },
+   "settings_default_hotkeys": {
+      "message": "Уобичајено"
+   },
+   "settings_disable_alt": {
+      "message": "Онемогућите интервентни тастер у алтернативном менију"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Спречите случајне притиске тастера Алт. Онемогућите интервентни тастер Алт менија претраживача."
+   },
+   "settings_error_always_on": {
+      "message": "Неважећи режим Алваис Он."
+   },
+   "settings_error_bad_function": {
+      "message": "Изабрана је неважећа функција."
+   },
+   "settings_error_bad_number": {
+      "message": "Неважећи број."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Интервентни тастер је већ једном коришћен."
+   },
+   "settings_function": {
+      "message": "Функција"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Хоткеи"
+   },
+   "settings_image_mode": {
+      "message": "Имаге Моде"
+   },
+   "settings_incognito": {
+      "message": "Дозвољено улазак"
+   },
+   "settings_incognito_chrome": {
+      "message": "Инцогнито"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Приватно прегледање"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Може се пребацити на страници за управљање екстензијама прегледача. Ако га промените, проширење ће се поново учитати, што ће довести до затварања ове странице са подешавањима."
+   },
+   "settings_off_mode": {
+      "message": "Ван"
+   },
+   "settings_position_increment": {
+      "message": "Прираст позиције"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Колико померити позицију у пикселима. Подразумевано 20."
+   },
+   "settings_preset": {
+      "message": "Пресет тастера"
+   },
+   "settings_reset": {
+      "message": "Ресетовати"
+   },
+   "settings_rotate_increment": {
+      "message": "Ротате Инцремент"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Колико треба ротирати у степенима. Подразумевано 5."
+   },
+   "settings_saved": {
+      "message": "Опције сачуване"
+   },
+   "settings_scale_increment": {
+      "message": "Сцале Инцремент"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Колико зумирати или растегнути у процентима. Подразумевано 5."
+   },
+   "settings_video_mode": {
+      "message": "Видео Моде"
+   }
+}

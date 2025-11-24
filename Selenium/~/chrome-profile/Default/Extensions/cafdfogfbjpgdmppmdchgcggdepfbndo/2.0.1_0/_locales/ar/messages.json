@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "تكبير الفيديو والصور وتمديدها وإعادة وضعها وتدويرها وقلبها باستخدام مفاتيح الاختصار."
+   },
+   "app_name": {
+      "message": "محول الفيديو"
+   },
+   "commands_capture_event": {
+      "message": "حدث الالتقاط"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "ضغط أفقي"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "ضغط عموديًا"
+   },
+   "commands_flip_horizontal": {
+      "message": "الوجه أفقيا"
+   },
+   "commands_flip_vertical": {
+      "message": "انعكاس رأسي"
+   },
+   "commands_increase_stretch_x": {
+      "message": "تمدد أفقيًا"
+   },
+   "commands_increase_stretch_y": {
+      "message": "تمتد عموديا"
+   },
+   "commands_position_down": {
+      "message": "تحرك لأسفل 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "تحرك لأسفل لليسار 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "تحرك لأسفل يمينًا 🡦"
+   },
+   "commands_position_left": {
+      "message": "تحرك لليسار 🡠"
+   },
+   "commands_position_right": {
+      "message": "انقل لليمين 🡢"
+   },
+   "commands_position_up": {
+      "message": "تحرك لأعلى 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "تحرك لأعلى لليسار 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "تحرك لأعلى لليمين 🡥"
+   },
+   "commands_recenter": {
+      "message": "إعادة توسيط"
+   },
+   "commands_reload": {
+      "message": "إعادة تحميل ملحق"
+   },
+   "commands_reset": {
+      "message": "إعادة تعيين التحويلات"
+   },
+   "commands_rotate_clockwise": {
+      "message": "استدارة ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "استدارة ⭮ 90 درجة"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "استدارة ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "استدارة ⭯ 90 درجة"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "تبديل مفاتيح الاختصار (مقاطع الفيديو)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "تبديل مفاتيح الاختصار (الصور)"
+   },
+   "commands_zoom_in": {
+      "message": "تكبير"
+   },
+   "commands_zoom_out": {
+      "message": "تصغير"
+   },
+   "popup_feedback": {
+      "message": "ردود الفعل"
+   },
+   "popup_homepage": {
+      "message": "الصفحة الرئيسية"
+   },
+   "popup_settings": {
+      "message": "إعدادات"
+   },
+   "popup_store": {
+      "message": "متجر"
+   },
+   "settings_add": {
+      "message": "يضيف"
+   },
+   "settings_alt_hotkeys": {
+      "message": "بديل"
+   },
+   "settings_always_on": {
+      "message": "دائما متاح"
+   },
+   "settings_custom_hotkeys": {
+      "message": "مخصص"
+   },
+   "settings_default_hotkeys": {
+      "message": "تقصير"
+   },
+   "settings_disable_alt": {
+      "message": "تعطيل مفتاح التشغيل السريع لقائمة Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "منع الضغط غير المقصود على مفتاح Alt. تعطيل مفتاح التشغيل السريع لقائمة Alt في المتصفح."
+   },
+   "settings_error_always_on": {
+      "message": "وضع التشغيل الدائم غير صالح."
+   },
+   "settings_error_bad_function": {
+      "message": "تم تحديد وظيفة غير صالحة."
+   },
+   "settings_error_bad_number": {
+      "message": "رقم غير صالح."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "تم استخدام مفتاح الاختصار مرة واحدة بالفعل."
+   },
+   "settings_function": {
+      "message": "وظيفة"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "مفتاح التشغيل السريع"
+   },
+   "settings_image_mode": {
+      "message": "وضع الصورة"
+   },
+   "settings_incognito": {
+      "message": "المسموح بها في"
+   },
+   "settings_incognito_chrome": {
+      "message": "التخفي"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "تصفح خاص"
+   },
+   "settings_incognito_tooltip": {
+      "message": "قابل للتبديل في صفحة إدارة امتداد المتصفح. سيؤدي تغييره إلى إعادة تحميل الامتداد ، مما يؤدي إلى إغلاق صفحة الإعدادات هذه."
+   },
+   "settings_off_mode": {
+      "message": "إيقاف"
+   },
+   "settings_position_increment": {
+      "message": "زيادة المركز"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "كم لتحريك الموضع بالبكسل. الافتراضي 20."
+   },
+   "settings_preset": {
+      "message": "مفتاح التشغيل السريع الضبط المسبق"
+   },
+   "settings_reset": {
+      "message": "إعادة ضبط"
+   },
+   "settings_rotate_increment": {
+      "message": "زيادة التدوير"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "كم للدوران بالدرجات. الافتراضي 5."
+   },
+   "settings_saved": {
+      "message": "تم حفظ الخيارات"
+   },
+   "settings_scale_increment": {
+      "message": "زيادة الحجم"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "كم لتكبير أو تمتد في النسبة المئوية. الافتراضي 5."
+   },
+   "settings_video_mode": {
+      "message": "وضعية الفيديو"
+   }
+}

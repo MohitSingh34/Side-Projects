@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Haga zoom, estire, reposicione, gire y voltee videos e imágenes usando teclas de acceso rápido."
+   },
+   "app_name": {
+      "message": "Transformador de Vídeo"
+   },
+   "commands_capture_event": {
+      "message": "Evento de captura"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Comprimir horizontalmente"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Comprimir verticalmente"
+   },
+   "commands_flip_horizontal": {
+      "message": "Voltear horizontalmente"
+   },
+   "commands_flip_vertical": {
+      "message": "Voltear verticalmente"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Estirar horizontalmente"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Estirar verticalmente"
+   },
+   "commands_position_down": {
+      "message": "Bajar 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Mover abajo a la izquierda 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Mover abajo a la derecha 🡦"
+   },
+   "commands_position_left": {
+      "message": "Mover a la izquierda 🡠"
+   },
+   "commands_position_right": {
+      "message": "Mover a la derecha 🡢"
+   },
+   "commands_position_up": {
+      "message": "Subir 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Subir a la izquierda 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Subir a la derecha 🡥"
+   },
+   "commands_recenter": {
+      "message": "Reciente"
+   },
+   "commands_reload": {
+      "message": "Extensión de recarga"
+   },
+   "commands_reset": {
+      "message": "Restablecer transformaciones"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Girar ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Rotar ⭮ 90 grados"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Girar ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Rotar ⭯ 90 grados"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Alternar teclas de acceso rápido (videos)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Alternar teclas de acceso rápido (imágenes)"
+   },
+   "commands_zoom_in": {
+      "message": "Acercarse"
+   },
+   "commands_zoom_out": {
+      "message": "Disminuir el zoom"
+   },
+   "popup_feedback": {
+      "message": "Comentario"
+   },
+   "popup_homepage": {
+      "message": "Página principal"
+   },
+   "popup_settings": {
+      "message": "Ajustes"
+   },
+   "popup_store": {
+      "message": "Tienda"
+   },
+   "settings_add": {
+      "message": "Agregar"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativa"
+   },
+   "settings_always_on": {
+      "message": "Siempre encendido"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Disfraz"
+   },
+   "settings_default_hotkeys": {
+      "message": "Por defecto"
+   },
+   "settings_disable_alt": {
+      "message": "Deshabilitar la tecla de acceso directo del menú Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Evite las pulsaciones accidentales de la tecla Alt. Deshabilite la tecla de acceso directo del menú Alt del navegador."
+   },
+   "settings_error_always_on": {
+      "message": "Modo siempre encendido no válido."
+   },
+   "settings_error_bad_function": {
+      "message": "Función no válida seleccionada."
+   },
+   "settings_error_bad_number": {
+      "message": "Número invalido."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Tecla de acceso directo ya se ha utilizado una vez."
+   },
+   "settings_function": {
+      "message": "Función"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Tecla de acceso directo"
+   },
+   "settings_image_mode": {
+      "message": "Modo de imagen"
+   },
+   "settings_incognito": {
+      "message": "Permitido en"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incógnito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Navegación privada"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Alternable en la página de administración de extensiones del navegador. Al cambiarlo, se volverá a cargar la extensión, lo que hará que se cierre esta página de configuración."
+   },
+   "settings_off_mode": {
+      "message": "Apagado"
+   },
+   "settings_position_increment": {
+      "message": "Incremento de posición"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Cuánto mover de posición en píxeles. Predeterminado 20."
+   },
+   "settings_preset": {
+      "message": "Preajuste de teclas de acceso directo"
+   },
+   "settings_reset": {
+      "message": "Reiniciar"
+   },
+   "settings_rotate_increment": {
+      "message": "Rotar Incremento"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Cuánto rotar en grados. Predeterminado 5."
+   },
+   "settings_saved": {
+      "message": "Opciones salvadas"
+   },
+   "settings_scale_increment": {
+      "message": "Incremento de escala"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Cuánto hacer zoom o estirar en porcentaje. Predeterminado 5."
+   },
+   "settings_video_mode": {
+      "message": "Modo de vídeo"
+   }
+}

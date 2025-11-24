@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zooma, sträck ut, flytta om, rotera och vänd video och bilder med snabbtangenter."
+   },
+   "app_name": {
+      "message": "Video Transformator"
+   },
+   "commands_capture_event": {
+      "message": "Fånga händelse"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Komprimera horisontellt"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Komprimera vertikalt"
+   },
+   "commands_flip_horizontal": {
+      "message": "Vänd horisontellt"
+   },
+   "commands_flip_vertical": {
+      "message": "Vänd vertikalt"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Sträck horisontellt"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertikalt Stretch"
+   },
+   "commands_position_down": {
+      "message": "Flytta ner 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Flytta nedåt till vänster 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Flytta nedåt åt höger 🡦"
+   },
+   "commands_position_left": {
+      "message": "Flytta vänster 🡠"
+   },
+   "commands_position_right": {
+      "message": "Flytta åt höger 🡢"
+   },
+   "commands_position_up": {
+      "message": "Flytta uppåt 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Flytta uppåt till vänster 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Flytta uppåt till höger 🡥"
+   },
+   "commands_recenter": {
+      "message": "Centrera om"
+   },
+   "commands_reload": {
+      "message": "Ladda om tillägget"
+   },
+   "commands_reset": {
+      "message": "Återställ transformationer"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Rotera ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Rotera ⭮ 90 grader"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Rotera ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Rotera ⭯ 90 grader"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Växla snabbtangenter (videor)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Växla snabbtangenter (bilder)"
+   },
+   "commands_zoom_in": {
+      "message": "Zooma in"
+   },
+   "commands_zoom_out": {
+      "message": "Zooma ut"
+   },
+   "popup_feedback": {
+      "message": "Respons"
+   },
+   "popup_homepage": {
+      "message": "Hemsida"
+   },
+   "popup_settings": {
+      "message": "Inställningar"
+   },
+   "popup_store": {
+      "message": "Lagra"
+   },
+   "settings_add": {
+      "message": "Lägg till"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativ"
+   },
+   "settings_always_on": {
+      "message": "Alltid på"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Beställnings"
+   },
+   "settings_default_hotkeys": {
+      "message": "Standard"
+   },
+   "settings_disable_alt": {
+      "message": "Inaktivera Alt-menyn snabbtangent"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Förhindra oavsiktliga Alt-tangenttryckningar. Inaktivera webbläsarens Alt-meny snabbtangent."
+   },
+   "settings_error_always_on": {
+      "message": "Ogiltigt alltid på-läge."
+   },
+   "settings_error_bad_function": {
+      "message": "Ogiltig funktion har valts."
+   },
+   "settings_error_bad_number": {
+      "message": "Ogiltigt nummer."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Snabbtangent har redan använts en gång."
+   },
+   "settings_function": {
+      "message": "Fungera"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Snabbtangent"
+   },
+   "settings_image_mode": {
+      "message": "Bildläge"
+   },
+   "settings_incognito": {
+      "message": "Tillåts in"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privat internetsurfning"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Går att växla på webbläsarens tilläggshanteringssida. Om du ändrar det kommer tillägget att laddas om, vilket gör att den här inställningssidan stängs."
+   },
+   "settings_off_mode": {
+      "message": "Av"
+   },
+   "settings_position_increment": {
+      "message": "Positionsökning"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Hur mycket man ska flytta position i pixlar. Standard 20."
+   },
+   "settings_preset": {
+      "message": "Snabbtangent förinställning"
+   },
+   "settings_reset": {
+      "message": "Återställa"
+   },
+   "settings_rotate_increment": {
+      "message": "Rotera inkrement"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Hur mycket man ska rotera i grader. Standard 5."
+   },
+   "settings_saved": {
+      "message": "Alternativ sparade"
+   },
+   "settings_scale_increment": {
+      "message": "Skalinkrement"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Hur mycket man ska zooma eller sträcka i procent. Standard 5."
+   },
+   "settings_video_mode": {
+      "message": "Video läge"
+   }
+}

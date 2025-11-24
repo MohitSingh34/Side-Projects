@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Amplie, estique, reposicione, gire e inverta vídeos e imagens usando teclas de atalho."
+   },
+   "app_name": {
+      "message": "Transformador de Vídeo"
+   },
+   "commands_capture_event": {
+      "message": "Capturar evento"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Comprimir horizontalmente"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Comprimir Verticalmente"
+   },
+   "commands_flip_horizontal": {
+      "message": "Virar horizontalmente"
+   },
+   "commands_flip_vertical": {
+      "message": "Virar Verticalmente"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Esticar horizontalmente"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Esticar Verticalmente"
+   },
+   "commands_position_down": {
+      "message": "Mover para baixo 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Mover para baixo à esquerda 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Mover para baixo à direita 🡦"
+   },
+   "commands_position_left": {
+      "message": "Mover para a esquerda 🡠"
+   },
+   "commands_position_right": {
+      "message": "Mover para a direita 🡢"
+   },
+   "commands_position_up": {
+      "message": "Mover para cima 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Mover para cima à esquerda 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Mover para cima para a direita 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "Recarregar extensão"
+   },
+   "commands_reset": {
+      "message": "Redefinir transformações"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Girar ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Girar ⭮ 90 graus"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Girar ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Girar ⭯ 90 graus"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Alternar teclas de atalho (vídeos)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Alternar teclas de atalho (imagens)"
+   },
+   "commands_zoom_in": {
+      "message": "Mais Zoom"
+   },
+   "commands_zoom_out": {
+      "message": "Reduzir o zoom"
+   },
+   "popup_feedback": {
+      "message": "Opinião"
+   },
+   "popup_homepage": {
+      "message": "Pagina inicial"
+   },
+   "popup_settings": {
+      "message": "Configurações"
+   },
+   "popup_store": {
+      "message": "Loja"
+   },
+   "settings_add": {
+      "message": "Adicionar"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativa"
+   },
+   "settings_always_on": {
+      "message": "Sempre"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Personalizado"
+   },
+   "settings_default_hotkeys": {
+      "message": "Predefinição"
+   },
+   "settings_disable_alt": {
+      "message": "Desativar tecla de atalho do menu Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Evite pressionamentos acidentais da tecla Alt. Desative a tecla de atalho do menu Alt do navegador."
+   },
+   "settings_error_always_on": {
+      "message": "Modo Always On inválido."
+   },
+   "settings_error_bad_function": {
+      "message": "Função inválida selecionada."
+   },
+   "settings_error_bad_number": {
+      "message": "Número inválido."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "A tecla de atalho já foi usada uma vez."
+   },
+   "settings_function": {
+      "message": "Função"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Tecla de atalho"
+   },
+   "settings_image_mode": {
+      "message": "Modo de imagem"
+   },
+   "settings_incognito": {
+      "message": "Permitido em"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incógnito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Navegação privada"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Comutável na página de gerenciamento de extensão do navegador. Alterá-lo recarregará a extensão, fazendo com que esta página de configurações seja fechada."
+   },
+   "settings_off_mode": {
+      "message": "Desligado"
+   },
+   "settings_position_increment": {
+      "message": "Incremento de posição"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Quanto mover a posição em pixels. Padrão 20."
+   },
+   "settings_preset": {
+      "message": "Tecla de atalho predefinida"
+   },
+   "settings_reset": {
+      "message": "Reiniciar"
+   },
+   "settings_rotate_increment": {
+      "message": "Girar Incremento"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Quanto girar em graus. Padrão 5."
+   },
+   "settings_saved": {
+      "message": "Opções salvas"
+   },
+   "settings_scale_increment": {
+      "message": "Incremento de escala"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Quanto aumentar ou ampliar em porcentagem. Padrão 5."
+   },
+   "settings_video_mode": {
+      "message": "Modo de vídeo"
+   }
+}

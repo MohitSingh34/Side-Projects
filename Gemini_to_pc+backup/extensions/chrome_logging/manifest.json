@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Super Activity Logger",
+  "version": "1.1",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation",
+    "history",      
+    "alarms",          
+    "scripting"        
+  ],
+  "host_permissions": ["<all_urls>"], 
+  "background": { "service_worker": "background.js" },
+  "description": "Locally logs comprehensive tab, navigation, and history data."
+}

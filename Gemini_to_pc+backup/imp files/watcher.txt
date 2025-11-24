@@ -1,0 +1,4 @@
+logger sudo mv activity_logger.py /usr/local/bin/activity_logger.py 
+sudo chmod +x /usr/local/bin/activity_logger.py       
+
+so logger is in /usr/local/bin

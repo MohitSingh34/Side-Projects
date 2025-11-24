@@ -1,0 +1,80 @@
+.stars-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+/* Function to generate random stars */
+/* We'll use a small script or just a lot of box-shadows for a pure CSS solution */
+/* For simplicity and performance in this demo, we can use a background image or a few pseudo-elements with box-shadows */
+
+/* Star animations using box-shadows */
+
+.stars {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 1744px 122px #FFF, 134px 1321px #FFF, 92px 859px #FFF, 1678px 1388px #FFF, 296px 926px #FFF, 1318px 941px #FFF, 165px 1581px #FFF, 1599px 1239px #FFF, 1133px 158px #FFF, 106px 1017px #FFF, 1761px 469px #FFF, 1226px 1699px #FFF, 192px 645px #FFF, 1968px 1630px #FFF, 127px 1658px #FFF, 1789px 341px #FFF, 135px 544px #FFF, 109px 197px #FFF, 1591px 299px #FFF, 721px 1781px #FFF, 100px 100px #FFF, 500px 500px #FFF, 1000px 200px #FFF, 200px 800px #FFF, 1500px 600px #FFF, 800px 100px #FFF, 300px 300px #FFF, 1200px 900px #FFF, 600px 1200px #FFF, 1800px 400px #FFF;
+    animation: animStar 50s linear infinite;
+}
+
+.stars:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 1744px 122px #FFF, 134px 1321px #FFF, 92px 859px #FFF, 1678px 1388px #FFF, 296px 926px #FFF, 1318px 941px #FFF, 165px 1581px #FFF, 1599px 1239px #FFF, 1133px 158px #FFF, 106px 1017px #FFF, 1761px 469px #FFF, 1226px 1699px #FFF, 192px 645px #FFF, 1968px 1630px #FFF, 127px 1658px #FFF, 1789px 341px #FFF, 135px 544px #FFF, 109px 197px #FFF, 1591px 299px #FFF, 721px 1781px #FFF, 100px 100px #FFF, 500px 500px #FFF, 1000px 200px #FFF, 200px 800px #FFF, 1500px 600px #FFF, 800px 100px #FFF, 300px 300px #FFF, 1200px 900px #FFF, 600px 1200px #FFF, 1800px 400px #FFF;
+}
+
+.stars2 {
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 122px 1744px #FFF, 1321px 134px #FFF, 859px 92px #FFF, 1388px 1678px #FFF, 926px 296px #FFF, 941px 1318px #FFF, 1581px 165px #FFF, 1239px 1599px #FFF, 158px 1133px #FFF, 1017px 106px #FFF, 469px 1761px #FFF, 1699px 1226px #FFF, 645px 192px #FFF, 1630px 1968px #FFF, 1658px 127px #FFF, 341px 1789px #FFF, 544px 135px #FFF, 197px 109px #FFF, 299px 1591px #FFF, 1781px 721px #FFF;
+    animation: animStar 100s linear infinite;
+}
+
+.stars2:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 122px 1744px #FFF, 1321px 134px #FFF, 859px 92px #FFF, 1388px 1678px #FFF, 926px 296px #FFF, 941px 1318px #FFF, 1581px 165px #FFF, 1239px 1599px #FFF, 158px 1133px #FFF, 1017px 106px #FFF, 469px 1761px #FFF, 1699px 1226px #FFF, 645px 192px #FFF, 1630px 1968px #FFF, 1658px 127px #FFF, 341px 1789px #FFF, 544px 135px #FFF, 197px 109px #FFF, 299px 1591px #FFF, 1781px 721px #FFF;
+}
+
+.stars3 {
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: 500px 500px #FFF, 1000px 200px #FFF, 200px 800px #FFF, 1500px 600px #FFF, 800px 100px #FFF;
+    animation: animStar 150s linear infinite;
+}
+
+.stars3:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: 500px 500px #FFF, 1000px 200px #FFF, 200px 800px #FFF, 1500px 600px #FFF, 800px 100px #FFF;
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-2000px);
+    }
+}

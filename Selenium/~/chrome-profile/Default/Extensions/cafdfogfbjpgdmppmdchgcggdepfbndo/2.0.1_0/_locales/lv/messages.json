@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Tālummainiet, izstiepiet, pārvietojiet pozīciju, pagrieziet un apvērsiet video un attēlus, izmantojot karstos taustiņus."
+   },
+   "app_name": {
+      "message": "Video Transformators"
+   },
+   "commands_capture_event": {
+      "message": "Uzņemt notikumu"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Horizontāli saspiest"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Vertikāli saspiest"
+   },
+   "commands_flip_horizontal": {
+      "message": "Apgriezt horizontāli"
+   },
+   "commands_flip_vertical": {
+      "message": "Apgriezt vertikāli"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontāli stiept"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertikāli stiept"
+   },
+   "commands_position_down": {
+      "message": "Pārvietot uz leju 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Pārvietot uz leju pa kreisi 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Pārvietot uz leju pa labi 🡦"
+   },
+   "commands_position_left": {
+      "message": "Pārvietot pa kreisi 🡠"
+   },
+   "commands_position_right": {
+      "message": "Pārvietot pa labi 🡢"
+   },
+   "commands_position_up": {
+      "message": "Pārvietot uz augšu 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Pārvietot uz augšu pa kreisi 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Pārvietot uz augšu pa labi 🡥"
+   },
+   "commands_recenter": {
+      "message": "Atjaunot"
+   },
+   "commands_reload": {
+      "message": "Pārlādēt paplašinājumu"
+   },
+   "commands_reset": {
+      "message": "Atiestatīt transformācijas"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Pagriezt ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Pagriezt ⭮ 90 grādiem"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Pagriezt ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Pagriezt ⭯ 90 grādiem"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Pārslēgt karstos taustiņus (video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Pārslēgt karstos taustiņus (attēli)"
+   },
+   "commands_zoom_in": {
+      "message": "Pietuvināt"
+   },
+   "commands_zoom_out": {
+      "message": "Attālināt"
+   },
+   "popup_feedback": {
+      "message": "Atsauksmes"
+   },
+   "popup_homepage": {
+      "message": "Mājas lapa"
+   },
+   "popup_settings": {
+      "message": "Iestatījumi"
+   },
+   "popup_store": {
+      "message": "Veikals"
+   },
+   "settings_add": {
+      "message": "Pievienot"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatīva"
+   },
+   "settings_always_on": {
+      "message": "Vienmēr"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Pielāgots"
+   },
+   "settings_default_hotkeys": {
+      "message": "Noklusējums"
+   },
+   "settings_disable_alt": {
+      "message": "Atspējot Alt Menu karsto taustiņu"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Novērsiet nejaušu Alt taustiņu nospiešanu. Atspējot pārlūkprogrammas Alt izvēlnes karsto taustiņu."
+   },
+   "settings_error_always_on": {
+      "message": "Nederīgs Vienmēr ieslēgts režīms."
+   },
+   "settings_error_bad_function": {
+      "message": "Atlasīta nederīga funkcija."
+   },
+   "settings_error_bad_number": {
+      "message": "Nederīgs numurs."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Karstais taustiņš jau ir izmantots vienu reizi."
+   },
+   "settings_function": {
+      "message": "Funkcija"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Karstais taustiņš"
+   },
+   "settings_image_mode": {
+      "message": "Attēla režīms"
+   },
+   "settings_incognito": {
+      "message": "Atļauts iekšā"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privātā pārlūkošana"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Pārslēdzams pārlūkprogrammas paplašinājumu pārvaldības lapā. Mainot to, paplašinājums tiks atkārtoti ielādēts, kā rezultātā šī iestatījumu lapa tiks aizvērta."
+   },
+   "settings_off_mode": {
+      "message": "Izslēgts"
+   },
+   "settings_position_increment": {
+      "message": "Pozīcijas pieaugums"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Cik daudz pārvietot pozīciju pikseļos. Noklusējums 20."
+   },
+   "settings_preset": {
+      "message": "Hotkey Preset"
+   },
+   "settings_reset": {
+      "message": "Atiestatīt"
+   },
+   "settings_rotate_increment": {
+      "message": "Pagriezt palielinājumu"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Cik daudz pagriezt grādos. Noklusējums 5."
+   },
+   "settings_saved": {
+      "message": "Opcijas Saglabātas"
+   },
+   "settings_scale_increment": {
+      "message": "Mēroga palielinājums"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Cik daudz tuvināt vai izstiept procentos. Noklusējums 5."
+   },
+   "settings_video_mode": {
+      "message": "Video režīms"
+   }
+}

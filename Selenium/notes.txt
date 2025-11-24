@@ -1,0 +1,56 @@
+1. The epoch is the point where the time starts and is platform-dependent.
+    time.gmtime(0) Greenwich Mean time
+    time.ctime(x), converts epoch seconds to human readable form
+    time.time() since epoch
+    use action chain
+    time.sleep(for these seconds)
+    n= time.localtime() then n.tm_year or print(n)
+
+
+class Animals:
+    def __init__(self, species, name, color):
+        self.species = species
+        self.name = name
+        self.color = color
+    def __str__(self):
+        return f"{self.species} named {self.name} is {self.color} in color."
+import time
+
+# Get the current local time as a struct_time object
+current_time = time.localtime()
+
+# Print the entire object
+print(f"Poora struct_time object: {current_time}")
+
+# Accessing individual parts (attributes)
+print("--- Individual Parts ---")
+print(f"Saal (Year): {current_time.tm_year}")
+print(f"Mahina (Month): {current_time.tm_mon}")
+print(f"Din (Day): {current_time.tm_mday}")
+print(f"Ghanta (Hour): {current_time.tm_hour}")
+print(f"Minute: {current_time.tm_min}")
+
+# Day of the week (0 is Monday, 1 is Tuesday, etc.)
+print(f"Hafte ka din (0=Mon): {current_time.tm_wday}")
+
+# Create instances for Dog and Cat with different values
+dog1 = Animals("Dog", "Rocky", "Brown")
+cat1 = Animals("Cat", "Whiskers", "White")
+
+# Print the details of each animal
+print(f"{dog1.species}: Name = {dog1.name}, Color = {dog1.color}")
+print(f"{cat1.species}: Name = {cat1.name}, Color = {cat1.color}")
+
+print(dog1)
+
+#During infinite scroll, we used find on id jscrolladded because it was the new thing appearing on website during infinite scroll.
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")  #for scrolling
+
+#something new, used original window variable to store reference to current window and if its not equal then it will switch to it 🥲
+    # 5. Naye tab par switch karo
+    for window_handle in all_windows:
+        if window_handle != original_window:
+            driver.switch_to.window(window_handle)
+            # Jaise hi naya tab mil jaaye, loop se bahar aa jao
+            break
+

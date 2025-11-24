@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "使用热键缩放、拉伸、重新定位、旋转和翻转视频和图像。"
+   },
+   "app_name": {
+      "message": "视频变压器"
+   },
+   "commands_capture_event": {
+      "message": "捕获事件"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "水平压缩"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "垂直压缩"
+   },
+   "commands_flip_horizontal": {
+      "message": "水平翻转"
+   },
+   "commands_flip_vertical": {
+      "message": "垂直翻转"
+   },
+   "commands_increase_stretch_x": {
+      "message": "水平拉伸"
+   },
+   "commands_increase_stretch_y": {
+      "message": "垂直拉伸"
+   },
+   "commands_position_down": {
+      "message": "下移 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "向左下移 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "向右下移 🡦"
+   },
+   "commands_position_left": {
+      "message": "向左移动 🡠"
+   },
+   "commands_position_right": {
+      "message": "向右移动 🡢"
+   },
+   "commands_position_up": {
+      "message": "上移 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "左上移 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "向右移动 🡥"
+   },
+   "commands_recenter": {
+      "message": "中心"
+   },
+   "commands_reload": {
+      "message": "重新加载扩展"
+   },
+   "commands_reset": {
+      "message": "重置转换"
+   },
+   "commands_rotate_clockwise": {
+      "message": "旋转 ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "旋转 ⭮ 90 度"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "旋转 ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "旋转 ⭯ 90 度"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "切换热键（视频）"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "切换热键（图像）"
+   },
+   "commands_zoom_in": {
+      "message": "放大"
+   },
+   "commands_zoom_out": {
+      "message": "缩小"
+   },
+   "popup_feedback": {
+      "message": "反馈"
+   },
+   "popup_homepage": {
+      "message": "主页"
+   },
+   "popup_settings": {
+      "message": "设置"
+   },
+   "popup_store": {
+      "message": "店铺"
+   },
+   "settings_add": {
+      "message": "添加"
+   },
+   "settings_alt_hotkeys": {
+      "message": "选择"
+   },
+   "settings_always_on": {
+      "message": "永远在线"
+   },
+   "settings_custom_hotkeys": {
+      "message": "风俗"
+   },
+   "settings_default_hotkeys": {
+      "message": "默认"
+   },
+   "settings_disable_alt": {
+      "message": "禁用 Alt 菜单热键"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "防止意外按下 Alt 键。禁用浏览器的 Alt 菜单热键。"
+   },
+   "settings_error_always_on": {
+      "message": "始终开启模式无效。"
+   },
+   "settings_error_bad_function": {
+      "message": "选择的功能无效。"
+   },
+   "settings_error_bad_number": {
+      "message": "无效号码。"
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "热键已经被使用过一次。"
+   },
+   "settings_function": {
+      "message": "功能"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "热键"
+   },
+   "settings_image_mode": {
+      "message": "图像模式"
+   },
+   "settings_incognito": {
+      "message": "允许进入"
+   },
+   "settings_incognito_chrome": {
+      "message": "隐姓埋名"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "私人浏览"
+   },
+   "settings_incognito_tooltip": {
+      "message": "可在浏览器的扩展管理页面中切换。更改它将重新加载扩展，导致此设置页面关闭。"
+   },
+   "settings_off_mode": {
+      "message": "离开"
+   },
+   "settings_position_increment": {
+      "message": "持仓增量"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "以像素为单位移动多少位置。默认 20。"
+   },
+   "settings_preset": {
+      "message": "热键预设"
+   },
+   "settings_reset": {
+      "message": "重置"
+   },
+   "settings_rotate_increment": {
+      "message": "旋转增量"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "以度为单位旋转多少。默认 5。"
+   },
+   "settings_saved": {
+      "message": "选项已保存"
+   },
+   "settings_scale_increment": {
+      "message": "比例增量"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "缩放或拉伸的百分比。默认 5。"
+   },
+   "settings_video_mode": {
+      "message": "视频模式"
+   }
+}

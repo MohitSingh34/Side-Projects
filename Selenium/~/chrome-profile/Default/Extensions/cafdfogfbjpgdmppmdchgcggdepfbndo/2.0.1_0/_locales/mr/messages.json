@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "हॉटकीज वापरून झूम करा, स्ट्रेच करा, स्थान बदला, फिरवा आणि व्हिडिओ आणि प्रतिमा फ्लिप करा."
+   },
+   "app_name": {
+      "message": "व्हिडिओ ट्रान्सफॉर्मर"
+   },
+   "commands_capture_event": {
+      "message": "इव्हेंट कॅप्चर करा"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "क्षैतिजरित्या कॉम्प्रेस करा"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "अनुलंब संकुचित करा"
+   },
+   "commands_flip_horizontal": {
+      "message": "क्षैतिजपणे फ्लिप करा"
+   },
+   "commands_flip_vertical": {
+      "message": "अनुलंब फ्लिप"
+   },
+   "commands_increase_stretch_x": {
+      "message": "क्षैतिज ताणणे"
+   },
+   "commands_increase_stretch_y": {
+      "message": "अनुलंब ताणणे"
+   },
+   "commands_position_down": {
+      "message": "खाली हलवा 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "खाली डावीकडे हलवा 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "खाली उजवीकडे हलवा 🡦"
+   },
+   "commands_position_left": {
+      "message": "डावीकडे हलवा 🡠"
+   },
+   "commands_position_right": {
+      "message": "उजवीकडे हलवा 🡢"
+   },
+   "commands_position_up": {
+      "message": "वर हलवा 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "वर डावीकडे हलवा 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "उजवीकडे वर हलवा 🡥"
+   },
+   "commands_recenter": {
+      "message": "रीसेंटर"
+   },
+   "commands_reload": {
+      "message": "विस्तार रीलोड करा"
+   },
+   "commands_reset": {
+      "message": "परिवर्तन रीसेट करा"
+   },
+   "commands_rotate_clockwise": {
+      "message": "फिरवा ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "फिरवा ⭮ 90 अंश"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "फिरवा ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "90 अंश फिरवा"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "हॉटकी टॉगल करा (व्हिडिओ)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "हॉटकीज टॉगल करा (प्रतिमा)"
+   },
+   "commands_zoom_in": {
+      "message": "प्रतिमेचे दृष्य रूप मोठे करा"
+   },
+   "commands_zoom_out": {
+      "message": "झूम कमी करा"
+   },
+   "popup_feedback": {
+      "message": "अभिप्राय"
+   },
+   "popup_homepage": {
+      "message": "मुखपृष्ठ"
+   },
+   "popup_settings": {
+      "message": "सेटिंग्ज"
+   },
+   "popup_store": {
+      "message": "स्टोअर"
+   },
+   "settings_add": {
+      "message": "अॅड"
+   },
+   "settings_alt_hotkeys": {
+      "message": "पर्यायी"
+   },
+   "settings_always_on": {
+      "message": "नेहमी सुरू"
+   },
+   "settings_custom_hotkeys": {
+      "message": "सानुकूल"
+   },
+   "settings_default_hotkeys": {
+      "message": "डीफॉल्ट"
+   },
+   "settings_disable_alt": {
+      "message": "Alt मेनू हॉटकी अक्षम करा"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "अपघाती Alt की दाबणे प्रतिबंधित करा. ब्राउझरचा Alt मेनू हॉटकी अक्षम करा."
+   },
+   "settings_error_always_on": {
+      "message": "अवैध नेहमी चालू मोड."
+   },
+   "settings_error_bad_function": {
+      "message": "अवैध कार्य निवडले."
+   },
+   "settings_error_bad_number": {
+      "message": "अवैध संख्या."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "हॉटकी आधीच एकदा वापरली गेली आहे."
+   },
+   "settings_function": {
+      "message": "कार्य"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "हॉटकी"
+   },
+   "settings_image_mode": {
+      "message": "प्रतिमा मोड"
+   },
+   "settings_incognito": {
+      "message": "आत प्रवेश दिला"
+   },
+   "settings_incognito_chrome": {
+      "message": "गुप्त"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "खाजगी ब्राउझिंग"
+   },
+   "settings_incognito_tooltip": {
+      "message": "ब्राउझरच्या विस्तार व्यवस्थापन पृष्ठामध्ये टॉगल करण्यायोग्य. ते बदलल्याने विस्तार रीलोड होईल, ज्यामुळे हे सेटिंग्ज पृष्ठ बंद होईल."
+   },
+   "settings_off_mode": {
+      "message": "बंद"
+   },
+   "settings_position_increment": {
+      "message": "स्थिती वाढ"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "पिक्सेलमध्ये स्थान किती हलवायचे. डीफॉल्ट 20."
+   },
+   "settings_preset": {
+      "message": "हॉटकी प्रीसेट"
+   },
+   "settings_reset": {
+      "message": "रीसेट करा"
+   },
+   "settings_rotate_increment": {
+      "message": "वाढ फिरवा"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "अंशात किती फिरवायचे. डीफॉल्ट 5."
+   },
+   "settings_saved": {
+      "message": "पर्याय जतन केले"
+   },
+   "settings_scale_increment": {
+      "message": "स्केल वाढ"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "टक्केवारीमध्ये किती झूम किंवा ताणायचे आहे. डीफॉल्ट 5."
+   },
+   "settings_video_mode": {
+      "message": "व्हिडिओ मोड"
+   }
+}

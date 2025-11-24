@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "ホットキーを使用して、ビデオと画像をズーム、ストレッチ、再配置、回転、反転します。"
+   },
+   "app_name": {
+      "message": "ビデオトランス"
+   },
+   "commands_capture_event": {
+      "message": "捕獲イベント"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "水平圧縮"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "垂直圧縮"
+   },
+   "commands_flip_horizontal": {
+      "message": "左右反転"
+   },
+   "commands_flip_vertical": {
+      "message": "上下反転"
+   },
+   "commands_increase_stretch_x": {
+      "message": "水平に伸ばす"
+   },
+   "commands_increase_stretch_y": {
+      "message": "縦に伸ばす"
+   },
+   "commands_position_down": {
+      "message": "下に移動 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "左下に移動 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "右に移動 🡦"
+   },
+   "commands_position_left": {
+      "message": "左に移動 🡠"
+   },
+   "commands_position_right": {
+      "message": "右に移動 🡢"
+   },
+   "commands_position_up": {
+      "message": "上に移動 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "左上に移動 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "右上に移動 🡥"
+   },
+   "commands_recenter": {
+      "message": "センタリング"
+   },
+   "commands_reload": {
+      "message": "拡張機能のリロード"
+   },
+   "commands_reset": {
+      "message": "変換をリセット"
+   },
+   "commands_rotate_clockwise": {
+      "message": "回転⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "⭮ 90 度回転"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "回転⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "90 度回転⭯"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "ホットキーの切り替え (ビデオ)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "ホットキーの切り替え (画像)"
+   },
+   "commands_zoom_in": {
+      "message": "ズームイン"
+   },
+   "commands_zoom_out": {
+      "message": "ズームアウトする"
+   },
+   "popup_feedback": {
+      "message": "フィードバック"
+   },
+   "popup_homepage": {
+      "message": "ホームページ"
+   },
+   "popup_settings": {
+      "message": "設定"
+   },
+   "popup_store": {
+      "message": "店"
+   },
+   "settings_add": {
+      "message": "追加"
+   },
+   "settings_alt_hotkeys": {
+      "message": "別"
+   },
+   "settings_always_on": {
+      "message": "常にオン"
+   },
+   "settings_custom_hotkeys": {
+      "message": "カスタム"
+   },
+   "settings_default_hotkeys": {
+      "message": "デフォルト"
+   },
+   "settings_disable_alt": {
+      "message": "Alt メニューのホットキーを無効にする"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "偶発的な Alt キーの押下を防止します。ブラウザの Alt メニューのホットキーを無効にします。"
+   },
+   "settings_error_always_on": {
+      "message": "Always On モードが無効です。"
+   },
+   "settings_error_bad_function": {
+      "message": "無効な機能が選択されました。"
+   },
+   "settings_error_bad_number": {
+      "message": "無効な番号。"
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "ホットキーはすでに 1 回使用されています。"
+   },
+   "settings_function": {
+      "message": "関数"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "ホットキー"
+   },
+   "settings_image_mode": {
+      "message": "画像モード"
+   },
+   "settings_incognito": {
+      "message": "で許可"
+   },
+   "settings_incognito_chrome": {
+      "message": "シークレット"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "プライベートブラウジング"
+   },
+   "settings_incognito_tooltip": {
+      "message": "ブラウザの拡張機能管理ページで切り替え可能。変更すると拡張機能がリロードされ、この設定ページが閉じます。"
+   },
+   "settings_off_mode": {
+      "message": "オフ"
+   },
+   "settings_position_increment": {
+      "message": "ポジション増分"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "位置を移動する量 (ピクセル単位)。デフォルトは 20 です。"
+   },
+   "settings_preset": {
+      "message": "ホットキー プリセット"
+   },
+   "settings_reset": {
+      "message": "リセット"
+   },
+   "settings_rotate_increment": {
+      "message": "増分を回転"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "回転する角度。デフォルトは 5 です。"
+   },
+   "settings_saved": {
+      "message": "オプションが保存されました"
+   },
+   "settings_scale_increment": {
+      "message": "スケール増分"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "パーセンテージでズームまたはストレッチする量。デフォルトは 5 です。"
+   },
+   "settings_video_mode": {
+      "message": "ビデオモード"
+   }
+}

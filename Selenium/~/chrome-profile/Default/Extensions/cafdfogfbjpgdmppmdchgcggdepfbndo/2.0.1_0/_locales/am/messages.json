@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "ትኩስ ቁልፎችን በመጠቀም ቪዲዮን እና ምስሎችን አሳንስ፣ ዘርጋ፣ አቀማመጥ፣ አሽከርክር እና ገልብጥ።"
+   },
+   "app_name": {
+      "message": "ቪዲዮ ትራንስፎርመር"
+   },
+   "commands_capture_event": {
+      "message": "ክስተት አንሳ"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "አግድም መጭመቅ"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "በአቀባዊ ጨመቅ"
+   },
+   "commands_flip_horizontal": {
+      "message": "በአግድም ገልብጥ"
+   },
+   "commands_flip_vertical": {
+      "message": "በአቀባዊ ገልብጥ"
+   },
+   "commands_increase_stretch_x": {
+      "message": "አግድም ዘርጋ"
+   },
+   "commands_increase_stretch_y": {
+      "message": "በአቀባዊ ዘረጋ"
+   },
+   "commands_position_down": {
+      "message": "ወደ ታች አንቀሳቅስ 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "ወደ ግራ ወደ ታች ውሰድ 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "ወደ ቀኝ ወደ ታች ይውሰዱ 🡦"
+   },
+   "commands_position_left": {
+      "message": "ወደ ግራ ውሰድ 🡠"
+   },
+   "commands_position_right": {
+      "message": "ወደ ቀኝ አንቀሳቅስ 🡢"
+   },
+   "commands_position_up": {
+      "message": "ወደ ላይ አንቀሳቅስ 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "ወደ ላይ ወደ ግራ ውሰድ 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "ወደ ላይ ወደ ቀኝ 🡥 ይውሰዱ"
+   },
+   "commands_recenter": {
+      "message": "የቅርብ ጊዜ"
+   },
+   "commands_reload": {
+      "message": "ቅጥያውን እንደገና ጫን"
+   },
+   "commands_reset": {
+      "message": "ለውጦችን ዳግም አስጀምር"
+   },
+   "commands_rotate_clockwise": {
+      "message": "አሽከርክር ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "አሽከርክር ⭮ 90 ዲግሪ"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "⭯ አሽከርክር"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "አሽከርክር ⭯ 90 ዲግሪ"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "ትኩስ ቁልፎችን ቀይር (ቪዲዮዎች)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "ትኩስ ቁልፎችን (ምስሎች) ቀይር"
+   },
+   "commands_zoom_in": {
+      "message": "አቅርብ"
+   },
+   "commands_zoom_out": {
+      "message": "አሳንስ"
+   },
+   "popup_feedback": {
+      "message": "ግብረ መልስ"
+   },
+   "popup_homepage": {
+      "message": "መነሻ ገጽ"
+   },
+   "popup_settings": {
+      "message": "ቅንብሮች"
+   },
+   "popup_store": {
+      "message": "ማከማቻ"
+   },
+   "settings_add": {
+      "message": "አክል"
+   },
+   "settings_alt_hotkeys": {
+      "message": "አማራጭ"
+   },
+   "settings_always_on": {
+      "message": "ሁልጊዜ በርቷል"
+   },
+   "settings_custom_hotkeys": {
+      "message": "ብጁ"
+   },
+   "settings_default_hotkeys": {
+      "message": "ነባሪ"
+   },
+   "settings_disable_alt": {
+      "message": "Alt Menu Hotkeyን አሰናክል"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "በአጋጣሚ የ Alt ቁልፍን መጫንን ይከላከሉ። የአሳሹን Alt ሜኑ ቁልፍን አሰናክል።"
+   },
+   "settings_error_always_on": {
+      "message": "ልክ ያልሆነ ሁልጊዜ ሁነታ ላይ።"
+   },
+   "settings_error_bad_function": {
+      "message": "ልክ ያልሆነ ተግባር ተመርጧል።"
+   },
+   "settings_error_bad_number": {
+      "message": "ልክ ያልሆነ ቁጥር"
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hotkey ቀድሞውኑ አንድ ጊዜ ጥቅም ላይ ውሏል።"
+   },
+   "settings_function": {
+      "message": "ተግባር"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "ሆትኪ"
+   },
+   "settings_image_mode": {
+      "message": "የምስል ሁነታ"
+   },
+   "settings_incognito": {
+      "message": "ውስጥ ተፈቅዷል"
+   },
+   "settings_incognito_chrome": {
+      "message": "ማንነት የማያሳውቅ"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "የግል አሰሳ"
+   },
+   "settings_incognito_tooltip": {
+      "message": "በአሳሹ የኤክስቴንሽን አስተዳደር ገጽ ውስጥ መቀያየር ይቻላል። እሱን መቀየር ቅጥያውን እንደገና ይጭናል፣ ይህም የቅንብሮች ገጽ እንዲዘጋ ያደርገዋል።"
+   },
+   "settings_off_mode": {
+      "message": "ጠፍቷል"
+   },
+   "settings_position_increment": {
+      "message": "የአቀማመጥ መጨመር"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "በፒክሰሎች ውስጥ ቦታን ለማንቀሳቀስ ምን ያህል። ነባሪ 20."
+   },
+   "settings_preset": {
+      "message": "Hotkey Preset"
+   },
+   "settings_reset": {
+      "message": "ዳግም አስጀምር"
+   },
+   "settings_rotate_increment": {
+      "message": "አሽከርክር ጭማሪ"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "በዲግሪዎች ምን ያህል ማሽከርከር እንደሚቻል። ነባሪ 5."
+   },
+   "settings_saved": {
+      "message": "አማራጮች ተቀምጠዋል"
+   },
+   "settings_scale_increment": {
+      "message": "ልኬት መጨመር"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "በመቶኛ ምን ያህል ለማጉላት ወይም ለመለጠጥ። ነባሪ 5."
+   },
+   "settings_video_mode": {
+      "message": "የቪዲዮ ሁነታ"
+   }
+}

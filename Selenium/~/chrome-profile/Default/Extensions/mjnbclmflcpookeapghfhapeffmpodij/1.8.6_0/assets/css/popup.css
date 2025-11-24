@@ -1,0 +1,20 @@
+body {
+    min-width: 300px;
+    min-height: 429px;
+    background-color: whitesmoke;
+}
+
+.no-color {
+    background-color: transparent;
+}
+
+#popup {
+    overflow: auto;
+}
+
+.ng-hide {
+display:block!important;
+position:absolute;
+top:-9999px;
+left:-9999px;
+}

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zum, regangan, letak semula, putar dan selak video serta imej menggunakan kekunci pintas."
+   },
+   "app_name": {
+      "message": "Pengubah Video"
+   },
+   "commands_capture_event": {
+      "message": "Tangkapan Acara"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Memampatkan Mendatar"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Mampat Secara Menegak"
+   },
+   "commands_flip_horizontal": {
+      "message": "Terbalikkan Secara Mendatar"
+   },
+   "commands_flip_vertical": {
+      "message": "Balikkan Menegak"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Regangan Mendatar"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Regangkan Menegak"
+   },
+   "commands_position_down": {
+      "message": "Bergerak Ke Bawah 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Bergerak ke Bawah Kiri 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Bergerak ke Bawah Kanan 🡦"
+   },
+   "commands_position_left": {
+      "message": "Beralih ke Kiri 🡠"
+   },
+   "commands_position_right": {
+      "message": "Bergerak Ke Kanan 🡢"
+   },
+   "commands_position_up": {
+      "message": "Naik 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Bergerak Ke Atas Kiri 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Bergerak Ke Atas Ke Kanan 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "Muat semula Sambungan"
+   },
+   "commands_reset": {
+      "message": "Tetapkan Semula Transformasi"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Putar ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Putar ⭮ 90 Darjah"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Putar ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Putar ⭯ 90 Darjah"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Togol Kekunci Panas (Video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Togol Kekunci Panas (Imej)"
+   },
+   "commands_zoom_in": {
+      "message": "Mengezum masuk"
+   },
+   "commands_zoom_out": {
+      "message": "Zum keluar"
+   },
+   "popup_feedback": {
+      "message": "Maklum balas"
+   },
+   "popup_homepage": {
+      "message": "Laman utama"
+   },
+   "popup_settings": {
+      "message": "Tetapan"
+   },
+   "popup_store": {
+      "message": "Kedai"
+   },
+   "settings_add": {
+      "message": "Tambah"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatif"
+   },
+   "settings_always_on": {
+      "message": "Sentiasa Hidup"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Adat"
+   },
+   "settings_default_hotkeys": {
+      "message": "Lalai"
+   },
+   "settings_disable_alt": {
+      "message": "Lumpuhkan Alt Menu Hotkey"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Elakkan penekanan kekunci Alt secara tidak sengaja. Lumpuhkan kekunci pintas menu Alt penyemak imbas."
+   },
+   "settings_error_always_on": {
+      "message": "Mod Sentiasa Hidup tidak sah."
+   },
+   "settings_error_bad_function": {
+      "message": "Fungsi tidak sah dipilih."
+   },
+   "settings_error_bad_number": {
+      "message": "Nombor tidak sah."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hotkey telah digunakan sekali."
+   },
+   "settings_function": {
+      "message": "Fungsi"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Mod Imej"
+   },
+   "settings_incognito": {
+      "message": "Dibenarkan masuk"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Penyemakan Imbas Peribadi"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Boleh togol dalam halaman pengurusan sambungan penyemak imbas. Menukarnya akan memuatkan semula sambungan, menyebabkan halaman tetapan ini ditutup."
+   },
+   "settings_off_mode": {
+      "message": "Mati"
+   },
+   "settings_position_increment": {
+      "message": "Kenaikan Kedudukan"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Berapa banyak untuk mengalihkan kedudukan dalam piksel. Lalai 20."
+   },
+   "settings_preset": {
+      "message": "Pratetap Hotkey"
+   },
+   "settings_reset": {
+      "message": "Tetapkan semula"
+   },
+   "settings_rotate_increment": {
+      "message": "Kenaikan Putar"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Berapa banyak yang perlu diputar dalam darjah. Lalai 5."
+   },
+   "settings_saved": {
+      "message": "Pilihan Disimpan"
+   },
+   "settings_scale_increment": {
+      "message": "Penambahan Skala"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Berapa banyak untuk mengezum atau meregangkan dalam peratusan. Lalai 5."
+   },
+   "settings_video_mode": {
+      "message": "Mod Video"
+   }
+}

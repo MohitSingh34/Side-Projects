@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Mayra Bridge",
+  "version": "1.0",
+  "description": "Forward ChatGPT JSON triggers to local bridge",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": [
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

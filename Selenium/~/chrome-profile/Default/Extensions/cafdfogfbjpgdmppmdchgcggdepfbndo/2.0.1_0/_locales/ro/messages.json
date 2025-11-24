@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Măriți, întindeți, repoziționați, rotiți și răsturnați videoclipurile și imaginile folosind tastele rapide."
+   },
+   "app_name": {
+      "message": "Transformator Video"
+   },
+   "commands_capture_event": {
+      "message": "Captură eveniment"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Comprimare orizontală"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Comprimați pe verticală"
+   },
+   "commands_flip_horizontal": {
+      "message": "Întoarceți pe orizontală"
+   },
+   "commands_flip_vertical": {
+      "message": "Întoarceți pe verticală"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Întindere pe orizontală"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Întindeți pe verticală"
+   },
+   "commands_position_down": {
+      "message": "Deplasați în jos 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Deplasați în jos la stânga 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Deplasați în jos la dreapta 🡦"
+   },
+   "commands_position_left": {
+      "message": "Mutați la stânga 🡠"
+   },
+   "commands_position_right": {
+      "message": "Deplasați la dreapta 🡢"
+   },
+   "commands_position_up": {
+      "message": "Mutare în sus 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Deplasați în sus la stânga 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Deplasați-vă în sus la dreapta 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recentrează"
+   },
+   "commands_reload": {
+      "message": "Reîncărcați extensia"
+   },
+   "commands_reset": {
+      "message": "Resetați Transformările"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Rotiți ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Rotiți ⭮ cu 90 de grade"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Rotiți ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Rotiți ⭯ cu 90 de grade"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Comutare taste rapide (Videoclipuri)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Comutare taste rapide (imagini)"
+   },
+   "commands_zoom_in": {
+      "message": "A mari"
+   },
+   "commands_zoom_out": {
+      "message": "A micsora"
+   },
+   "popup_feedback": {
+      "message": "Părere"
+   },
+   "popup_homepage": {
+      "message": "Pagina principala"
+   },
+   "popup_settings": {
+      "message": "Setări"
+   },
+   "popup_store": {
+      "message": "Magazin"
+   },
+   "settings_add": {
+      "message": "Adăuga"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativă"
+   },
+   "settings_always_on": {
+      "message": "Mereu pe"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Personalizat"
+   },
+   "settings_default_hotkeys": {
+      "message": "Mod implicit"
+   },
+   "settings_disable_alt": {
+      "message": "Dezactivați tasta rapidă din meniul Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Preveniți apăsările accidentale ale tastei Alt. Dezactivați tasta rapidă a meniului Alt a browserului."
+   },
+   "settings_error_always_on": {
+      "message": "Modul Always On invalid."
+   },
+   "settings_error_bad_function": {
+      "message": "Funcție nevalidă selectată."
+   },
+   "settings_error_bad_number": {
+      "message": "Numar invalid."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Tasta rapidă a fost deja folosită o dată."
+   },
+   "settings_function": {
+      "message": "Funcţie"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Tasta rapidă"
+   },
+   "settings_image_mode": {
+      "message": "Modul imagine"
+   },
+   "settings_incognito": {
+      "message": "Permis in"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Navigare privată"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Comutabil în pagina de gestionare a extensiilor a browserului. Schimbarea acesteia va reîncărca extensia, determinând închiderea acestei pagini de setări."
+   },
+   "settings_off_mode": {
+      "message": "Oprit"
+   },
+   "settings_position_increment": {
+      "message": "Creștere de poziție"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Cât de mult să mutați poziția în pixeli. Implicit 20."
+   },
+   "settings_preset": {
+      "message": "Presetare tastă rapidă"
+   },
+   "settings_reset": {
+      "message": "Resetați"
+   },
+   "settings_rotate_increment": {
+      "message": "Rotire Creștere"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Cât de mult să se rotească în grade. Implicit 5."
+   },
+   "settings_saved": {
+      "message": "Optiuni salvate"
+   },
+   "settings_scale_increment": {
+      "message": "Creștere de scară"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Cât de mult să măriți sau să întindeți în procente. Implicit 5."
+   },
+   "settings_video_mode": {
+      "message": "Mod video"
+   }
+}

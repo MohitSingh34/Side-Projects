@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Kuza, nyoosha, weka upya, zungusha na geuza video na picha kwa kutumia vitufe vya moto."
+   },
+   "app_name": {
+      "message": "Kibadilishaji Video"
+   },
+   "commands_capture_event": {
+      "message": "Nasa Tukio"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Compress usawa"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Wima Compress"
+   },
+   "commands_flip_horizontal": {
+      "message": "Flip Mlalo"
+   },
+   "commands_flip_vertical": {
+      "message": "Geuza Wima"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Nyosha kwa Mlalo"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Nyosha kwa Wima"
+   },
+   "commands_position_down": {
+      "message": "Sogeza Chini 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Sogeza Chini Kushoto 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Sogeza Chini Kulia 🡦"
+   },
+   "commands_position_left": {
+      "message": "Sogeza Kushoto 🡠"
+   },
+   "commands_position_right": {
+      "message": "Sogeza Kulia 🡢"
+   },
+   "commands_position_up": {
+      "message": "Sogeza Juu 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Sogea Juu Kushoto 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Sogea Juu Kulia 🡥"
+   },
+   "commands_recenter": {
+      "message": "Karibuni zaidi"
+   },
+   "commands_reload": {
+      "message": "Pakia Upya Kiendelezi"
+   },
+   "commands_reset": {
+      "message": "Weka Upya Mabadiliko"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Zungusha ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Zungusha ⭮ Digrii 90"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Zungusha ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Zungusha ⭯ Digrii 90"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Geuza Vifunguo vya Moto (Video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Geuza Vifunguo vya Moto (Picha)"
+   },
+   "commands_zoom_in": {
+      "message": "Kuza"
+   },
+   "commands_zoom_out": {
+      "message": "Zoom Out"
+   },
+   "popup_feedback": {
+      "message": "Maoni"
+   },
+   "popup_homepage": {
+      "message": "Ukurasa wa nyumbani"
+   },
+   "popup_settings": {
+      "message": "Mipangilio"
+   },
+   "popup_store": {
+      "message": "Hifadhi"
+   },
+   "settings_add": {
+      "message": "Ongeza"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Mbadala"
+   },
+   "settings_always_on": {
+      "message": "Daima Imewashwa"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Desturi"
+   },
+   "settings_default_hotkeys": {
+      "message": "Chaguomsingi"
+   },
+   "settings_disable_alt": {
+      "message": "Zima Hotkey ya Menyu ya Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Zuia mibonyezo ya vitufe vya Alt kwa bahati mbaya. Lemaza kitufe cha menyu cha Alt cha kivinjari."
+   },
+   "settings_error_always_on": {
+      "message": "Hali ya Kuwashwa Batili."
+   },
+   "settings_error_bad_function": {
+      "message": "Chaguo za kukokotoa zisizo sahihi zimechaguliwa."
+   },
+   "settings_error_bad_number": {
+      "message": "Nambari batili."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hotkey tayari imetumika mara moja."
+   },
+   "settings_function": {
+      "message": "Kazi"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Hali ya Picha"
+   },
+   "settings_incognito": {
+      "message": "Inaruhusiwa kuingia"
+   },
+   "settings_incognito_chrome": {
+      "message": "Hali fiche"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Kuvinjari kwa Faragha"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Inaweza kugeuzwa katika ukurasa wa usimamizi wa kiendelezi wa kivinjari. Kukibadilisha kutapakia upya kiendelezi, na kusababisha ukurasa huu wa mipangilio kufungwa."
+   },
+   "settings_off_mode": {
+      "message": "Imezimwa"
+   },
+   "settings_position_increment": {
+      "message": "Kuongezeka kwa Nafasi"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Kiasi gani cha kusogeza nafasi katika pikseli. Chaguomsingi 20."
+   },
+   "settings_preset": {
+      "message": "Uwekaji awali wa Hotkey"
+   },
+   "settings_reset": {
+      "message": "Weka upya"
+   },
+   "settings_rotate_increment": {
+      "message": "Zungusha Ongezeko"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Kiasi gani cha kuzunguka kwa digrii. Chaguomsingi 5."
+   },
+   "settings_saved": {
+      "message": "Chaguo Zimehifadhiwa"
+   },
+   "settings_scale_increment": {
+      "message": "Ongezeko la Mizani"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Kiasi gani cha kukuza au kunyoosha kwa asilimia. Chaguomsingi 5."
+   },
+   "settings_video_mode": {
+      "message": "Hali ya Video"
+   }
+}

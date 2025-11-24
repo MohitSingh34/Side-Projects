@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "I-zoom, i-stretch, i-reposition, i-rotate, at i-flip ang video at mga larawan gamit ang mga hotkey."
+   },
+   "app_name": {
+      "message": "Video Transformer"
+   },
+   "commands_capture_event": {
+      "message": "Kunan ang Kaganapan"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Pahalang na I-compress"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Patayong I-compress"
+   },
+   "commands_flip_horizontal": {
+      "message": "I-flip Pahalang"
+   },
+   "commands_flip_vertical": {
+      "message": "I-flip nang patayo"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Pahalang na Iunat"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Patayong Iunat"
+   },
+   "commands_position_down": {
+      "message": "Ilipat Pababa 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Ilipat Pababa Pakaliwa 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Ilipat Pakanan 🡦"
+   },
+   "commands_position_left": {
+      "message": "Lumipat Pakaliwa 🡠"
+   },
+   "commands_position_right": {
+      "message": "Ilipat Pakanan 🡢"
+   },
+   "commands_position_up": {
+      "message": "Itaas 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Ilipat Pakaliwa 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Ilipat Pakanan 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "I-reload ang Extension"
+   },
+   "commands_reset": {
+      "message": "I-reset ang Mga Pagbabago"
+   },
+   "commands_rotate_clockwise": {
+      "message": "I-rotate ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "I-rotate ⭮ 90 Degrees"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "I-rotate ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "I-rotate ⭯ 90 Degrees"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "I-toggle ang Mga Hotkey (Mga Video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "I-toggle ang Mga Hotkey (Mga Larawan)"
+   },
+   "commands_zoom_in": {
+      "message": "Palakihin"
+   },
+   "commands_zoom_out": {
+      "message": "Mag-zoom Out"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_homepage": {
+      "message": "Homepage"
+   },
+   "popup_settings": {
+      "message": "Mga setting"
+   },
+   "popup_store": {
+      "message": "Tindahan"
+   },
+   "settings_add": {
+      "message": "Idagdag"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatibo"
+   },
+   "settings_always_on": {
+      "message": "Laging Naka-on"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Custom"
+   },
+   "settings_default_hotkeys": {
+      "message": "Default"
+   },
+   "settings_disable_alt": {
+      "message": "Huwag paganahin ang Alt Menu Hotkey"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Pigilan ang hindi sinasadyang pagpindot sa Alt key. Huwag paganahin ang Alt menu hotkey ng browser."
+   },
+   "settings_error_always_on": {
+      "message": "Di-wastong Always On mode."
+   },
+   "settings_error_bad_function": {
+      "message": "Di-wastong function ang napili."
+   },
+   "settings_error_bad_number": {
+      "message": "Di-wastong numero."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Nagamit na ang hotkey minsan."
+   },
+   "settings_function": {
+      "message": "Function"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Mode ng Larawan"
+   },
+   "settings_incognito": {
+      "message": "Pinayagan pumasok"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Pribadong Pagba-browse"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Nai-toggle sa page ng pamamahala ng extension ng browser. Ang pagpapalit nito ay magre-reload ng extension, na magiging dahilan upang magsara ang page ng mga setting na ito."
+   },
+   "settings_off_mode": {
+      "message": "Naka-off"
+   },
+   "settings_position_increment": {
+      "message": "Pagtaas ng Posisyon"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Magkano ang ilipat ang posisyon sa mga pixel. Default 20."
+   },
+   "settings_preset": {
+      "message": "Hotkey Preset"
+   },
+   "settings_reset": {
+      "message": "I-reset"
+   },
+   "settings_rotate_increment": {
+      "message": "I-rotate ang Pagtaas"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Magkano ang iikot sa mga degree. Default 5."
+   },
+   "settings_saved": {
+      "message": "Nai-save ang mga Opsyon"
+   },
+   "settings_scale_increment": {
+      "message": "Pagtaas ng Scale"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Magkano ang i-zoom o i-stretch sa porsyento. Default 5."
+   },
+   "settings_video_mode": {
+      "message": "Video Mode"
+   }
+}

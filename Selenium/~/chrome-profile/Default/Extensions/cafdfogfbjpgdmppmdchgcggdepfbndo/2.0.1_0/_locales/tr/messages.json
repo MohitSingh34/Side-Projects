@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Kısayol tuşlarını kullanarak video ve görüntüleri yakınlaştırın, uzatın, yeniden konumlandırın, döndürün ve çevirin."
+   },
+   "app_name": {
+      "message": "Video Dönüştürücü"
+   },
+   "commands_capture_event": {
+      "message": "Olayı Yakala"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Yatay olarak sıkıştır"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Dikey Sıkıştır"
+   },
+   "commands_flip_horizontal": {
+      "message": "Yatay olarak çevir"
+   },
+   "commands_flip_vertical": {
+      "message": "Dikey Çevir"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Yatay Gerdirme"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Dikey Gerdirme"
+   },
+   "commands_position_down": {
+      "message": "Aşağı Taşı 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Sola Git 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Sağa Git 🡦"
+   },
+   "commands_position_left": {
+      "message": "Sola Git 🡠"
+   },
+   "commands_position_right": {
+      "message": "Sağa Git 🡢"
+   },
+   "commands_position_up": {
+      "message": "Yukarı Taşı 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Yukarı Git 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Sağa Git 🡥"
+   },
+   "commands_recenter": {
+      "message": "Yeniden topla"
+   },
+   "commands_reload": {
+      "message": "Uzantıyı Yeniden Yükle"
+   },
+   "commands_reset": {
+      "message": "Dönüşümleri Sıfırla"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Döndür ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "90 Derece Döndür"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Döndür ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "90 Derece Döndür"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Kısayol Tuşlarını Aç/Kapat (Videolar)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Kısayol Tuşlarını Aç/Kapat (Görüntüler)"
+   },
+   "commands_zoom_in": {
+      "message": "Yakınlaştır"
+   },
+   "commands_zoom_out": {
+      "message": "Uzaklaştır"
+   },
+   "popup_feedback": {
+      "message": "Geri bildirim"
+   },
+   "popup_homepage": {
+      "message": "Anasayfa"
+   },
+   "popup_settings": {
+      "message": "Ayarlar"
+   },
+   "popup_store": {
+      "message": "Mağaza"
+   },
+   "settings_add": {
+      "message": "Eklemek"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatif"
+   },
+   "settings_always_on": {
+      "message": "Her zaman"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Gelenek"
+   },
+   "settings_default_hotkeys": {
+      "message": "Varsayılan"
+   },
+   "settings_disable_alt": {
+      "message": "Alt Menü Kısayol Tuşunu Devre Dışı Bırak"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Yanlışlıkla Alt tuşuna basılmasını önleyin. Tarayıcının Alt menüsü kısayol tuşunu devre dışı bırakın."
+   },
+   "settings_error_always_on": {
+      "message": "Geçersiz Her Zaman Açık modu."
+   },
+   "settings_error_bad_function": {
+      "message": "Geçersiz işlev seçildi."
+   },
+   "settings_error_bad_number": {
+      "message": "Geçersiz numara."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Kısayol zaten bir kez kullanılmış."
+   },
+   "settings_function": {
+      "message": "İşlev"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Kısayol tuşu"
+   },
+   "settings_image_mode": {
+      "message": "Görüntü Modu"
+   },
+   "settings_incognito": {
+      "message": "Izin verildi"
+   },
+   "settings_incognito_chrome": {
+      "message": "Gizli"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Özel Tarama"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Tarayıcının uzantı yönetimi sayfasında değiştirilebilir. Değiştirmek, uzantıyı yeniden yükleyerek bu ayarlar sayfasının kapanmasına neden olur."
+   },
+   "settings_off_mode": {
+      "message": "Kapalı"
+   },
+   "settings_position_increment": {
+      "message": "Pozisyon Artışı"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Konumun piksel cinsinden ne kadar taşınacağı. Varsayılan 20."
+   },
+   "settings_preset": {
+      "message": "Kısayol Ön Ayarı"
+   },
+   "settings_reset": {
+      "message": "Sıfırla"
+   },
+   "settings_rotate_increment": {
+      "message": "Artımla Döndür"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Derece cinsinden ne kadar döndürüleceği. Varsayılan 5."
+   },
+   "settings_saved": {
+      "message": "Seçenekler kaydedildi"
+   },
+   "settings_scale_increment": {
+      "message": "Ölçek Artışı"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Yüzde olarak ne kadar yakınlaştırılacağı veya genişletileceği. Varsayılan 5."
+   },
+   "settings_video_mode": {
+      "message": "Video modu"
+   }
+}

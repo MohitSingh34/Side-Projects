@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "A gyorsbillentyűk segítségével nagyíthatja, nyújthatja, áthelyezheti, elforgathatja és megfordíthatja a videókat és képeket."
+   },
+   "app_name": {
+      "message": "Videó Transzformátor"
+   },
+   "commands_capture_event": {
+      "message": "Esemény rögzítése"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Vízszintesen tömörítse"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Függőleges tömörítés"
+   },
+   "commands_flip_horizontal": {
+      "message": "Flip vízszintesen"
+   },
+   "commands_flip_vertical": {
+      "message": "Flip függőlegesen"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Vízszintesen nyújtható"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Függőlegesen nyújtható"
+   },
+   "commands_position_down": {
+      "message": "Mozgás lefelé 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Mozgás le balra 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Mozgás le jobbra 🡦"
+   },
+   "commands_position_left": {
+      "message": "Mozgatás balra 🡠"
+   },
+   "commands_position_right": {
+      "message": "Mozgatás jobbra 🡢"
+   },
+   "commands_position_up": {
+      "message": "Felfelé 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Felfelé balra 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Mozgás fel jobbra 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recent"
+   },
+   "commands_reload": {
+      "message": "Reload Extension"
+   },
+   "commands_reset": {
+      "message": "Reset Transformations"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Forgatás ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Forgatás ⭮ 90 fokkal"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Forgatás ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Forgatás ⭯ 90 fokkal"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Gyorsbillentyűk váltása (videók)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Gyorsbillentyűk (képek) váltása"
+   },
+   "commands_zoom_in": {
+      "message": "Ráközelíteni"
+   },
+   "commands_zoom_out": {
+      "message": "Kicsinyítés"
+   },
+   "popup_feedback": {
+      "message": "Visszacsatolás"
+   },
+   "popup_homepage": {
+      "message": "Kezdőlap"
+   },
+   "popup_settings": {
+      "message": "Beállítások"
+   },
+   "popup_store": {
+      "message": "Bolt"
+   },
+   "settings_add": {
+      "message": "Hozzáadás"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatív"
+   },
+   "settings_always_on": {
+      "message": "Mindig bekapcsolva"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Egyedi"
+   },
+   "settings_default_hotkeys": {
+      "message": "Alapértelmezett"
+   },
+   "settings_disable_alt": {
+      "message": "Az Alt menü gyorsbillentyűjének letiltása"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Akadályozza meg az Alt billentyűk véletlen lenyomását. Tiltsa le a böngésző Alt menü gyorsbillentyűjét."
+   },
+   "settings_error_always_on": {
+      "message": "Érvénytelen Mindig bekapcsolt mód."
+   },
+   "settings_error_bad_function": {
+      "message": "Érvénytelen funkció van kiválasztva."
+   },
+   "settings_error_bad_number": {
+      "message": "Érvénytelen szám."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "A gyorsbillentyűt már egyszer használták."
+   },
+   "settings_function": {
+      "message": "Funkció"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Gyorsbillentyű"
+   },
+   "settings_image_mode": {
+      "message": "Kép mód"
+   },
+   "settings_incognito": {
+      "message": "Beengedve"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognitó"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privát böngészés"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Bekapcsolható a böngésző bővítménykezelő oldalán. A módosítás után újra betöltődik a bővítmény, és ez a beállítási oldal bezárul."
+   },
+   "settings_off_mode": {
+      "message": "Ki"
+   },
+   "settings_position_increment": {
+      "message": "Pozíciónövekmény"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Mennyit kell mozgatni a pozíciót pixelben. Alapértelmezett 20."
+   },
+   "settings_preset": {
+      "message": "Gyorsbillentyű előre beállított"
+   },
+   "settings_reset": {
+      "message": "Visszaállítás"
+   },
+   "settings_rotate_increment": {
+      "message": "Rotate Increment"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Mennyit kell forgatni fokban. Alapértelmezett 5."
+   },
+   "settings_saved": {
+      "message": "Opciók Mentett"
+   },
+   "settings_scale_increment": {
+      "message": "Skálanövelés"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Mennyit kell nagyítani vagy nyújtani százalékban. Alapértelmezett 5."
+   },
+   "settings_video_mode": {
+      "message": "Videó mód"
+   }
+}

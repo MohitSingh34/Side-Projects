@@ -1,0 +1,25 @@
+in sudo nano /etc/audit/rules.d/audit.rules
+
+
+## ==========================
+##  CUSTOM AUDITD RULES
+## ==========================
+
+# Reset old rules
+-D
+
+# Buffer size
+-b 8192
+
+# Log only user-level commands (ignore daemons)
+-a always,exit -F arch=b64 -S execve -F auid>=1000 -F auid!=4294967295 -k user_exec
+-a always,exit -F arch=b32 -S execve -F auid>=1000 -F auid!=4294967295 -k user_exec
+
+# Watch sensitive dirs
+-w /etc/ -p wa -k etc_watch
+-w /home/ -p wa -k home_watch
+-w /tmp/ -p wa -k tmp_watch
+
+# Keep root privilege usage logged
+-w /usr/bin/sudo -p x -k sudo_exec
+-w /usr/bin/su -p x -k su_exec

@@ -1,0 +1,160 @@
+# --- FILE DELETION / SYSTEM WIPE ---
+rm*
+rm *
+rm -rf *
+rm -rf /
+rm -rf ~
+rm -rf /home
+rm -rf /etc
+rm -rf /usr
+rm -rf /bin
+rm -rf /boot
+rm -rf /root
+rm -rf /var
+dd if=/dev/zero of=/dev/sda
+mkfs.ext4 /dev/sda*
+mkfs.ext4 /dev/nvme*
+:(){ :|:& };:   # fork bomb
+chmod -R 000 /
+chmod -R 777 /
+chown -R root:root /
+mv / /
+mv ~ /
+find / -type f -exec rm -f {} \;
+unlink *
+
+# --- SYSTEM POWER / SHUTDOWN ---
+shutdown
+shutdown -h now
+shutdown -r now
+reboot
+halt
+poweroff
+systemctl poweroff
+systemctl reboot
+systemctl halt
+init 0
+init 6
+
+# --- PACKAGE MANAGER / UPDATE DANGER ---
+apt remove *
+apt purge *
+apt autoremove
+apt-get remove *
+apt-get purge *
+dnf remove *
+yum remove *
+pacman -R *
+pacman -Rns *
+zypper remove *
+snap remove *
+flatpak uninstall *
+
+# --- USERS / PERMISSIONS ---
+userdel *
+groupdel *
+passwd root
+usermod -L root
+sudo passwd -d root
+sudo rm /etc/passwd
+sudo rm /etc/shadow
+sudo rm /etc/sudoers
+chmod 000 /etc/sudoers
+chown -R nobody /
+chgrp -R nobody /
+
+# --- NETWORK / FIREWALL / SYSTEMD ---
+iptables -F
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+ip link set eth0 down
+ifconfig eth0 down
+nmcli networking off
+systemctl disable network-manager
+systemctl stop NetworkManager
+ufw disable
+ufw reset
+
+# --- DISK / PARTITION / MOUNT ---
+fdisk
+parted
+mkfs.*
+mount -o remount,rw /
+umount /
+e2fsck
+losetup -d *
+wipefs *
+cryptsetup luksFormat *
+
+# --- MEMORY / CPU KILL / PROCESS ---
+kill -9 1
+killall systemd
+killall init
+killall python3
+pkill -f systemd
+pkill -f python
+renice -20 1
+taskset -p 0x0 1
+
+# --- SYSTEMD / SERVICE MANIPULATION ---
+systemctl disable *
+systemctl mask *
+systemctl daemon-reexec
+systemctl reset-failed
+systemctl isolate rescue.target
+systemctl isolate emergency.target
+systemctl isolate reboot.target
+
+# --- ENVIRONMENT / CONFIG / SECURITY ---
+export PATH=*
+unset PATH
+rm /etc/profile
+rm /etc/bashrc
+rm /etc/environment
+mv /bin/bash /bin/bash_disabled
+mv /usr/bin/python3 /usr/bin/python3_disabled
+truncate -s 0 /etc/passwd
+truncate -s 0 /etc/shadow
+
+# --- DEVICE / HARDWARE ---
+hdparm --security-erase
+hdparm --wipe
+setpci -s 00:00.0 COMMAND=0
+echo 1 > /proc/sys/kernel/sysrq
+echo c > /proc/sysrq-trigger
+echo b > /proc/sysrq-trigger
+echo o > /proc/sysrq-trigger
+
+# --- NETWORKING / SYSTEM EXPLOITS ---
+rm -rf ~/.ssh
+cat /etc/shadow
+cat /root/.bash_history
+wget *
+curl *
+scp *
+nc *
+ncat *
+netcat *
+socat *
+bash -i >& /dev/tcp/*
+python -c 'import socket,os,pty;'
+python3 -c 'import socket,os,pty;'
+
+# --- DOCKER / VIRTUALIZATION ---
+docker system prune -a
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker images -q)
+docker stop $(docker ps -aq)
+docker volume rm $(docker volume ls -q)
+
+# --- MISC DANGERS ---
+yes > /dev/null &
+yes > /dev/zero &
+while true; do :; done
+cat /dev/zero > /dev/mem
+cat /dev/urandom > /dev/sda
+cat /dev/urandom > /dev/mem
+echo " " > ~/.bashrc
+bash -c "rm -rf /"
+sh -c 'shutdown -h now'
+python3 -c "import os; os.system('rm -rf /')"

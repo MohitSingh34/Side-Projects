@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "با استفاده از کلیدهای میانبر، ویدئو و تصاویر را بزرگنمایی، کشش، تغییر موقعیت، چرخش، و ورق بزنید."
+   },
+   "app_name": {
+      "message": "ترانسفورماتور ویدیویی"
+   },
+   "commands_capture_event": {
+      "message": "ضبط رویداد"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "فشرده سازی افقی"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "فشرده سازی عمودی"
+   },
+   "commands_flip_horizontal": {
+      "message": "به صورت افقی ورق بزنید"
+   },
+   "commands_flip_vertical": {
+      "message": "چرخش عمودی"
+   },
+   "commands_increase_stretch_x": {
+      "message": "به صورت افقی کشیده شود"
+   },
+   "commands_increase_stretch_y": {
+      "message": "عمودی کشش"
+   },
+   "commands_position_down": {
+      "message": "به سمت پایین حرکت کنید 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "به سمت چپ حرکت کنید 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "به سمت راست حرکت کنید 🡦"
+   },
+   "commands_position_left": {
+      "message": "به سمت چپ 🡠 حرکت کنید"
+   },
+   "commands_position_right": {
+      "message": "حرکت به راست 🡢"
+   },
+   "commands_position_up": {
+      "message": "حرکت به سمت بالا 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "به سمت چپ حرکت کنید 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "به سمت راست حرکت کنید 🡥"
+   },
+   "commands_recenter": {
+      "message": "مرکز جدید"
+   },
+   "commands_reload": {
+      "message": "بارگیری مجدد برنامه افزودنی"
+   },
+   "commands_reset": {
+      "message": "Reset Transformations"
+   },
+   "commands_rotate_clockwise": {
+      "message": "⭮ چرخش"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "چرخش ⭮ 90 درجه"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "⭯ چرخش"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "چرخش ⭯ 90 درجه"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "جابجایی کلیدهای فوری (ویدیوها)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "جابجایی کلیدهای میانبر (تصاویر)"
+   },
+   "commands_zoom_in": {
+      "message": "بزرگنمایی"
+   },
+   "commands_zoom_out": {
+      "message": "کوچک نمایی"
+   },
+   "popup_feedback": {
+      "message": "بازخورد"
+   },
+   "popup_homepage": {
+      "message": "صفحه نخست"
+   },
+   "popup_settings": {
+      "message": "تنظیمات"
+   },
+   "popup_store": {
+      "message": "فروشگاه"
+   },
+   "settings_add": {
+      "message": "اضافه کردن"
+   },
+   "settings_alt_hotkeys": {
+      "message": "جایگزین"
+   },
+   "settings_always_on": {
+      "message": "همیشه روشن"
+   },
+   "settings_custom_hotkeys": {
+      "message": "سفارشی"
+   },
+   "settings_default_hotkeys": {
+      "message": "پیش فرض"
+   },
+   "settings_disable_alt": {
+      "message": "کلید میانبر Alt Menu را غیرفعال کنید"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "از فشردن تصادفی کلید Alt جلوگیری کنید. کلید میانبر منوی Alt مرورگر را غیرفعال کنید."
+   },
+   "settings_error_always_on": {
+      "message": "حالت همیشه روشن نامعتبر است."
+   },
+   "settings_error_bad_function": {
+      "message": "تابع نامعتبر انتخاب شده است."
+   },
+   "settings_error_bad_number": {
+      "message": "عدد نامعتبر."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "کلید میانبر قبلاً یک بار استفاده شده است."
+   },
+   "settings_function": {
+      "message": "عملکرد"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "کلید فوری"
+   },
+   "settings_image_mode": {
+      "message": "حالت تصویر"
+   },
+   "settings_incognito": {
+      "message": "مجاز به ورود"
+   },
+   "settings_incognito_chrome": {
+      "message": "ناشناس"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "مرور خصوصی"
+   },
+   "settings_incognito_tooltip": {
+      "message": "قابل تغییر در صفحه مدیریت برنامه افزودنی مرورگر. تغییر آن باعث بارگیری مجدد برنامه افزودنی می شود و این صفحه تنظیمات بسته می شود."
+   },
+   "settings_off_mode": {
+      "message": "خاموش"
+   },
+   "settings_position_increment": {
+      "message": "افزایش موقعیت"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "میزان جابجایی موقعیت بر حسب پیکسل پیش فرض 20."
+   },
+   "settings_preset": {
+      "message": "کلید میانبر از پیش تنظیم شده"
+   },
+   "settings_reset": {
+      "message": "بازنشانی کنید"
+   },
+   "settings_rotate_increment": {
+      "message": "چرخش افزایشی"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "چقدر باید بر حسب درجه بچرخد. پیش فرض 5."
+   },
+   "settings_saved": {
+      "message": "گزینه ها ذخیره شد"
+   },
+   "settings_scale_increment": {
+      "message": "افزایش مقیاس"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "درصد بزرگنمایی یا کشش چقدر است. پیش فرض 5."
+   },
+   "settings_video_mode": {
+      "message": "حالت ویدیو"
+   }
+}

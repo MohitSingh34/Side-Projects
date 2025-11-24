@@ -1,0 +1,2 @@
+{"timestamp": "2025-11-09 22:45:29", "role": "user", "content": "[2025-11-09 22:45:29] Mohit: hi"}
+{"timestamp": "2025-11-09 22:45:31", "role": "assistant", "content": "[Error parsing response] {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1762732800000'}, 'provider_name': None}}, 'user_id': 'user_352rahhZnMqxGPw5tPzTjD0SpTK'}"}

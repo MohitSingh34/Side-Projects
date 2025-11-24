@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Thu phóng, kéo dài, định vị lại, xoay và lật video và hình ảnh bằng các phím nóng."
+   },
+   "app_name": {
+      "message": "Máy biến áp Video"
+   },
+   "commands_capture_event": {
+      "message": "Chụp sự kiện"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Nén theo chiều ngang"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Nén theo chiều dọc"
+   },
+   "commands_flip_horizontal": {
+      "message": "Lật ngang"
+   },
+   "commands_flip_vertical": {
+      "message": "Lật dọc"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Kéo dài theo chiều ngang"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Kéo dài theo chiều dọc"
+   },
+   "commands_position_down": {
+      "message": "Di chuyển xuống 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Di chuyển xuống bên trái 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Di chuyển xuống bên phải 🡦"
+   },
+   "commands_position_left": {
+      "message": "Di chuyển sang trái 🡠"
+   },
+   "commands_position_right": {
+      "message": "Di chuyển sang phải 🡢"
+   },
+   "commands_position_up": {
+      "message": "Di chuyển lên 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Di chuyển lên bên trái 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Di chuyển lên bên phải 🡥"
+   },
+   "commands_recenter": {
+      "message": "Gần đây"
+   },
+   "commands_reload": {
+      "message": "Tải lại phần mở rộng"
+   },
+   "commands_reset": {
+      "message": "Đặt lại chuyển đổi"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Xoay ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Xoay ⭮ 90 độ"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Xoay ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Xoay ⭯ 90 độ"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Chuyển đổi các phím nóng (Video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Chuyển đổi các phím nóng (Hình ảnh)"
+   },
+   "commands_zoom_in": {
+      "message": "Phóng to"
+   },
+   "commands_zoom_out": {
+      "message": "Thu nhỏ"
+   },
+   "popup_feedback": {
+      "message": "Phản hồi"
+   },
+   "popup_homepage": {
+      "message": "Trang chủ"
+   },
+   "popup_settings": {
+      "message": "Cài đặt"
+   },
+   "popup_store": {
+      "message": "Cửa hàng"
+   },
+   "settings_add": {
+      "message": "Thêm vào"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Thay thế"
+   },
+   "settings_always_on": {
+      "message": "Luôn luôn"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Phong tục"
+   },
+   "settings_default_hotkeys": {
+      "message": "Vỡ nợ"
+   },
+   "settings_disable_alt": {
+      "message": "Vô hiệu hóa phím nóng Menu Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Ngăn chặn các lần nhấn phím Alt vô tình. Tắt phím nóng trình đơn Alt của trình duyệt."
+   },
+   "settings_error_always_on": {
+      "message": "Chế độ Luôn Bật không hợp lệ."
+   },
+   "settings_error_bad_function": {
+      "message": "Đã chọn chức năng không hợp lệ."
+   },
+   "settings_error_bad_number": {
+      "message": "Số không hợp lệ."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Phím nóng đã được sử dụng một lần."
+   },
+   "settings_function": {
+      "message": "Chức năng"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Phím nóng"
+   },
+   "settings_image_mode": {
+      "message": "Chế độ hình ảnh"
+   },
+   "settings_incognito": {
+      "message": "Được phép trong"
+   },
+   "settings_incognito_chrome": {
+      "message": "Ẩn danh"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Duyệt web riêng tư"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Có thể chuyển đổi trong trang quản lý tiện ích mở rộng của trình duyệt. Thay đổi nó sẽ tải lại tiện ích mở rộng, khiến trang cài đặt này đóng lại."
+   },
+   "settings_off_mode": {
+      "message": "Tắt"
+   },
+   "settings_position_increment": {
+      "message": "Tăng vị thế"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Bao nhiêu để di chuyển vị trí trong pixel. Mặc định 20."
+   },
+   "settings_preset": {
+      "message": "Cài sẵn phím nóng"
+   },
+   "settings_reset": {
+      "message": "Cài lại"
+   },
+   "settings_rotate_increment": {
+      "message": "Xoay phần tăng"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Xoay bao nhiêu độ. Mặc định 5."
+   },
+   "settings_saved": {
+      "message": "Tùy chọn lưu"
+   },
+   "settings_scale_increment": {
+      "message": "Tăng quy mô"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Bao nhiêu để phóng to hoặc kéo dài theo tỷ lệ phần trăm. Mặc định 5."
+   },
+   "settings_video_mode": {
+      "message": "Chế độ quay"
+   }
+}

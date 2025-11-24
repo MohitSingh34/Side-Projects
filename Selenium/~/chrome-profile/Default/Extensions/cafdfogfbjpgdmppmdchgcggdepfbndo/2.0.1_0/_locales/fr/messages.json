@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoomez, étirez, repositionnez, faites pivoter et retournez des vidéos et des images à l'aide de raccourcis clavier."
+   },
+   "app_name": {
+      "message": "Transformateur Vidéo"
+   },
+   "commands_capture_event": {
+      "message": "Capturer l'événement"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Compresser horizontalement"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Compresser verticalement"
+   },
+   "commands_flip_horizontal": {
+      "message": "Retourner horizontalement"
+   },
+   "commands_flip_vertical": {
+      "message": "Retourner verticalement"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Étirer horizontalement"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Étirer verticalement"
+   },
+   "commands_position_down": {
+      "message": "Descendre 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Déplacer vers le bas à gauche 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Déplacer vers le bas à droite 🡦"
+   },
+   "commands_position_left": {
+      "message": "Déplacer vers la gauche 🡠"
+   },
+   "commands_position_right": {
+      "message": "Déplacer vers la droite 🡢"
+   },
+   "commands_position_up": {
+      "message": "Monter 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Déplacer vers le haut à gauche 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Déplacer vers le haut à droite 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recentrer"
+   },
+   "commands_reload": {
+      "message": "Recharger l'extension"
+   },
+   "commands_reset": {
+      "message": "Réinitialiser les transformations"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Faire pivoter ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Rotation ⭮ de 90 degrés"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Faire pivoter ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Rotation à 90 degrés"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Basculer les raccourcis clavier (vidéos)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Basculer les raccourcis clavier (images)"
+   },
+   "commands_zoom_in": {
+      "message": "Agrandir"
+   },
+   "commands_zoom_out": {
+      "message": "Dézoomer"
+   },
+   "popup_feedback": {
+      "message": "Retour"
+   },
+   "popup_homepage": {
+      "message": "Page d'accueil"
+   },
+   "popup_settings": {
+      "message": "Paramètres"
+   },
+   "popup_store": {
+      "message": "Boutique"
+   },
+   "settings_add": {
+      "message": "Ajouter"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternative"
+   },
+   "settings_always_on": {
+      "message": "Toujours activé"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Coutume"
+   },
+   "settings_default_hotkeys": {
+      "message": "Défaut"
+   },
+   "settings_disable_alt": {
+      "message": "Désactiver le raccourci clavier du menu Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Empêchez les appuis accidentels sur la touche Alt. Désactiver le raccourci clavier du menu Alt du navigateur."
+   },
+   "settings_error_always_on": {
+      "message": "Mode toujours activé non valide."
+   },
+   "settings_error_bad_function": {
+      "message": "Fonction non valide sélectionnée."
+   },
+   "settings_error_bad_number": {
+      "message": "Numéro invalide."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Le raccourci clavier a déjà été utilisé une fois."
+   },
+   "settings_function": {
+      "message": "Une fonction"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Raccourci"
+   },
+   "settings_image_mode": {
+      "message": "Mode image"
+   },
+   "settings_incognito": {
+      "message": "Autorisé dans"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Navigation privée"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Basculable dans la page de gestion des extensions du navigateur. Le modifier rechargera l'extension, entraînant la fermeture de cette page de paramètres."
+   },
+   "settings_off_mode": {
+      "message": "Désactivé"
+   },
+   "settings_position_increment": {
+      "message": "Incrément de position"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "De combien déplacer la position en pixels. Par défaut 20."
+   },
+   "settings_preset": {
+      "message": "Préréglage de raccourci clavier"
+   },
+   "settings_reset": {
+      "message": "Réinitialiser"
+   },
+   "settings_rotate_increment": {
+      "message": "Incrément de rotation"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Combien de rotation en degrés. Par défaut 5."
+   },
+   "settings_saved": {
+      "message": "Options enregistrées"
+   },
+   "settings_scale_increment": {
+      "message": "Incrément d'échelle"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "De combien zoomer ou étirer en pourcentage. Par défaut 5."
+   },
+   "settings_video_mode": {
+      "message": "Mode vidéo"
+   }
+}

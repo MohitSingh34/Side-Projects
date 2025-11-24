@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "author": "Oxylabs Dev",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "description": "Proxy management app",
+   "host_permissions": [ "https://*/*", "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgJ8e9ecVvAwxEEAFbcArK6YKqy/ijFWWbAIIlWOJJCmqD/z44vRwe5OU8y07JHOfvnRSxd4ixxamiVvOCqjSRxar2ufLqJSZEwdZOgnmHLxIj+wMMhu4O6ziFdMAFadIviN+eT2joyiJk2w3U55kT6+ymQsG1Qg4J+T3yzgc51gh7GHhE/29uWwuqdmXvdX0mKN8tdwy++kImGVJQA0G3F14eHpIy8V+ZJKOf8kYiv02sj0s1jAq+Lg/zkVwQBiM9jTjYr6rmF5ufbZdwErny5hYwoXPdosEmxdrCuQ+Oyh33eFkbmF/KJ9tF7VlUoXtCAS/h0XzafDed+WBEPqarQIDAQAB",
+   "manifest_version": 3,
+   "name": "Oxylabs Proxy Extension",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "proxy", "webRequest", "webRequestAuthProvider", "browsingData" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "assets/img/*.png" ]
+   } ]
+}

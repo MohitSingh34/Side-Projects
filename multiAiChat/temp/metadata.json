@@ -1,0 +1,9 @@
+
+{
+  "name": "AI Group Chat Interface",
+  "description": "A modern group chat interface where a user can interact and also paste content from AI assistants like Deepseek and ChatGPT by reading from the clipboard.",
+  "requestFramePermissions": [
+    "clipboard-read",
+    "clipboard-write"
+  ]
+}

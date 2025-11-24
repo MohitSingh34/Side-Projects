@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Масштабируйте, растягивайте, перемещайте, поворачивайте и переворачивайте видео и изображения с помощью горячих клавиш."
+   },
+   "app_name": {
+      "message": "Видео Трансформер"
+   },
+   "commands_capture_event": {
+      "message": "Захват события"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Горизонтальное сжатие"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Вертикальное сжатие"
+   },
+   "commands_flip_horizontal": {
+      "message": "Отразить по горизонтали"
+   },
+   "commands_flip_vertical": {
+      "message": "Отразить по вертикали"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Горизонтальное растяжение"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Вертикальное растяжение"
+   },
+   "commands_position_down": {
+      "message": "Вниз 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Вниз влево 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Вниз вправо 🡦"
+   },
+   "commands_position_left": {
+      "message": "Двигаться влево 🡠"
+   },
+   "commands_position_right": {
+      "message": "Двигаться вправо 🡢"
+   },
+   "commands_position_up": {
+      "message": "Вверх 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Вверх влево 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Вверх вправо 🡥"
+   },
+   "commands_recenter": {
+      "message": "Рецентрировать"
+   },
+   "commands_reload": {
+      "message": "Перезагрузить расширение"
+   },
+   "commands_reset": {
+      "message": "Сбросить преобразования"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Повернуть ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Повернуть ⭮ на 90 градусов"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Повернуть ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Повернуть ⭯ на 90 градусов"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Переключение горячих клавиш (видео)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Переключить горячие клавиши (изображения)"
+   },
+   "commands_zoom_in": {
+      "message": "Увеличить"
+   },
+   "commands_zoom_out": {
+      "message": "Уменьшить"
+   },
+   "popup_feedback": {
+      "message": "Обратная связь"
+   },
+   "popup_homepage": {
+      "message": "Домашняя страница"
+   },
+   "popup_settings": {
+      "message": "Настройки"
+   },
+   "popup_store": {
+      "message": "Магазин"
+   },
+   "settings_add": {
+      "message": "Добавлять"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Альтернатива"
+   },
+   "settings_always_on": {
+      "message": "Всегда включен"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Обычай"
+   },
+   "settings_default_hotkeys": {
+      "message": "По умолчанию"
+   },
+   "settings_disable_alt": {
+      "message": "Отключить горячую клавишу альтернативного меню"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Предотвратите случайное нажатие клавиши Alt. Отключить горячую клавишу Alt меню браузера."
+   },
+   "settings_error_always_on": {
+      "message": "Неверный режим Always On."
+   },
+   "settings_error_bad_function": {
+      "message": "Выбрана недопустимая функция."
+   },
+   "settings_error_bad_number": {
+      "message": "Неправильный номер."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Горячая клавиша уже использовалась один раз."
+   },
+   "settings_function": {
+      "message": "Функция"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Горячая клавиша"
+   },
+   "settings_image_mode": {
+      "message": "Режим изображения"
+   },
+   "settings_incognito": {
+      "message": "Разрешено в"
+   },
+   "settings_incognito_chrome": {
+      "message": "Инкогнито"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Частного просмотра"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Переключается на странице управления расширениями браузера. Его изменение приведет к перезагрузке расширения, в результате чего эта страница настроек будет закрыта."
+   },
+   "settings_off_mode": {
+      "message": "Выключенный"
+   },
+   "settings_position_increment": {
+      "message": "Приращение позиции"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "На сколько перемещать позицию в пикселях. По умолчанию 20."
+   },
+   "settings_preset": {
+      "message": "Предустановка горячих клавиш"
+   },
+   "settings_reset": {
+      "message": "Перезагрузить"
+   },
+   "settings_rotate_increment": {
+      "message": "Повернуть шаг"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Сколько повернуть в градусах. По умолчанию 5."
+   },
+   "settings_saved": {
+      "message": "Параметры сохранены"
+   },
+   "settings_scale_increment": {
+      "message": "Увеличение масштаба"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Насколько масштабировать или растягивать в процентах. По умолчанию 5."
+   },
+   "settings_video_mode": {
+      "message": "Видео режим"
+   }
+}

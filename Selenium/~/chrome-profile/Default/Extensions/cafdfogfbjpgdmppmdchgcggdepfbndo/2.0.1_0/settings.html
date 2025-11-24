@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title data-translate='app_name'></title>
+
+		<script src='translate.js'></script>
+		<script src='transforms.js'></script>
+		<script src='hotkeys.js'></script>
+		<script src='settings.js'></script>
+
+		<style>
+			/* same as: body.darkmode */
+			/* if this changes, also update below */
+			@media (prefers-color-scheme: dark) {
+				body {
+					color: #E8EAED;
+					background-color: #202124;
+				}
+				div#content {
+					color: #E8EAED;
+					background-color: #35363A;
+				}
+
+				select, input, button {
+					color: #E8EAED;
+					background-color: #47484E;
+				}
+
+				button:disabled {
+					color: #202124;
+				}
+
+				.tooltip {
+					background-color: #202124;
+				}
+			}
+
+			/* same as: prefers-color-scheme: dark */
+			/* if this changes, also update above */
+			body.darkmode {
+				color: #E8EAED;
+				background-color: #202124;
+			}
+			body.darkmode div#content {
+				color: #E8EAED;
+				background-color: #35363A;
+			}
+
+			body.darkmode select, body.darkmode input, body.darkmode button {
+				color: #E8EAED;
+				background-color: #47484E;
+			}
+
+			body.darkmode button:disabled {
+				color: #202124;
+			}
+
+			body.darkmode .tooltip {
+				background-color: #202124;
+			}
+
+			@media (prefers-color-scheme: light) {
+				div#content {
+					background-color: lightgray;
+				}
+
+				.tooltip {
+					background-color: white;
+				}
+			}
+
+			tr {
+				height: 28.5px;
+			}
+
+			body,select,input {
+				font-size: large;
+			}
+
+			button {
+				font-size: medium;
+			}
+
+			h1 {
+				text-align: center;
+			}
+			
+			div#content {
+				border-radius: 25px;
+				margin: auto;
+				padding-top: 1px;
+				padding-bottom: 10px;
+				padding-left: 5%;
+				padding-right: 5%;
+				width: fit-content;
+			}
+
+			table {
+				margin: auto;
+				max-width: 600px;
+			}
+
+			select, button, input {
+				vertical-align: middle;
+			}
+
+			select {
+				width: 100%;
+			}
+
+			input[type=text] {
+				height: 18px;
+				width: 165px;
+			}
+
+			input[type=checkbox] {
+				height: 18px;
+				width: 18px;
+				margin-right: 8px;
+			}
+
+			input.number {
+				width: 22px;
+			}
+			
+			table#settings {
+				font-weight: bold;
+				text-align: center;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+
+			#form_status {
+				text-align: center;
+				height: 25px;
+			}
+
+			.alert-box {
+				top: 8%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				padding: 15px;
+				margin-bottom: 20px;
+				border: 1px solid transparent;
+				border-radius: 4px;  
+				position:fixed;
+				opacity: 0;
+				transition: opacity 1s;
+			}
+
+			.success {
+				color: #3c763d;
+				background-color: #dff0d8;
+				border-color: #d6e9c6;
+			}
+
+			.error {
+				color: #a94442;
+				background-color: #f2dede;
+				border-color: #ebccd1;
+			}
+
+			.warning {
+				color: #8a6d3b;
+				background-color: #fcf8e3;
+				border-color: #faebcc;
+			}
+
+			.fade {
+				opacity: 1;
+			}
+
+			.align-right {
+				text-align: right;
+			}
+
+			.align-left {
+				text-align: left;
+			}
+
+			.tooltip::before {
+				content: "?";
+			}
+
+			.tooltip {
+				border-radius: 50%;
+				display: inline-block;
+				width: 25px;
+				height: 25px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			.tooltip-text {
+				visibility: hidden;
+				width: 200px;
+				background-color: black;
+				color: white;
+				padding: 10px;
+				border-radius: 6px;
+				font-size: small;
+				
+				/* Position the tooltip text - see examples below! */
+				position: absolute;
+				z-index: 1;
+			}
+
+			.tooltip:hover .tooltip-text {
+				visibility: visible;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="content">
+			<h1 data-translate='app_name'></h1>
+			<hr>
+
+			<table id='settings'>
+				<tr>
+					<td class='align-right' data-translate='settings_incognito' data-translate-type='label'></td>
+					<td class='align-left'>
+						<input id='incognito' type="checkbox">
+						<span class='tooltip'><span class='tooltip-text' data-translate='settings_incognito_tooltip'></span></span>
+					</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td class='align-right' data-translate='settings_disable_alt' data-translate-type='label'></td>
+					<td class='align-left'>
+						<input id='disable_alt' class='save_onchange' type="checkbox">
+						<span class='tooltip'><span class='tooltip-text' data-translate='settings_disable_alt_tooltip'></span></span>
+					</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td class='align-right' data-translate='settings_scale_increment' data-translate-type='label'></td>
+					<td class='align-left'>
+						<input id='scale_increment' class='number save_oninput' type="text">
+						<span class='tooltip'><span class='tooltip-text' data-translate='settings_scale_increment_tooltip'></span></span>
+					</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td class='align-right' data-translate='settings_rotate_increment' data-translate-type='label'></td>
+					<td class='align-left'>
+						<input id='rotate_increment' class='number save_oninput' type="text">
+						<span class='tooltip'><span class='tooltip-text' data-translate='settings_rotate_increment_tooltip'></span></span>
+					</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td class='align-right' data-translate='settings_position_increment' data-translate-type='label'></td>
+					<td class='align-left'>
+						<input id='position_increment' class='number save_oninput' type="text">
+						<span class='tooltip'><span class='tooltip-text' data-translate='settings_position_increment_tooltip'></span></span>
+					</td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td class='align-right' data-translate='settings_preset' data-translate-type='label'></td>
+					<td class='align-left'>
+						<select id='preset'></select>
+					</td>
+					<td>
+						<button id='reset' data-translate='settings_reset'></button>
+					</td>
+				</tr>
+
+				<tr>
+					<td class='align-right' data-translate='settings_always_on' data-translate-type='label'></td>
+					<td class='align-left'>
+						<select id='always_on' class='save_onchange'></select>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+
+			<table id='hotkeys'>
+				<thead>
+					<tr>
+						<th data-translate='settings_function'></th>
+						<th data-translate='settings_hotkey'></th>
+						<th></th>
+					</tr>
+				</thead>
+	
+				<tbody>
+					
+				</tbody>
+	
+				<tfoot>
+					<tr>
+						<td colspan='3'><button id='add' data-translate='settings_add'></button></td>
+					</tr>
+					<tr>
+						<td id='form_status' colspan='3'></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		
+		<script src='darkmode.js'></script>
+	</body>
+</html>

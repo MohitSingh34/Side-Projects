@@ -1,0 +1,11 @@
+/* direct url */
+body.video-transformer-direct-fix {
+    height: 100%;
+    width: 100%;
+}
+
+/* direct url */
+body.video-transformer-direct-fix video {
+    position: absolute !important;
+    height: 100%;
+}

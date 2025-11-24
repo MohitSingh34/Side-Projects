@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoom, rek, herpositioneer, roteer en draai video en afbeeldingen om met behulp van sneltoetsen."
+   },
+   "app_name": {
+      "message": "Videotransformator"
+   },
+   "commands_capture_event": {
+      "message": "Gebeurtenis vastleggen"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Horizontaal comprimeren"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Verticaal comprimeren"
+   },
+   "commands_flip_horizontal": {
+      "message": "Horizontaal omkeren"
+   },
+   "commands_flip_vertical": {
+      "message": "Verticaal spiegelen"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontaal uitrekken"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Verticaal uitrekken"
+   },
+   "commands_position_down": {
+      "message": "Omlaag 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Ga naar links naar beneden 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Ga naar rechts omlaag 🡦"
+   },
+   "commands_position_left": {
+      "message": "Beweeg naar links 🡠"
+   },
+   "commands_position_right": {
+      "message": "Ga naar rechts 🡢"
+   },
+   "commands_position_up": {
+      "message": "Omhoog 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Ga naar links omhoog 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Ga naar rechts omhoog 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "Extensie opnieuw laden"
+   },
+   "commands_reset": {
+      "message": "Transformaties resetten"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Draai ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Draai ⭮ 90 graden"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Draai ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Draai ⭯ 90 graden"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Sneltoetsen wisselen (video's)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Toggle Sneltoetsen (Afbeeldingen)"
+   },
+   "commands_zoom_in": {
+      "message": "In zoomen"
+   },
+   "commands_zoom_out": {
+      "message": "Uitzoomen"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_homepage": {
+      "message": "Startpagina"
+   },
+   "popup_settings": {
+      "message": "Instellingen"
+   },
+   "popup_store": {
+      "message": "Winkel"
+   },
+   "settings_add": {
+      "message": "Toevoegen"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatief"
+   },
+   "settings_always_on": {
+      "message": "Altijd aan"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Aangepast"
+   },
+   "settings_default_hotkeys": {
+      "message": "Standaard"
+   },
+   "settings_disable_alt": {
+      "message": "Schakel Alt Menu-sneltoets uit"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Voorkom onbedoeld indrukken van de Alt-toets. Schakel de sneltoets Alt-menu van de browser uit."
+   },
+   "settings_error_always_on": {
+      "message": "Ongeldige Always On-modus."
+   },
+   "settings_error_bad_function": {
+      "message": "Ongeldige functie geselecteerd."
+   },
+   "settings_error_bad_number": {
+      "message": "Ongeldig nummer."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Sneltoets is al een keer gebruikt."
+   },
+   "settings_function": {
+      "message": "Functie"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Sneltoets"
+   },
+   "settings_image_mode": {
+      "message": "Beeldmodus"
+   },
+   "settings_incognito": {
+      "message": "Toegestaan in"
+   },
+   "settings_incognito_chrome": {
+      "message": "Onherkenbaar"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Prive browsen"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Schakelbaar op de extensiebeheerpagina van de browser. Als u dit wijzigt, wordt de extensie opnieuw geladen, waardoor deze instellingenpagina wordt gesloten."
+   },
+   "settings_off_mode": {
+      "message": "Uit"
+   },
+   "settings_position_increment": {
+      "message": "Positie verhogen"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Hoeveel positie in pixels moet worden verplaatst. Standaard 20."
+   },
+   "settings_preset": {
+      "message": "Sneltoets voorinstelling"
+   },
+   "settings_reset": {
+      "message": "Resetten"
+   },
+   "settings_rotate_increment": {
+      "message": "Roteer verhoging"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Hoeveel te roteren in graden. Standaard 5."
+   },
+   "settings_saved": {
+      "message": "Opties opgeslagen"
+   },
+   "settings_scale_increment": {
+      "message": "Schaalvergroting"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Hoeveel procent moet worden ingezoomd of uitgerekt. Standaard 5."
+   },
+   "settings_video_mode": {
+      "message": "Videomodus"
+   }
+}

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zvětšení, roztažení, přemístění, otočení a převrácení videa a obrázků pomocí klávesových zkratek."
+   },
+   "app_name": {
+      "message": "Video Transformátor"
+   },
+   "commands_capture_event": {
+      "message": "Zachycení události"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Horizontálně komprimovat"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Vertikálně komprimovat"
+   },
+   "commands_flip_horizontal": {
+      "message": "Překlopit vodorovně"
+   },
+   "commands_flip_vertical": {
+      "message": "Převrátit svisle"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontálně protáhnout"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertikálně roztáhnout"
+   },
+   "commands_position_down": {
+      "message": "Přesunout dolů 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Posunout dolů doleva 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Přesunout dolů vpravo 🡦"
+   },
+   "commands_position_left": {
+      "message": "Přesunout doleva 🡠"
+   },
+   "commands_position_right": {
+      "message": "Přesunout doprava 🡢"
+   },
+   "commands_position_up": {
+      "message": "Posunout nahoru 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Posunout nahoru doleva 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Posunout nahoru vpravo 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "Znovu načíst rozšíření"
+   },
+   "commands_reset": {
+      "message": "Obnovit transformace"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Otočit ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Otočit ⭮ o 90 stupňů"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Otočit ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Otočit ⭯ o 90 stupňů"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Přepnout klávesové zkratky (videa)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Přepnout klávesové zkratky (obrázky)"
+   },
+   "commands_zoom_in": {
+      "message": "Přiblížit"
+   },
+   "commands_zoom_out": {
+      "message": "Oddálit"
+   },
+   "popup_feedback": {
+      "message": "Zpětná vazba"
+   },
+   "popup_homepage": {
+      "message": "Domovská stránka"
+   },
+   "popup_settings": {
+      "message": "Nastavení"
+   },
+   "popup_store": {
+      "message": "Obchod"
+   },
+   "settings_add": {
+      "message": "Přidat"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativní"
+   },
+   "settings_always_on": {
+      "message": "Vždy na"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Zvyk"
+   },
+   "settings_default_hotkeys": {
+      "message": "Výchozí"
+   },
+   "settings_disable_alt": {
+      "message": "Zakázat klávesovou zkratku nabídky Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Zabraňte náhodnému stisknutí klávesy Alt. Zakázat klávesovou zkratku nabídky Alt prohlížeče."
+   },
+   "settings_error_always_on": {
+      "message": "Neplatný režim Always On."
+   },
+   "settings_error_bad_function": {
+      "message": "Vybrána neplatná funkce."
+   },
+   "settings_error_bad_number": {
+      "message": "Neplatné číslo."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Klávesová zkratka již byla jednou použita."
+   },
+   "settings_function": {
+      "message": "Funkce"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Klávesová zkratka"
+   },
+   "settings_image_mode": {
+      "message": "Režim obrazu"
+   },
+   "settings_incognito": {
+      "message": "Vstup povolen"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Soukromé prohlížení"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Lze přepínat na stránce správy rozšíření prohlížeče. Pokud ji změníte, rozšíření se znovu načte a tato stránka nastavení se zavře."
+   },
+   "settings_off_mode": {
+      "message": "Vypnuto"
+   },
+   "settings_position_increment": {
+      "message": "Pozice přírůstek"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Jak moc posunout pozici v pixelech. Výchozí 20."
+   },
+   "settings_preset": {
+      "message": "Přednastavené klávesové zkratky"
+   },
+   "settings_reset": {
+      "message": "Resetovat"
+   },
+   "settings_rotate_increment": {
+      "message": "Otočit přírůstek"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Kolik otočit ve stupních. Výchozí 5."
+   },
+   "settings_saved": {
+      "message": "Možnosti uloženy"
+   },
+   "settings_scale_increment": {
+      "message": "Přírůstek měřítka"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Jak moc přiblížit nebo roztáhnout v procentech. Výchozí 5."
+   },
+   "settings_video_mode": {
+      "message": "Režim videa"
+   }
+}

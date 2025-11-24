@@ -1,0 +1,12 @@
+--- Starting Medha-Core Server (V3.5 - VEnv Fix) ---
+Whitelist file: /home/mohit/Projects/Project/chatgpt_to_pc/whitelist.txt
+Blacklist file: /home/mohit/Projects/Project/chatgpt_to_pc/blacklist.txt
+🚀 Listening on http://127.0.0.1:5001
+ * Serving Flask app 'command_server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+
+[Medha-Core] Command Server shutting down...
+[Medha-Core] Offline.

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoom, strekk, flytt, roter og snu video og bilder ved hjelp av hurtigtaster."
+   },
+   "app_name": {
+      "message": "Video Transformator"
+   },
+   "commands_capture_event": {
+      "message": "Fang hendelse"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Komprimer horisontalt"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Komprimer vertikalt"
+   },
+   "commands_flip_horizontal": {
+      "message": "Vend horisontalt"
+   },
+   "commands_flip_vertical": {
+      "message": "Vend vertikalt"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Strekk horisontalt"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Strekk vertikalt"
+   },
+   "commands_position_down": {
+      "message": "Flytt ned 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Flytt ned til venstre 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Flytt ned til høyre 🡦"
+   },
+   "commands_position_left": {
+      "message": "Flytt til venstre 🡠"
+   },
+   "commands_position_right": {
+      "message": "Flytt til høyre 🡢"
+   },
+   "commands_position_up": {
+      "message": "Flytt opp 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Flytt opp til venstre 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Flytt opp til høyre 🡥"
+   },
+   "commands_recenter": {
+      "message": "Sentrer på nytt"
+   },
+   "commands_reload": {
+      "message": "Last inn utvidelsen på nytt"
+   },
+   "commands_reset": {
+      "message": "Tilbakestill transformasjoner"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Roter ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Roter ⭮ 90 grader"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Roter ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Roter ⭯ 90 grader"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Veksle hurtigtaster (videoer)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Veksle hurtigtaster (bilder)"
+   },
+   "commands_zoom_in": {
+      "message": "Zoom inn"
+   },
+   "commands_zoom_out": {
+      "message": "Zoome ut"
+   },
+   "popup_feedback": {
+      "message": "Tilbakemelding"
+   },
+   "popup_homepage": {
+      "message": "Hjemmeside"
+   },
+   "popup_settings": {
+      "message": "Innstillinger"
+   },
+   "popup_store": {
+      "message": "Butikk"
+   },
+   "settings_add": {
+      "message": "Legg til"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativ"
+   },
+   "settings_always_on": {
+      "message": "Alltid på"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Tilpasset"
+   },
+   "settings_default_hotkeys": {
+      "message": "Misligholde"
+   },
+   "settings_disable_alt": {
+      "message": "Deaktiver Alt-meny hurtigtast"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Forhindre utilsiktede Alt-tastetrykk. Deaktiver nettleserens Alt-meny hurtigtast."
+   },
+   "settings_error_always_on": {
+      "message": "Ugyldig alltid på-modus."
+   },
+   "settings_error_bad_function": {
+      "message": "Ugyldig funksjon valgt."
+   },
+   "settings_error_bad_number": {
+      "message": "Feil nummer."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hurtigtasten er allerede brukt én gang."
+   },
+   "settings_function": {
+      "message": "Funksjon"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hurtigtast"
+   },
+   "settings_image_mode": {
+      "message": "Bildemodus"
+   },
+   "settings_incognito": {
+      "message": "Satt inn"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privat nettlesing"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Kan byttes på nettleserens utvidelsesadministrasjonsside. Hvis du endrer den, vil utvidelsen lastes inn på nytt, og denne innstillingssiden lukkes."
+   },
+   "settings_off_mode": {
+      "message": "Av"
+   },
+   "settings_position_increment": {
+      "message": "Posisjonsøkning"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Hvor mye skal du flytte posisjon i piksler. Standard 20."
+   },
+   "settings_preset": {
+      "message": "Hurtigtast forhåndsinnstilt"
+   },
+   "settings_reset": {
+      "message": "Nullstille"
+   },
+   "settings_rotate_increment": {
+      "message": "Roter inkrement"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Hvor mye du skal rotere i grader. Standard 5."
+   },
+   "settings_saved": {
+      "message": "Alternativer lagret"
+   },
+   "settings_scale_increment": {
+      "message": "Skalaøkning"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Hvor mye du skal zoome eller strekke i prosent. Standard 5."
+   },
+   "settings_video_mode": {
+      "message": "Videomodus"
+   }
+}

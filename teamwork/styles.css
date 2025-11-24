@@ -1,0 +1,187 @@
+/* Minimal + glassy aesthetic */
+:root {
+    --bg: #0f1724;
+    --panel: rgba(255, 255, 255, 0.06);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --accent: #6ee7b7;
+    --muted: rgba(255, 255, 255, 0.7);
+    --glass-blur: 8px;
+    --radius: 12px;
+    --topbar-height: 56px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+}
+
+html,
+body,
+#container,
+#map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #071023 0%, #0f1724 100%);
+}
+
+#topbar {
+    height: var(--topbar-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    color: var(--muted);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.brand {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: white;
+    letter-spacing: 0.3px
+}
+
+.status {
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.status.disconnected {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    color: #cbd5e1
+}
+
+.status.connected {
+    background: linear-gradient(90deg, var(--accent), #34d399);
+    color: #022;
+    box-shadow: 0 6px 18px rgba(34, 197, 94, 0.08)
+}
+
+#container {
+    height: 100%;
+    padding-top: var(--topbar-height);
+    position: relative;
+}
+
+/* Map */
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Glassy side panel */
+#sidepanel {
+    position: absolute;
+    right: 22px;
+    top: 92px;
+    width: 280px;
+    padding: 14px;
+    border-radius: var(--radius);
+    background: var(--panel);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(var(--glass-blur));
+    color: var(--muted);
+    z-index: 1100;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.panel-header h3 {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600
+}
+
+#userList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+#userList li {
+    padding: 8px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.02);
+    font-size: 0.95rem;
+    color: #e6eef8
+}
+
+/* Floating action area */
+#fab {
+    position: absolute;
+    left: 22px;
+    bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1200
+}
+
+.fab-btn {
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(180deg, #ffffff22, #ffffff11);
+    color: white;
+    font-weight: 700;
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    min-width: 140px
+}
+
+.fab-btn.secondary {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.04)
+}
+
+/* Simple responsive adjustments */
+@media (max-width:900px) {
+    #sidepanel {
+        width: 220px;
+        right: 12px;
+        top: 84px
+    }
+
+    .fab-btn {
+        min-width: 120px
+    }
+}
+
+/* Small transition polish */
+.fab-btn,
+#sidepanel,
+.status {
+    transition: all .18s ease
+}
+
+.fab-btn:hover {
+    transform: translateY(-3px)
+}
+
+#collapseBtn {
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 1.1rem
+}

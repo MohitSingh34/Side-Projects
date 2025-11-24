@@ -1,0 +1,335 @@
+// ==UserScript==
+// @name         Gemini Local Command Executor (Corrected V1.5)
+// @namespace    http://tampermonkey.net/
+// @version      1.5
+// @description  Execute local commands, handle confirmation output, and send terminal feedback to AI.
+// @author       Mohit (Corrected by Gemini)
+// @match        https://gemini.google.com/app*
+// @grant        GM_xmlhttpRequest
+// @connect      localhost
+// @connect      127.0.0.1
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // --- 1. CONFIGURATION & STATE ---
+    const SERVER_URL = "http://127.0.0.1:5000";
+    const EMOTION_SCRIPT_PATH = "python3 emotion_overlay.py";
+
+    let isServerConnected = false;
+    let isAiGenerating = false;
+    let lastProcessedResponse = '';
+
+    const commandRegex = /command - "(.*)"/g;
+
+    // --- SELECTORS ---
+    const STOP_BUTTON_SELECTOR = 'button[aria-label="Stop response"]';
+    const RESPONSE_CONTAINER_SELECTOR = 'response-container';
+    const MESSAGE_CONTENT_SELECTOR = '.model-response-text';
+    const INPUT_AREA_SELECTOR = '.input-area-container';
+    const CHATBOX_SELECTOR = 'div.ql-editor[aria-label="Enter a prompt here"]';
+    const SEND_BUTTON_SELECTOR = 'button[aria-label="Send message"]';
+
+
+    const EMOJI_COMMAND_MAP = {
+        '😄': `${EMOTION_SCRIPT_PATH} happy 5`, '😠': `${EMOTION_SCRIPT_PATH} angry 5`,
+        '😔': `${EMOTION_SCRIPT_PATH} sad 5`, '💖': `${EMOTION_SCRIPT_PATH} love 5`,
+        '🤩': `${EMOTION_SCRIPT_PATH} excited 5`, '🤔': `${EMOTION_SCRIPT_PATH} confused 5`,
+        '😌': `${EMOTION_SCRIPT_PATH} calm 5`, '😴': `${EMOTION_SCRIPT_PATH} sleepy 5`,
+        '🧠': `${EMOTION_SCRIPT_PATH} thinking 5`, '😮': `${EMOTION_SCRIPT_PATH} surprised 5`,
+        '😂': `${EMOTION_SCRIPT_PATH} laughing 5`, '🧐': `${EMOTION_SCRIPT_PATH} curious 5`,
+        '👍': `${EMOTION_SCRIPT_PATH} agree 5`, '🎉': `${EMOTION_SCRIPT_PATH} celebrate 5`,
+        '🎯': `${EMOTION_SCRIPT_PATH} focused 5`, '😐': `${EMOTION_SCRIPT_PATH} neutral 5`,
+        '😏': `${EMOTION_SCRIPT_PATH} neutral 5`
+    };
+
+    // --- 2. SERVER CONNECTION & UI ---
+
+    function showConnectionAlert(message) {
+        setTimeout(() => {
+            alert(message);
+        }, 500);
+    }
+
+    function checkServerConnection() {
+        console.log('🔌 Checking server connection...');
+        GM_xmlhttpRequest({
+            method: "GET",
+            url: `${SERVER_URL}/healthcheck`,
+            timeout: 5000,
+            onload: function(response) {
+                console.log('📡 Server response received:', response.status);
+                try {
+                    const result = JSON.parse(response.responseText);
+                    if (result.status === 'connected') {
+                        isServerConnected = true;
+                        console.log('✅ SUCCESS: Gemini script connected to server!');
+                        showConnectionAlert('✅ SUCCESS: Gemini Command Executor connected to local server!');
+                    } else {
+                        showConnectionAlert('❌ ERROR: Server responded but status invalid');
+                    }
+                } catch (e) {
+                    console.error('❌ Failed to parse server response:', e);
+                    showConnectionAlert('❌ ERROR: Invalid server response format');
+                }
+            },
+            onerror: function(error) {
+                console.error('❌ Server connection failed:', error);
+                showConnectionAlert('❌ ERROR: Could not connect to local server.');
+            },
+            ontimeout: function() {
+                console.error('⏰ Server connection timeout');
+                showConnectionAlert('❌ ERROR: Server connection timeout. Check if Flask server is running.');
+            }
+        });
+    }
+
+    /**
+     * Finds the Gemini chat box, inserts text, and clicks send.
+     */
+    function sendOutputToGemini(terminalOutput) {
+        const chatBox = document.querySelector(CHATBOX_SELECTOR);
+        const sendButton = document.querySelector(SEND_BUTTON_SELECTOR);
+
+        if (!chatBox || !sendButton) {
+            console.error("❌ Cannot find Gemini chat box or send button to send output.");
+            return;
+        }
+
+        const textToInsert = `terminal : "${terminalOutput}"`;
+
+        const p_tag = chatBox.querySelector('p');
+        if (p_tag) {
+            p_tag.innerText = textToInsert;
+        } else {
+            chatBox.innerText = textToInsert;
+        }
+
+        chatBox.dispatchEvent(new Event('input', { bubbles: true }));
+
+        setTimeout(() => {
+            if (sendButton.disabled) {
+                console.error("❌ Send button is still disabled. Aborting.");
+            } else {
+                console.log("🚀 Sending terminal output back to AI...");
+                sendButton.click();
+            }
+        }, 200);
+    }
+
+    // --- 3. SHELL COMMAND HANDLER ---
+
+    async function handleCommand(command) {
+        if (!isServerConnected) {
+            showConnectionAlert('❌ Server not connected. Please check connection first.');
+            return;
+        }
+
+        console.log(`📤 Gemini Command Trigger: ${command}`);
+        GM_xmlhttpRequest({
+            method: "POST",
+            url: `${SERVER_URL}/execute`,
+            headers: { "Content-Type": "application/json" },
+            data: JSON.stringify({ command: command }),
+            onload: function(response) {
+                try {
+                    const result = JSON.parse(response.responseText);
+                    console.log('📊 Execute response:', result);
+
+                    if (result.output) {
+                        console.log("📬 Received output from server, sending to Gemini...");
+                        const cleanedOutput = result.output.trim();
+                        sendOutputToGemini(cleanedOutput);
+                    }
+                    else if (result.status === 'confirmation_required') {
+                        showConfirmationPopup(command);
+                    } else if (result.status === 'success') {
+                        console.log(`✅ Whitelisted command executed (no output sent): ${command}`);
+                    } else if (result.status === 'error') {
+                        console.error(`❌ Server error: ${result.message}`);
+                    }
+                } catch (e) {
+                    console.error('❌ Failed to parse execute response:', e);
+                }
+            },
+            onerror: function(error) {
+                console.error('❌ Error during command execution:', error);
+                showConnectionAlert('❌ Command execution failed. Check server connection.');
+            }
+        });
+    }
+
+    function showConfirmationPopup(command) {
+        if (confirm(`Gemini wants to run:\n\n${command}\n\nOK = Run Once\nCancel = Block`)) {
+            forceExecute(command); // This will now handle output
+            if (confirm(`Allow this command to run automatically in the future?`)) {
+                whitelistCommand(command);
+            }
+        } else {
+            console.log(`🚫 Execution blocked by user: ${command}`);
+        }
+    }
+
+    /**
+     * THIS FUNCTION IS NOW FIXED
+     * It handles the output from commands that required user confirmation.
+     */
+    function forceExecute(command) {
+        GM_xmlhttpRequest({
+            method: "POST",
+            url: `${SERVER_URL}/execute`,
+            headers: { "Content-Type": "application/json" },
+            data: JSON.stringify({ command: command, force: true }),
+            onload: (response) => {
+                console.log(`✅ User approved execution: ${command}`);
+
+                // --- THE FIX ---
+                try {
+                    const result = JSON.parse(response.responseText);
+                    console.log('📊 ForceExecute response:', result);
+
+                    if (result.output) {
+                        console.log("📬 Received output from forced execution, sending to Gemini...");
+                        const cleanedOutput = result.output.trim();
+                        // Output ko AI ko wapas bhejo
+                        sendOutputToGemini(cleanedOutput);
+                    }
+                } catch (e) {
+                    console.error('❌ Failed to parse force-execute response:', e);
+                }
+                // --- FIX ENDS ---
+            }
+        });
+    }
+
+    function whitelistCommand(command) {
+        GM_xmlhttpRequest({
+            method: "POST",
+            url: `${SERVER_URL}/whitelist`,
+            headers: { "Content-Type": "application/json" },
+            data: JSON.stringify({ command: command }),
+            onload: () => {
+                alert(`✅ Command whitelisted:\n${command}`);
+                console.log(`📝 Command added to whitelist: ${command}`);
+            }
+        });
+    }
+
+    // --- 4. GEMINI RESPONSE SCANNER ---
+
+    function scanGeminiResponse() {
+        if (!isServerConnected) return;
+
+        const responseContainers = document.querySelectorAll(RESPONSE_CONTAINER_SELECTOR);
+        if (responseContainers.length === 0) return;
+
+        const lastResponseContainer = responseContainers[responseContainers.length - 1];
+        const messageContent = lastResponseContainer.querySelector(MESSAGE_CONTENT_SELECTOR);
+        if (!messageContent) return;
+
+        const text = messageContent.innerText || messageContent.textContent;
+        if (!text) return;
+
+        const responseHash = text.substring(0, 100) + text.length;
+        if (responseHash === lastProcessedResponse) return;
+
+        lastProcessedResponse = responseHash;
+        console.log("📝 New Gemini response detected. Scanning for commands...");
+
+        let foundShellCommands = new Set();
+        let foundEmotions = new Set();
+        let match;
+
+        commandRegex.lastIndex = 0; // Reset regex state
+
+        // 1. Scan for explicit SHELL commands
+        while ((match = commandRegex.exec(text)) !== null) {
+            foundShellCommands.add(match[1]);
+        }
+
+        // 2. Scan for Emojis (Text and Image)
+        for (const [emoji, command] of Object.entries(EMOJI_COMMAND_MAP)) {
+            if (text.includes(emoji) && !foundEmotions.has(emoji)) {
+                foundShellCommands.add(command);
+                foundEmotions.add(emoji);
+            }
+        }
+        const images = messageContent.querySelectorAll('img');
+        images.forEach(img => {
+            const emojiAltText = img.alt;
+            if (EMOJI_COMMAND_MAP[emojiAltText] && !foundEmotions.has(emojiAltText)) {
+                const command = EMOJI_COMMAND_MAP[emojiAltText];
+                foundShellCommands.add(command);
+                foundEmotions.add(emojiAltText);
+            }
+        });
+
+        // 3. Execute all found commands
+        if (foundShellCommands.size > 0) {
+            console.log(`🚀 Found ${foundShellCommands.size} command(s) in Gemini response`);
+            foundShellCommands.forEach(handleCommand);
+        } else {
+            console.log("❌ No commands found in this response");
+        }
+    }
+
+    // --- 5. CORE LOGIC: BUTTON STATE DETECTION ---
+
+    function initializeButtonObserver() {
+        const targetNode = document.querySelector(INPUT_AREA_SELECTOR);
+        if (!targetNode) {
+            setTimeout(initializeButtonObserver, 2000);
+            return;
+        }
+
+        const observer = new MutationObserver((mutations) => {
+            const stopButton = document.querySelector(STOP_BUTTON_SELECTOR);
+            const isCurrentlyGenerating = (stopButton !== null);
+
+            if (!isAiGenerating && isCurrentlyGenerating) {
+                isAiGenerating = true;
+                lastProcessedResponse = ''; // Reset hash
+            }
+            else if (isAiGenerating && !isCurrentlyGenerating) {
+                isAiGenerating = false;
+                setTimeout(scanGeminiResponse, 1000); // Scan after generation finished
+            }
+        });
+
+        observer.observe(targetNode, {
+            childList: true,
+            subtree: true
+        });
+    }
+
+    // --- 6. INITIALIZATION ---
+
+    function addManualTestButton() {
+        const testBtn = document.createElement('button');
+
+        // .textContent fix for TrustedHTML policy
+        testBtn.textContent = '🔌 Test Server';
+
+        testBtn.style.cssText = `
+            position: fixed; top: 10px; right: 10px; z-index: 10000;
+            background: #4285f4; color: white; border: none;
+            padding: 5px 10px; border-radius: 5px; cursor: pointer; font-size: 12px;
+        `;
+        testBtn.onclick = checkServerConnection;
+        document.body.appendChild(testBtn);
+    }
+
+    function initialize() {
+        console.log("🚀 Gemini Command Executor v1.5 loading...");
+        addManualTestButton();
+        setTimeout(initializeButtonObserver, 2000);
+        setTimeout(checkServerConnection, 3000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+})();

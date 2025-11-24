@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Kiirklahvide abil saate videot ja pilte suumida, venitada, ümber paigutada, pöörata ja ümber pöörata."
+   },
+   "app_name": {
+      "message": "Video Transformer"
+   },
+   "commands_capture_event": {
+      "message": "Jäädvusta sündmus"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Suruge horisontaalselt kokku"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Vertikaalselt tihendada"
+   },
+   "commands_flip_horizontal": {
+      "message": "Pöörake horisontaalselt"
+   },
+   "commands_flip_vertical": {
+      "message": "Pöörake vertikaalselt"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horisontaalselt venitada"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertikaalselt venitada"
+   },
+   "commands_position_down": {
+      "message": "Liigu alla 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Liiguta alla vasakule 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Liiguta alla paremale 🡦"
+   },
+   "commands_position_left": {
+      "message": "Liiguta vasakule 🡠"
+   },
+   "commands_position_right": {
+      "message": "Liiguta paremale 🡢"
+   },
+   "commands_position_up": {
+      "message": "Liigu üles 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Liiguta üles vasakule 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Liiguta üles paremale 🡥"
+   },
+   "commands_recenter": {
+      "message": "Värskenda"
+   },
+   "commands_reload": {
+      "message": "Laadi laiendus uuesti"
+   },
+   "commands_reset": {
+      "message": "Lähtestage teisendused"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Pööra ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Pööra ⭮ 90 kraadi"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Pööra ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Pöörake ⭯ 90 kraadi"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Lülitage kiirklahvid (videod)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Lülitage kiirklahvid (pildid)"
+   },
+   "commands_zoom_in": {
+      "message": "Suurenda"
+   },
+   "commands_zoom_out": {
+      "message": "Suumi välja"
+   },
+   "popup_feedback": {
+      "message": "Tagasiside"
+   },
+   "popup_homepage": {
+      "message": "Koduleht"
+   },
+   "popup_settings": {
+      "message": "Seaded"
+   },
+   "popup_store": {
+      "message": "Kauplus"
+   },
+   "settings_add": {
+      "message": "Lisama"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatiivne"
+   },
+   "settings_always_on": {
+      "message": "Alati olemas"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Kohandatud"
+   },
+   "settings_default_hotkeys": {
+      "message": "Vaikimisi"
+   },
+   "settings_disable_alt": {
+      "message": "Keela Alt-menüü kiirklahv"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Vältige juhuslikku Alt-klahvi vajutamist. Keela brauseri Alt-menüü kiirklahv."
+   },
+   "settings_error_always_on": {
+      "message": "Kehtetu Alati sees režiim."
+   },
+   "settings_error_bad_function": {
+      "message": "Valitud vigane funktsioon."
+   },
+   "settings_error_bad_number": {
+      "message": "Kehtetu number."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Kiirklahvi on juba korra kasutatud."
+   },
+   "settings_function": {
+      "message": "Funktsioon"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Kiirklahv"
+   },
+   "settings_image_mode": {
+      "message": "Pildirežiim"
+   },
+   "settings_incognito": {
+      "message": "Lubatud sisse"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privaatne sirvimine"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Lülitav brauseri laienduse haldamise lehel. Selle muutmisel laaditakse laiendus uuesti, mistõttu seadete leht suletakse."
+   },
+   "settings_off_mode": {
+      "message": "Väljas"
+   },
+   "settings_position_increment": {
+      "message": "Positsiooni juurdekasv"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Kui palju positsiooni liigutada pikslites. Vaikimisi 20."
+   },
+   "settings_preset": {
+      "message": "Kiirklahvi eelseadistus"
+   },
+   "settings_reset": {
+      "message": "Lähtesta"
+   },
+   "settings_rotate_increment": {
+      "message": "Pööra juurdekasvu"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Kui palju kraadides pöörata. Vaikimisi 5."
+   },
+   "settings_saved": {
+      "message": "Valikud Salvestatud"
+   },
+   "settings_scale_increment": {
+      "message": "Skaala suurendamine"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Kui palju suumida või protsentides venitada. Vaikimisi 5."
+   },
+   "settings_video_mode": {
+      "message": "Videorežiim"
+   }
+}

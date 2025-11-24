@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODO</title>
+
+		<style>
+			@media (prefers-color-scheme: dark) {
+				body {
+					color: #ffffff;
+					background-color: #292A2D;
+				}
+			}
+
+			/* same as: prefers-color-scheme: dark */
+            body.darkmode {
+                color: #ffffff;
+                background-color: #292A2D;
+            }
+			
+            button {
+                width: 100%;
+				white-space: nowrap;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+		</style>
+	</head>
+	
+	<body>
+		<button id="settings" data-translate="popup_settings"></button>
+		<button id="store" data-translate="popup_store"></button>
+        <button id="homepage" data-translate="popup_homepage"></button>
+		
+		<script src='darkmode.js'></script>
+		<script src='translate.js'></script>
+		<script src='popup.js'></script>
+	</body>
+</html>

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "단축키를 사용하여 비디오와 이미지를 확대/축소, 늘리기, 위치 변경, 회전 및 뒤집습니다."
+   },
+   "app_name": {
+      "message": "비디오 변압기"
+   },
+   "commands_capture_event": {
+      "message": "캡처 이벤트"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "수평으로 압축"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "수직으로 압축"
+   },
+   "commands_flip_horizontal": {
+      "message": "수평으로 뒤집기"
+   },
+   "commands_flip_vertical": {
+      "message": "수직으로 뒤집기"
+   },
+   "commands_increase_stretch_x": {
+      "message": "수평으로 늘이기"
+   },
+   "commands_increase_stretch_y": {
+      "message": "수직으로 늘이기"
+   },
+   "commands_position_down": {
+      "message": "아래로 이동 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "왼쪽 아래로 이동 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "오른쪽 아래로 이동 🡦"
+   },
+   "commands_position_left": {
+      "message": "왼쪽으로 이동 🡠"
+   },
+   "commands_position_right": {
+      "message": "오른쪽으로 이동 🡢"
+   },
+   "commands_position_up": {
+      "message": "위로 이동 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "왼쪽 위로 이동 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "오른쪽 위로 이동 🡥"
+   },
+   "commands_recenter": {
+      "message": "중앙 집중기"
+   },
+   "commands_reload": {
+      "message": "확장 프로그램 새로고침"
+   },
+   "commands_reset": {
+      "message": "변환 재설정"
+   },
+   "commands_rotate_clockwise": {
+      "message": "회전 ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "⭮ 90도 회전"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "회전 ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "⭯ 90도 회전"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "토글 단축키(동영상)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "토글 단축키(이미지)"
+   },
+   "commands_zoom_in": {
+      "message": "확대"
+   },
+   "commands_zoom_out": {
+      "message": "축소"
+   },
+   "popup_feedback": {
+      "message": "피드백"
+   },
+   "popup_homepage": {
+      "message": "홈페이지"
+   },
+   "popup_settings": {
+      "message": "설정"
+   },
+   "popup_store": {
+      "message": "가게"
+   },
+   "settings_add": {
+      "message": "추가하다"
+   },
+   "settings_alt_hotkeys": {
+      "message": "대안"
+   },
+   "settings_always_on": {
+      "message": "항상 켜짐"
+   },
+   "settings_custom_hotkeys": {
+      "message": "관습"
+   },
+   "settings_default_hotkeys": {
+      "message": "기본"
+   },
+   "settings_disable_alt": {
+      "message": "대체 메뉴 단축키 비활성화"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "실수로 Alt 키를 누르는 것을 방지합니다. 브라우저의 Alt 메뉴 핫키를 비활성화합니다."
+   },
+   "settings_error_always_on": {
+      "message": "Always On 모드가 잘못되었습니다."
+   },
+   "settings_error_bad_function": {
+      "message": "잘못된 기능을 선택했습니다."
+   },
+   "settings_error_bad_number": {
+      "message": "잘못된 번호."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "핫키는 이미 한 번 사용되었습니다."
+   },
+   "settings_function": {
+      "message": "기능"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "단축키"
+   },
+   "settings_image_mode": {
+      "message": "이미지 모드"
+   },
+   "settings_incognito": {
+      "message": "허용"
+   },
+   "settings_incognito_chrome": {
+      "message": "가명"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "프라이빗 브라우징"
+   },
+   "settings_incognito_tooltip": {
+      "message": "브라우저의 확장 프로그램 관리 페이지에서 전환할 수 있습니다. 이를 변경하면 확장 프로그램이 다시 로드되어 이 설정 페이지가 닫힙니다."
+   },
+   "settings_off_mode": {
+      "message": "끄다"
+   },
+   "settings_position_increment": {
+      "message": "위치 증가"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "픽셀 단위로 위치를 이동하는 양입니다. 기본 20."
+   },
+   "settings_preset": {
+      "message": "단축키 사전 설정"
+   },
+   "settings_reset": {
+      "message": "초기화"
+   },
+   "settings_rotate_increment": {
+      "message": "회전 증분"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "회전할 각도입니다. 기본값 5."
+   },
+   "settings_saved": {
+      "message": "옵션 저장됨"
+   },
+   "settings_scale_increment": {
+      "message": "배율 증분"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "백분율로 확대/축소하거나 늘릴 정도입니다. 기본값 5."
+   },
+   "settings_video_mode": {
+      "message": "비디오 모드"
+   }
+}

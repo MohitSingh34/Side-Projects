@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Zoom, stretch, reposition, rotate, and flip video and images using hotkeys."
+   },
+   "app_name": {
+      "message": "Video Transformer"
+   },
+   "commands_capture_event": {
+      "message": "Capture Event"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Horizontally Compress"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Vertically Compress"
+   },
+   "commands_flip_horizontal": {
+      "message": "Flip Horizontally"
+   },
+   "commands_flip_vertical": {
+      "message": "Flip Vertically"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontally Stretch"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertically Stretch"
+   },
+   "commands_position_down": {
+      "message": "Move Down 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Move Down Left 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Move Down Right 🡦"
+   },
+   "commands_position_left": {
+      "message": "Move Left 🡠"
+   },
+   "commands_position_right": {
+      "message": "Move Right 🡢"
+   },
+   "commands_position_up": {
+      "message": "Move Up 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Move Up Left 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Move Up Right 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "Reload Extension"
+   },
+   "commands_reset": {
+      "message": "Reset Transformations"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Rotate ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Rotate ⭮ 90 Degrees"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Rotate ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Rotate ⭯ 90 Degrees"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Toggle Hotkeys (Videos)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Toggle Hotkeys (Images)"
+   },
+   "commands_zoom_in": {
+      "message": "Zoom In"
+   },
+   "commands_zoom_out": {
+      "message": "Zoom Out"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_homepage": {
+      "message": "Homepage"
+   },
+   "popup_settings": {
+      "message": "Settings"
+   },
+   "popup_store": {
+      "message": "Store"
+   },
+   "settings_add": {
+      "message": "Add"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternative"
+   },
+   "settings_always_on": {
+      "message": "Always On"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Custom"
+   },
+   "settings_default_hotkeys": {
+      "message": "Default"
+   },
+   "settings_disable_alt": {
+      "message": "Disable Alt Menu Hotkey"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Prevent accidental Alt keypresses.  Disables browser's Alt menu hotkey."
+   },
+   "settings_error_always_on": {
+      "message": "Invalid Always On mode."
+   },
+   "settings_error_bad_function": {
+      "message": "Invalid function selected."
+   },
+   "settings_error_bad_number": {
+      "message": "invalid number."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "hotkey has already been used once."
+   },
+   "settings_function": {
+      "message": "Function"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Image Mode"
+   },
+   "settings_incognito": {
+      "message": "Allowed in"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Private Browsing"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Toggleable in the browser's extension management page.  Changing it will reload the extension, causing this settings page to close."
+   },
+   "settings_off_mode": {
+      "message": "Off"
+   },
+   "settings_position_increment": {
+      "message": "Position Increment"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "How much to move position in pixels. Default 20."
+   },
+   "settings_preset": {
+      "message": "Hotkey Preset"
+   },
+   "settings_reset": {
+      "message": "Reset"
+   },
+   "settings_rotate_increment": {
+      "message": "Rotate Increment"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "How much to rotate in degrees. Default 5."
+   },
+   "settings_saved": {
+      "message": "Options Saved"
+   },
+   "settings_scale_increment": {
+      "message": "Scale Increment"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "How much to zoom or stretch in percentage. Default 5."
+   },
+   "settings_video_mode": {
+      "message": "Video Mode"
+   }
+}

@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Padidinkite, ištempkite, pakeiskite padėtį, pasukite ir apverskite vaizdo įrašą ir vaizdus naudodami sparčiuosius klavišus."
+   },
+   "app_name": {
+      "message": "Vaizdo Transformatorius"
+   },
+   "commands_capture_event": {
+      "message": "Užfiksuoti įvykį"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Horizontaliai suspausti"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Vertikaliai suspausti"
+   },
+   "commands_flip_horizontal": {
+      "message": "Apverskite horizontaliai"
+   },
+   "commands_flip_vertical": {
+      "message": "Apverskite vertikaliai"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontaliai ištempti"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Vertikaliai ištempti"
+   },
+   "commands_position_down": {
+      "message": "Perkelti žemyn 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Judėti žemyn į kairę 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Perkelti žemyn į dešinę 🡦"
+   },
+   "commands_position_left": {
+      "message": "Perkelti į kairę 🡠"
+   },
+   "commands_position_right": {
+      "message": "Perkelti į dešinę 🡢"
+   },
+   "commands_position_up": {
+      "message": "Perkelti aukštyn 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Perkelti aukštyn į kairę 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Perkelti aukštyn dešinėn 🡥"
+   },
+   "commands_recenter": {
+      "message": "Atnaujinti"
+   },
+   "commands_reload": {
+      "message": "Iš naujo įkelti plėtinį"
+   },
+   "commands_reset": {
+      "message": "Iš naujo nustatyti transformacijas"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Pasukti ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Pasukti ⭮ 90 laipsnių"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Pasukti ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Pasukti ⭯ 90 laipsnių"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Perjungti sparčiuosius klavišus (vaizdo įrašai)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Perjungti sparčiuosius klavišus (vaizdai)"
+   },
+   "commands_zoom_in": {
+      "message": "Priartinti"
+   },
+   "commands_zoom_out": {
+      "message": "Nutolinti"
+   },
+   "popup_feedback": {
+      "message": "Atsiliepimas"
+   },
+   "popup_homepage": {
+      "message": "Pagrindinis puslapis"
+   },
+   "popup_settings": {
+      "message": "Nustatymai"
+   },
+   "popup_store": {
+      "message": "Parduotuvė"
+   },
+   "settings_add": {
+      "message": "Papildyti"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternatyva"
+   },
+   "settings_always_on": {
+      "message": "Visada"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Pasirinktinis"
+   },
+   "settings_default_hotkeys": {
+      "message": "Numatytas"
+   },
+   "settings_disable_alt": {
+      "message": "Išjungti Alt Menu spartųjį klavišą"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Apsaugokite nuo atsitiktinio Alt klavišo paspaudimų. Išjungti naršyklės Alt meniu spartųjį klavišą."
+   },
+   "settings_error_always_on": {
+      "message": "Netinkamas „Visada įjungtas“ režimas."
+   },
+   "settings_error_bad_function": {
+      "message": "Pasirinkta netinkama funkcija."
+   },
+   "settings_error_bad_number": {
+      "message": "Neteisingas numeris."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Spartusis klavišas jau buvo vieną kartą panaudotas."
+   },
+   "settings_function": {
+      "message": "Funkcija"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Spartusis klavišas"
+   },
+   "settings_image_mode": {
+      "message": "Vaizdo režimas"
+   },
+   "settings_incognito": {
+      "message": "Įleistas"
+   },
+   "settings_incognito_chrome": {
+      "message": "Inkognito režimas"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Privatus naršymas"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Perjungiama naršyklės plėtinių valdymo puslapyje. Jį pakeitus plėtinys bus įkeltas iš naujo, todėl šis nustatymų puslapis bus uždarytas."
+   },
+   "settings_off_mode": {
+      "message": "Išjungta"
+   },
+   "settings_position_increment": {
+      "message": "Pozicijos padidėjimas"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Kiek perkelti padėtį pikseliais. Numatytasis 20."
+   },
+   "settings_preset": {
+      "message": "Iš anksto nustatytas greitasis klavišas"
+   },
+   "settings_reset": {
+      "message": "Nustatyti iš naujo"
+   },
+   "settings_rotate_increment": {
+      "message": "Pasukti žingsnį"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Kiek pasukti laipsniais. Numatytoji 5."
+   },
+   "settings_saved": {
+      "message": "Parinktys išsaugotos"
+   },
+   "settings_scale_increment": {
+      "message": "Skalės padidėjimas"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Kiek padidinti arba ištempti procentais. Numatytoji 5."
+   },
+   "settings_video_mode": {
+      "message": "Vaizdo įrašo režimas"
+   }
+}

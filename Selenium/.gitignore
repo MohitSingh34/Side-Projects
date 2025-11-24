@@ -1,0 +1,23 @@
+# Ignore Python virtual environments
+/myvenv
+/venv
+
+# Ignore ChromeDriver binaries
+chromedriv*
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore IDE/editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Ignore logs and temporary files
+*.log
+*.tmp

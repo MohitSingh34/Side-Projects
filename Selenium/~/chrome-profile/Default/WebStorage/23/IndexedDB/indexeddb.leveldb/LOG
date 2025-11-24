@@ -1,0 +1,6 @@
+2025/10/17-18:56:11.726 24320 Creating DB /home/mohit/Desktop/Project/Selenium/~/chrome-profile/Default/WebStorage/23/IndexedDB/indexeddb.leveldb since it was missing.
+2025/10/17-18:56:12.863 24320 Reusing MANIFEST /home/mohit/Desktop/Project/Selenium/~/chrome-profile/Default/WebStorage/23/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/10/17-18:56:14.941 24323 Level-0 table #5: started
+2025/10/17-18:56:15.170 24323 Level-0 table #5: 1328 bytes OK
+2025/10/17-18:56:15.312 24323 Delete type=0 #3
+2025/10/17-18:56:15.314 24320 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

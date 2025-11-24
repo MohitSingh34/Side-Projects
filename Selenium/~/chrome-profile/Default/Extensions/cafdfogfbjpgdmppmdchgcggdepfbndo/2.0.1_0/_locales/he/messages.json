@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "זום, מתיחה, מיקום מחדש, סובב והפוך וידאו ותמונות באמצעות מקשי קיצור."
+   },
+   "app_name": {
+      "message": "שנאי וידאו"
+   },
+   "commands_capture_event": {
+      "message": "לכידת אירוע"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "דחיסה אופקית"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "דחיסה אנכית"
+   },
+   "commands_flip_horizontal": {
+      "message": "הפוך אופקית"
+   },
+   "commands_flip_vertical": {
+      "message": "הפוך אנכית"
+   },
+   "commands_increase_stretch_x": {
+      "message": "מתיחה אופקית"
+   },
+   "commands_increase_stretch_y": {
+      "message": "למתוח אנכית"
+   },
+   "commands_position_down": {
+      "message": "הזז למטה 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "זז למטה שמאלה 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "זז למטה ימינה 🡦"
+   },
+   "commands_position_left": {
+      "message": "הזז שמאלה 🡠"
+   },
+   "commands_position_right": {
+      "message": "הזז ימינה 🡢"
+   },
+   "commands_position_up": {
+      "message": "לזוז למעלה 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "זוז למעלה שמאלה 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "זז למעלה ימינה 🡥"
+   },
+   "commands_recenter": {
+      "message": "מרכז מחדש"
+   },
+   "commands_reload": {
+      "message": "טען מחדש את ההרחבה"
+   },
+   "commands_reset": {
+      "message": "אפס טרנספורמציות"
+   },
+   "commands_rotate_clockwise": {
+      "message": "⭮ להתחלף"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "סובב ⭮ 90 מעלות"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "⭯ להתחלף"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "סובב ⭯ 90 מעלות"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "החלף מקשי קיצור (סרטונים)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "החלף מקשי קיצור (תמונות)"
+   },
+   "commands_zoom_in": {
+      "message": "לְהִתְמַקֵד"
+   },
+   "commands_zoom_out": {
+      "message": "להקטין את התצוגה"
+   },
+   "popup_feedback": {
+      "message": "מָשׁוֹב"
+   },
+   "popup_homepage": {
+      "message": "דף הבית"
+   },
+   "popup_settings": {
+      "message": "הגדרות"
+   },
+   "popup_store": {
+      "message": "חנות"
+   },
+   "settings_add": {
+      "message": "לְהוֹסִיף"
+   },
+   "settings_alt_hotkeys": {
+      "message": "חֲלוּפָה"
+   },
+   "settings_always_on": {
+      "message": "תמיד פועל"
+   },
+   "settings_custom_hotkeys": {
+      "message": "המותאם אישית"
+   },
+   "settings_default_hotkeys": {
+      "message": "בְּרִירַת מֶחדָל"
+   },
+   "settings_disable_alt": {
+      "message": "השבת מקש קיצור של תפריט Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "מניעת לחיצות מקריות Alt. השבת את מקש הקיצור של תפריט Alt של הדפדפן."
+   },
+   "settings_error_always_on": {
+      "message": "מצב תמיד פועל לא חוקי."
+   },
+   "settings_error_bad_function": {
+      "message": "נבחרה פונקציה לא חוקית."
+   },
+   "settings_error_bad_number": {
+      "message": "מספר לא תקין."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "מקש קיצור כבר היה בשימוש פעם אחת."
+   },
+   "settings_function": {
+      "message": "פוּנקצִיָה"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "מקש קיצור"
+   },
+   "settings_image_mode": {
+      "message": "מצב תמונה"
+   },
+   "settings_incognito": {
+      "message": "מורשה להכנס"
+   },
+   "settings_incognito_chrome": {
+      "message": "גלישה בסתר"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "גלישה פרטית"
+   },
+   "settings_incognito_tooltip": {
+      "message": "ניתן להחלפה בדף ניהול התוספים של הדפדפן. שינוי זה יטען מחדש את התוסף, ויגרום לסגירת דף ההגדרות הזה."
+   },
+   "settings_off_mode": {
+      "message": "כבוי"
+   },
+   "settings_position_increment": {
+      "message": "תוספת מיקום"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "כמה להזיז מיקום בפיקסלים. ברירת מחדל 20."
+   },
+   "settings_preset": {
+      "message": "קביעת מקש קיצור מראש"
+   },
+   "settings_reset": {
+      "message": "אִתחוּל"
+   },
+   "settings_rotate_increment": {
+      "message": "סובב תוספת"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "כמה להסתובב במעלות. ברירת מחדל 5."
+   },
+   "settings_saved": {
+      "message": "אפשרויות נשמרו"
+   },
+   "settings_scale_increment": {
+      "message": "תוספת קנה מידה"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "כמה להגדיל או למתוח באחוזים. ברירת מחדל 5."
+   },
+   "settings_video_mode": {
+      "message": "מצב וידאו"
+   }
+}

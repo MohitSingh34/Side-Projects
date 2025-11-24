@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Ingrandisci, allunga, riposiziona, ruota e capovolgi video e immagini utilizzando i tasti di scelta rapida."
+   },
+   "app_name": {
+      "message": "Trasformatore Video"
+   },
+   "commands_capture_event": {
+      "message": "Cattura evento"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Comprimi orizzontalmente"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Comprimi verticalmente"
+   },
+   "commands_flip_horizontal": {
+      "message": "Capovolgi orizzontalmente"
+   },
+   "commands_flip_vertical": {
+      "message": "Capovolgi verticalmente"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Allunga orizzontalmente"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Allunga verticalmente"
+   },
+   "commands_position_down": {
+      "message": "Sposta in basso 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Sposta in basso a sinistra 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Sposta in basso a destra 🡦"
+   },
+   "commands_position_left": {
+      "message": "Sposta a sinistra 🡠"
+   },
+   "commands_position_right": {
+      "message": "Sposta a destra 🡢"
+   },
+   "commands_position_up": {
+      "message": "Sposta su 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Sposta in alto a sinistra 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Sposta in alto a destra 🡥"
+   },
+   "commands_recenter": {
+      "message": "Recenter"
+   },
+   "commands_reload": {
+      "message": "Ricarica estensione"
+   },
+   "commands_reset": {
+      "message": "Ripristina trasformazioni"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Ruota ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Ruota ⭮ 90 gradi"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Ruota ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Ruota di 90 gradi"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Attiva/Disattiva tasti di scelta rapida (video)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Attiva/Disattiva tasti di scelta rapida (immagini)"
+   },
+   "commands_zoom_in": {
+      "message": "Ingrandire"
+   },
+   "commands_zoom_out": {
+      "message": "Rimpicciolisci"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_homepage": {
+      "message": "Pagina iniziale"
+   },
+   "popup_settings": {
+      "message": "Impostazioni"
+   },
+   "popup_store": {
+      "message": "Negozio"
+   },
+   "settings_add": {
+      "message": "Aggiungere"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativa"
+   },
+   "settings_always_on": {
+      "message": "Sempre acceso"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Costume"
+   },
+   "settings_default_hotkeys": {
+      "message": "Predefinito"
+   },
+   "settings_disable_alt": {
+      "message": "Disabilita il tasto di scelta rapida del menu Alt"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Impedisci la pressione accidentale del tasto Alt. Disattiva il tasto di scelta rapida del menu Alt del browser."
+   },
+   "settings_error_always_on": {
+      "message": "Modalità Always On non valida."
+   },
+   "settings_error_bad_function": {
+      "message": "Funzione selezionata non valida."
+   },
+   "settings_error_bad_number": {
+      "message": "Numero non valido."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Il tasto di scelta rapida è già stato utilizzato una volta."
+   },
+   "settings_function": {
+      "message": "Funzione"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Tasto di scelta rapida"
+   },
+   "settings_image_mode": {
+      "message": "Modalità immagine"
+   },
+   "settings_incognito": {
+      "message": "Consentito in"
+   },
+   "settings_incognito_chrome": {
+      "message": "Incognito"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Navigazione privata"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Attivabile nella pagina di gestione delle estensioni del browser. La modifica ricaricherà l'estensione, provocando la chiusura di questa pagina delle impostazioni."
+   },
+   "settings_off_mode": {
+      "message": "Spento"
+   },
+   "settings_position_increment": {
+      "message": "Incremento posizione"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Di quanto spostare la posizione in pixel. Predefinito 20."
+   },
+   "settings_preset": {
+      "message": "Tasto di scelta rapida preimpostato"
+   },
+   "settings_reset": {
+      "message": "Ripristina"
+   },
+   "settings_rotate_increment": {
+      "message": "Ruota Incremento"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Quanto ruotare in gradi. Predefinito 5."
+   },
+   "settings_saved": {
+      "message": "Opzioni salvate"
+   },
+   "settings_scale_increment": {
+      "message": "Incremento scala"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Quanto ingrandire o allungare in percentuale. Predefinito 5."
+   },
+   "settings_video_mode": {
+      "message": "Modalità video"
+   }
+}

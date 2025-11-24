@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Povečajte, raztegnite, prestavite, zasukajte in obrnite videoposnetke in slike z bližnjičnimi tipkami."
+   },
+   "app_name": {
+      "message": "Video Transformator"
+   },
+   "commands_capture_event": {
+      "message": "Zajemite dogodek"
+   },
+   "commands_decrease_stretch_x": {
+      "message": "Vodoravno stisnite"
+   },
+   "commands_decrease_stretch_y": {
+      "message": "Navpično stisnite"
+   },
+   "commands_flip_horizontal": {
+      "message": "Obrni vodoravno"
+   },
+   "commands_flip_vertical": {
+      "message": "Obrnite navpično"
+   },
+   "commands_increase_stretch_x": {
+      "message": "Horizontalno raztegnite"
+   },
+   "commands_increase_stretch_y": {
+      "message": "Navpično raztegnite"
+   },
+   "commands_position_down": {
+      "message": "Premakni navzdol 🡣"
+   },
+   "commands_position_down_left": {
+      "message": "Premakni se navzdol levo 🡧"
+   },
+   "commands_position_down_right": {
+      "message": "Premakni se navzdol desno 🡦"
+   },
+   "commands_position_left": {
+      "message": "Premakni se levo 🡠"
+   },
+   "commands_position_right": {
+      "message": "Premakni se desno 🡢"
+   },
+   "commands_position_up": {
+      "message": "Premakni gor 🡡"
+   },
+   "commands_position_up_left": {
+      "message": "Premakni se gor levo 🡤"
+   },
+   "commands_position_up_right": {
+      "message": "Premakni se navzgor desno 🡥"
+   },
+   "commands_recenter": {
+      "message": "Ponovno središče"
+   },
+   "commands_reload": {
+      "message": "Ponovno naloži razširitev"
+   },
+   "commands_reset": {
+      "message": "Ponastavi transformacije"
+   },
+   "commands_rotate_clockwise": {
+      "message": "Zavrtite ⭮"
+   },
+   "commands_rotate_clockwise_90": {
+      "message": "Zasukaj ⭮ 90 stopinj"
+   },
+   "commands_rotate_counter_clockwise": {
+      "message": "Zasukaj ⭯"
+   },
+   "commands_rotate_counter_clockwise_90": {
+      "message": "Zasukaj ⭯ 90 stopinj"
+   },
+   "commands_toggle_hotkeys": {
+      "message": "Preklop bližnjičnih tipk (videoposnetki)"
+   },
+   "commands_toggle_hotkeys_images": {
+      "message": "Preklop bližnjičnih tipk (slike)"
+   },
+   "commands_zoom_in": {
+      "message": "Približaj"
+   },
+   "commands_zoom_out": {
+      "message": "Pomanjšanje"
+   },
+   "popup_feedback": {
+      "message": "Povratne informacije"
+   },
+   "popup_homepage": {
+      "message": "Domača stran"
+   },
+   "popup_settings": {
+      "message": "Nastavitve"
+   },
+   "popup_store": {
+      "message": "Trgovina"
+   },
+   "settings_add": {
+      "message": "Dodaj"
+   },
+   "settings_alt_hotkeys": {
+      "message": "Alternativa"
+   },
+   "settings_always_on": {
+      "message": "Vedno vklopljen"
+   },
+   "settings_custom_hotkeys": {
+      "message": "Po meri"
+   },
+   "settings_default_hotkeys": {
+      "message": "Privzeto"
+   },
+   "settings_disable_alt": {
+      "message": "Onemogoči bližnjično tipko Alt Menu"
+   },
+   "settings_disable_alt_tooltip": {
+      "message": "Preprečite nenamerne pritiske tipke Alt. Onemogoči bližnjično tipko menija Alt v brskalniku."
+   },
+   "settings_error_always_on": {
+      "message": "Neveljaven način Always On."
+   },
+   "settings_error_bad_function": {
+      "message": "Izbrana je neveljavna funkcija."
+   },
+   "settings_error_bad_number": {
+      "message": "Neveljavna številka."
+   },
+   "settings_error_hotkey_duplicate": {
+      "message": "Hitra tipka je bila že enkrat uporabljena."
+   },
+   "settings_function": {
+      "message": "Funkcija"
+   },
+   "settings_h5player_hotkeys": {
+      "message": "H5Player"
+   },
+   "settings_hotkey": {
+      "message": "Hotkey"
+   },
+   "settings_image_mode": {
+      "message": "Način slike"
+   },
+   "settings_incognito": {
+      "message": "Dovoljen vstop"
+   },
+   "settings_incognito_chrome": {
+      "message": "Brez beleženja zgodovine"
+   },
+   "settings_incognito_edge": {
+      "message": "InPrivate"
+   },
+   "settings_incognito_firefox": {
+      "message": "Zasebno Iskanje"
+   },
+   "settings_incognito_tooltip": {
+      "message": "Možnost preklopa na strani za upravljanje razširitev brskalnika. Če ga spremenite, se razširitev znova naloži, zaradi česar se ta stran z nastavitvami zapre."
+   },
+   "settings_off_mode": {
+      "message": "Izključeno"
+   },
+   "settings_position_increment": {
+      "message": "Povečanje položaja"
+   },
+   "settings_position_increment_tooltip": {
+      "message": "Za koliko premakniti položaj v slikovnih pikah. Privzeto 20."
+   },
+   "settings_preset": {
+      "message": "Prednastavitev bližnjičnih tipk"
+   },
+   "settings_reset": {
+      "message": "Ponastaviti"
+   },
+   "settings_rotate_increment": {
+      "message": "Zasukaj prirast"
+   },
+   "settings_rotate_increment_tooltip": {
+      "message": "Koliko zavrteti v stopinjah. Privzeto 5."
+   },
+   "settings_saved": {
+      "message": "Možnosti shranjene"
+   },
+   "settings_scale_increment": {
+      "message": "Povečanje lestvice"
+   },
+   "settings_scale_increment_tooltip": {
+      "message": "Koliko povečati ali raztegniti v odstotkih. Privzeto 5."
+   },
+   "settings_video_mode": {
+      "message": "Video način"
+   }
+}
