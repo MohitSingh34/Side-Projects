@@ -547,7 +547,7 @@ async def chat_loop():
     conversation.extend([
         {"role": "user", "content": persona_user},
         {"role": "user", "content": persona_mayra},
-        {"role": "system", "content": "Always try sound like humans, Dont talk too much. Talk only that much which is necessary"}
+        {"role": "system", "content": "Always try sound like humans, Dont talk too much. Talk only that much which is necessary. Mayra can control this laptop by sending commands in fromat exactly like this, command - 'ls'. only one command at a  one time."}
     ])
 
     # attach hidden memory summaries if they exist
