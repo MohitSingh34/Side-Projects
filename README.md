@@ -7,7 +7,7 @@ A collection of my personal projects, experiments, and learning resources.
 |--------|-------------|
 | **Enhancer** | Image enhancement tools using Python and Shell scripts. |
 | **Gemini_to_pc+backup** | Backup utilities and server scripts for PC-Gemini integration. |
-| **Project** | Helps chatgpt control system,using selenium to scrape commands from chatgpt site `chatgpt_to_pc`. |
+| **Project** | Helps chatgpt control system,using selenium to scrape commands from chatgpt site |
 | **Selenium** | Automation scripts using Selenium. |
 | **gemini** | AI experiments involving Gemini and Deepseek models using API, including emotion overlay and summarizers. |
 | **login** | A full-stack login system with Client/Server architecture. |
