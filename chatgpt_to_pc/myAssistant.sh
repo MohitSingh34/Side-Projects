@@ -1,15 +1,13 @@
 #!/bin/bash
 
 # =============================================================
-# == Medha-Core Autonomous Startup Script (V4.5 - cd Fix)
-# == Author: Mohit & Medha
 # == Logic: Ensures all scripts run from the correct directory.
 # =============================================================
 
 echo "[Medha-Core V4.5] Starting full system integration..."
 
 # --- 1. Configuration ---
-BASE_DIR="/home/mohit/Projects/Project/chatgpt_to_pc"
+BASE_DIR="/home/mohit/Side-Projects/chatgpt_to_pc/"
 VENV_PYTHON="$BASE_DIR/myenv/bin/python3"
 LOG_SERVER_LOG="/tmp/medha_log_server.log"
 CMD_SERVER_LOG="/tmp/medha_cmd_server.log"

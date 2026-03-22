@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+    #!/usr/bin/env python3
 # log_server.py (V7.0 - Enhanced Activity Logger Support)
 # Supports new activity logger format with cumulative timing and WM_CLASS deduplication
 # Sends only entries that meaningfully changed since last request.

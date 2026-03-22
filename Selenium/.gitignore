@@ -1,23 +1,41 @@
-# Ignore Python virtual environments
-/myvenv
-/venv
+# Python virtual environments
+/myenv/
+/venv/
+.venv/
 
-# Ignore ChromeDriver binaries
-chromedriv*
+# ChromeDriver and binaries
+chromedriver*
+geckodriver*
+*.exe
 
-# Ignore Python cache files
+# Python cache and metadata
 __pycache__/
 *.py[cod]
+*$py.class
+.pytest_cache/
 
-# Ignore environment files
+# Chrome Profiles (Very important for Selenium)
+chrome-profile-*/
+/home/mohit/chrome-profile-ucc/
+/home/mohit/chrome-profile-perplexity/
+
+# Environment and Secrets
 .env
 .env.*
+*.json
+!mcp_config.json
+!pending_*.json
 
-# Ignore IDE/editor-specific files
+# IDE/Editor cleanup
 .vscode/
+.idea/
 *.swp
 *.swo
+.DS_Store
 
-# Ignore logs and temporary files
+# Logs and Temp
 *.log
 *.tmp
+/home/mohit/Projects/notes/pending_*.json
+*.out
+*.pyc
