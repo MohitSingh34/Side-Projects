@@ -4,15 +4,15 @@
 # == Logic: Ensures all scripts run from the correct directory.
 # =============================================================
 
-echo "[Medha-Core V4.5] Starting full system integration..."
+echo "[Core V4.5] Starting full system integration..."
 
 # --- 1. Configuration ---
 BASE_DIR="/home/mohit/Side-Projects/chatgpt_to_pc/"
 VENV_PYTHON="$BASE_DIR/myenv/bin/python3"
-LOG_SERVER_LOG="/tmp/medha_log_server.log"
-CMD_SERVER_LOG="/tmp/medha_cmd_server.log"
-CHROME_LOGGER_LOG="/tmp/medha_chrome_logger.log"
-ACTIVITY_LOGGER_LOG="/tmp/medha_activity_logger.log"
+LOG_SERVER_LOG="/tmp/log_server.log"
+CMD_SERVER_LOG="/tmp/cmd_server.log"
+CHROME_LOGGER_LOG="/tmp/chrome_logger.log"
+ACTIVITY_LOGGER_LOG="/tmp/activity_logger.log"
 CHROME_DEBUG_URL="https://gemini.google.com/app/2ee2673187735275?hl=en-IN"
 
 # Log files
@@ -20,7 +20,6 @@ CHROME_LOG_FILE="/tmp/chrome_activity_log.json"
 ACTIVITY_LOG_FILE="/tmp/activity_log.json"
 
 
-# --- (MEDHA'S V4.5 FIX) ---
 # Working Directory ko script ki location par set karo
 echo "[Step 1/7] Setting working directory to $BASE_DIR..."
 cd $BASE_DIR
@@ -48,14 +47,14 @@ chown mohit:mohit $CHROME_LOG_FILE
 echo "[Step 4/7] Logging REBOOT event to /tmp/activity_log.json..."
 TIMESTAMP=$(date +%s.%N)
 DATETIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-JSON_ENTRY="{\"timestamp\": $TIMESTAMP, \"datetime\": \"$DATETIME\", \"window_name\": \"SYSTEM_REBOOT\", \"wm_class\": \"MEDHA_CORE_V4_ONLINE\"}"
+JSON_ENTRY="{\"timestamp\": $TIMESTAMP, \"datetime\": \"$DATETIME\", \"window_name\": \"SYSTEM_REBOOT\", \"wm_class\": \CORE_V4_ONLINE\"}"
 echo $JSON_ENTRY > $ACTIVITY_LOG_FILE
 echo "  -> Reboot log written."
 
 sleep 3
 
 # --- 5. Start Servers & Loggers ---
-echo "[Step 5/7] Starting Medha's Brain (Servers) & Senses (Loggers)..."
+echo "[Step 5/7] Starting Brain (Servers) & Senses (Loggers)..."
 
 # Ab hum relative paths use kar sakte hain (kyunki hum $BASE_DIR mein hain),
 # lekin absolute paths zyada safe hain.
@@ -106,6 +105,6 @@ else
     echo "  -> Chrome (Debug Mode) is ALREADY RUNNING."
 fi
 
-echo "--- Medha-Core V4.5 Startup Complete ---"
+echo "---Core V4.5 Startup Complete ---"
 echo "This terminal will close in 5 seconds..."
 sleep 5

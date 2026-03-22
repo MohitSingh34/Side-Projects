@@ -38,15 +38,15 @@ def atomic_save_state(state):
             os.fsync(f.fileno())
         os.replace(tmp, STATE_FILE)
     except Exception as e:
-        print(f"[Medha-Core] ⚠️ Failed atomic write: {e}")
+        print(f"[AI-Core] ⚠️ Failed atomic write: {e}")
 
 def delete_state():
     try:
         if os.path.exists(STATE_FILE):
             os.remove(STATE_FILE)
-            print(f"[Medha-Core] 🧹 Deleted {STATE_FILE}")
+            print(f"[AI-Core] 🧹 Deleted {STATE_FILE}")
     except Exception as e:
-        print(f"[Medha-Core] ⚠️ Failed to delete state file: {e}")
+        print(f"[AI-Core] ⚠️ Failed to delete state file: {e}")
 
 state = load_state()
 
@@ -54,10 +54,10 @@ state = load_state()
 @atexit.register
 def on_exit():
     delete_state()
-    print("[Medha-Core] Server exiting cleanly.")
+    print("[AI-Core] Server exiting cleanly.")
 
 def handle_signal(sig, frame):
-    print(f"\n[Medha-Core] ⚠️ Signal {sig} received — cleaning up.")
+    print(f"\n[AI-Core] ⚠️ Signal {sig} received — cleaning up.")
     delete_state()
     os._exit(0)
 
@@ -85,7 +85,7 @@ def read_json_lines(path):
                     continue
         return data
     except Exception as e:
-        print(f"[Medha-Core] ⚠️ Error reading {path}: {e}")
+        print(f"[AI-Core] ⚠️ Error reading {path}: {e}")
         return []
 
 def canonical_json(obj):
@@ -156,7 +156,7 @@ def read_incremental_by_hash(log_file, label, hash_key):
         if prev_h != h:
             # This is a meaningful change - include the full entry
             changed_entries.append(entry)
-            print(f"[Medha-Core] 🔍 {label} change detected: {eid}")
+            print(f"[AI-Core] 🔍 {label} change detected: {eid}")
 
         new_map[eid] = h
 
@@ -293,7 +293,7 @@ def get_activity_summary():
 
 # ---------------- MAIN ----------------
 if __name__ == "__main__":
-    print("--- Starting Medha-Core Server (V7.0 - Enhanced Activity Logger) ---")
+    print("--- Starting AI-Core Server (V7.0 - Enhanced Activity Logger) ---")
     print(f"🚀 Listening on http://127.0.0.1:{SERVER_PORT}")
     print(f"📊 Activity logger: {ACTIVITY_LOG_PATH}")
     print(f"🌐 Chrome logger: {CHROME_LOG_PATH}")

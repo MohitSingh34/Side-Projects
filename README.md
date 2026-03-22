@@ -1,19 +1,50 @@
-# Side Projects
-A collection of my personal projects, experiments, and learning resources.
+# 🚀 Selenium's Masterpiece: AI Scraper & MCPs
 
-## 📂 Project Directory
+A high-performance, stealthy AI orchestration engine that bridges the gap between local tools and web-based LLMs.
 
-| Folder | Description |
-|--------|-------------|
-| **Enhancer** | Image enhancement tools using Python and Shell scripts. |
-| **Gemini_to_pc+backup** | Backup utilities and server scripts for PC-Gemini integration. |
-| **Project** | Helps chatgpt control system,using selenium to scrape commands from chatgpt site |
-| **Selenium** | Automation scripts using Selenium. |
-| **gemini** | AI experiments involving Gemini and Deepseek models using API, including emotion overlay and summarizers. |
-| **login** | A full-stack login system with Client/Server architecture. |
-| **multiAiChat** | It leverages the power of selenium to scrape the responses from AI sites and use that response as group chat member response. New messages are sent back to the AI whose turn is in group chat so they can understand the flow. 
+## ✨ Core Components
 
-## 🛠️ Technologies
-- **Languages**: Python, JavaScript, C++, Shell
-- **Tools**: Selenium, Vite, React, Node.js
-- **AI Models**: Gemini, Deepseek
+### 1. `ai_scraper.py`
+The powerhouse engine that manages an automated, persistent browser session with dedicated tabs for:
+- **ChatGPT**
+- **DeepSeek**
+- **Perplexity**
+
+It exposes a unified **FastAPI** server (Port 8000) with OpenAI-compatible endpoints, allowing you to route queries to any of these models via simple API calls.
+
+### 2. MCP Servers
+Dedicated Model Context Protocol (MCP) servers that allow any compatible client to communicate with the scraper tools:
+- `chatgpt_mcp.py` ➔ provides `ask_chatgpt`
+- `deepseek_mcp.py` ➔ provides `ask_deepseek`
+- `perplexity_mcp.py` ➔ provides `ask_perplexity`
+
+---
+
+## 🚀 How to Use
+
+### 1. Launch the Engine
+First, start the main scraper to initialize the browser environment:
+```bash
+python3 Selenium/ai_scraper.py
+```
+
+### 2. Configure MCP Clients
+Add the following executable paths to your MCP client configuration (e.g., `mcp_config.json`):
+
+**ChatGPT:**
+```bash
+python3 /home/mohit/Side-Projects/Selenium/chatgpt_mcp.py
+```
+
+**DeepSeek:**
+```bash
+python3 /home/mohit/Side-Projects/Selenium/deepseek_mcp.py
+```
+
+**Perplexity:**
+```bash
+python3 /home/mohit/Side-Projects/Selenium/perplexity_mcp.py
+```
+
+---
+*Clean. Fast. Anonymous.*

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# server.py (V3.4 - Medha's COMMAND Server with Blacklist)
+# server.py (V3.4 - AI's COMMAND Server with Blacklist)
 # Secure command execution server with whitelist + blacklist validation.
 
 from flask import Flask, request, jsonify
@@ -22,8 +22,8 @@ SERVER_PORT = 5001  # Command server port
 # ---------------- CLEANUP ----------------
 @atexit.register
 def cleanup_on_exit():
-    print("\n[Medha-Core] Command Server shutting down...")
-    print("[Medha-Core] Offline.")
+    print("\n[AI-Core] Command Server shutting down...")
+    print("[AI-Core] Offline.")
 
 # ---------------- FILE HELPERS ----------------
 def load_patterns(file_path):
@@ -77,7 +77,7 @@ def add_to_blacklist(command):
 @app.route("/healthcheck", methods=["GET"])
 def health_check():
     print(f"\n[{time.strftime('%H:%M:%S')}] ✅ Server heartbeat OK")
-    return jsonify({"status": "connected", "message": "Medha-Core backend is active"}), 200
+    return jsonify({"status": "connected", "message": "AI-Core backend is active"}), 200
 
 @app.route("/execute", methods=["POST"])
 def execute_command():
@@ -171,7 +171,7 @@ def add_blacklist_route():
 
 # ---------------- MAIN ----------------
 if __name__ == "__main__":
-    print("--- Starting Medha-Core Server (V3.4 - Blacklist Integration) ---")
+    print("--- Starting AI-Core Server (V3.4 - Blacklist Integration) ---")
     print(f"Whitelist file: {WHITELIST_FILE}")
     print(f"Blacklist file: {BLACKLIST_FILE}")
     print(f"🚀 Listening on http://127.0.0.1:{SERVER_PORT}")

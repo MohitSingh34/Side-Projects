@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-emotion_overlay.py — Celestial Edition (Medha)
+emotion_overlay.py — Celestial Edition (AI)
 """
 
 import sys
@@ -40,7 +40,7 @@ SOUNDS = {
 
 DEFAULT_EMOTION = 'neutral'
 
-# --- (MEDHA'S UPDATE - V4.3) ---
+# --- (AI'S UPDATE - V4.3) ---
 # EMOTIONS dictionary ab "raindrops_fall" aur "stars_shine" ko bhi use karta hai.
 EMOTIONS = {
     'happy':     {'primary': (255, 220, 110), 'secondary': (255, 245, 210), 'sound': SOUNDS['soft_chime'],     'msg': "Happy",    'particle':'bubbles_rise'},
@@ -51,7 +51,7 @@ EMOTIONS = {
     'angry':     {'primary': (255, 80, 60),   'secondary': (255, 140, 80),  'sound': SOUNDS['angry_buzz'],     'msg': "Angry",    'particle':'sparks_jitter'},
     'neutral':   {'primary': (180, 180, 190), 'secondary': (220, 220, 225), 'sound': SOUNDS['light_bell'],     'msg': "Neutral",  'particle':'few_bubbles'},
 
-    # --- Medha's New Additions & Reassignments (V4.3) ---
+    # --- AI's New Additions & Reassignments (V4.3) ---
     'sad':       {'primary': (100, 140, 200), 'secondary': (180, 200, 220), 'sound': SOUNDS['rain_sound'],     'msg': "Sad",      'particle':'raindrops_fall'},
     'excited':   {'primary': (255, 240, 100), 'secondary': (255, 255, 220), 'sound': SOUNDS['soft_pop'],       'msg': "Excited",  'particle':'stars_burst'},
     'confused':  {'primary': (180, 160, 220), 'secondary': (210, 200, 230), 'sound': SOUNDS['light_bell'],     'msg': "Confused", 'particle':'stars_shine'},
@@ -524,7 +524,7 @@ def main():
         except Exception:
             intensity = DEFAULT_INTENSITY
 
-    print(f"[Celestial Overlay (Medha)] Emotion='{emotion}' Intensity={intensity}/5")
+    print(f"[Celestial Overlay (AI)] Emotion='{emotion}' Intensity={intensity}/5")
     run_overlay(emotion, intensity)
 
 if __name__ == "__main__":
