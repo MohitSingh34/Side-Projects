@@ -9,6 +9,8 @@ import re
 import base64
 import tempfile
 import requests
+import argparse
+import sys
 from typing import List, Optional
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
@@ -57,21 +59,24 @@ def update_agents_registry():
         driver.switch_to.window(handle)
         url = driver.current_url
 
-        if "chatgpt.com" in url:
-            if chatgpt_window is None:
-                chatgpt_window = handle
-            
-            # Agar ye tab orchestrator ka hai, toh clearly mark karo
-            if (ORCHESTRATOR_MODEL.lower() == "chatgpt" and orchestrator_window is None) or handle == orchestrator_window:
-                orchestrator_window = handle
-                agent_id = "orchestrator-chatgpt (Not Agent)"
-                print(f"👑 ORCHESTRATOR ASSIGNED: {agent_id}")
-            else:
-                agent_id = f"agent-chatgpt-{cgpt_count}"
-                cgpt_count += 1
-                print(f"✅ Registered worker: {agent_id}")
-            
-            agents_registry[agent_id] = handle
+if "chatgpt.com" in url:
+if chatgpt_window is None:
+chatgpt_window = handle
+
+Agar ye tab orchestrator ka hai, toh clearly mark karo
+
+if (ORCHESTRATOR_MODEL.lower() == "chatgpt" and orchestrator_window is None) or handle == orchestrator_window:
+orchestrator_window = handle
+agent_id = "orchestrator-chatgpt (Not Agent)"
+print(f"👑 ORCHESTRATOR ASSIGNED: {agent_id}")
+else:
+agent_id = f"agent-chatgpt-{cgpt_count}"
+cgpt_count += 1
+print(f"✅ Registered worker: {agent_id}")
+
+agents_registry[agent_id] = handle
+
+👆 YAHAN TAK 👆
 
         elif "chat.deepseek.com" in url:
             if deepseek_window is None:

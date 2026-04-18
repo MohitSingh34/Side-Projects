@@ -1,0 +1,56 @@
+INFO:     Started server process [4073477]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+🌸 Manual Roo Server (Native Tools Mode) is up!
+INFO:     127.0.0.1:46028 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46042 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46052 - "GET /api/tags HTTP/1.1" 404 Not Found
+
+🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀
+📥 INCOMING REQUEST FROM ROO (OLLAMA MODE):
+Model: test_model
+🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀
+
+📦 Valid JSON detected in file. Injecting Native Tool Call.
+INFO:     127.0.0.1:46066 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46072 - "GET /api/tags HTTP/1.1" 404 Not Found
+
+🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀
+📥 INCOMING REQUEST FROM ROO (OLLAMA MODE):
+Model: test_model
+🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀
+
+📦 Valid JSON detected in file. Injecting Native Tool Call.
+INFO:     127.0.0.1:46066 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46558 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46560 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47686 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47696 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51140 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51156 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32902 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32904 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50306 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50312 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34130 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34134 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40288 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40296 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51308 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51314 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51322 - "GET /api/tags HTTP/1.1" 404 Not Found
+
+🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀
+📥 INCOMING REQUEST FROM ROO (OLLAMA MODE):
+Model: test_model
+🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀
+
+📦 Valid JSON detected in file. Injecting Native Tool Call.
+INFO:     127.0.0.1:51334 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54052 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54064 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52300 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52306 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60700 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60712 - "GET /api/tags HTTP/1.1" 404 Not Found

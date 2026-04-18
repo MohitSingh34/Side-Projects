@@ -24,7 +24,7 @@ def init_driver():
     if driver is None:
         print("Starting undetected chromedriver... (taking it easy for i3)")
         options = uc.ChromeOptions()
-        options.add_argument("--user-data-dir=/home/mohit/chrome-profile-uc")
+        options.add_argument("--user-data-dir=/home/mohit/chrome-profile-ucc")
         # options.add_argument('--headless')
 
         driver = uc.Chrome(options=options)

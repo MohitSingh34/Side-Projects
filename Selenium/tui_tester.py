@@ -3,7 +3,7 @@ import json
 
 def test_deepseek_api():
     # Tera server port 8002 pe chal raha hai
-    url = "http://127.0.0.1:8000/v1/chat/completions"
+    url = "http://127.0.0.1:8001/v1/chat/completions"
 
     # OpenAI standard format jo tera server accept karta hai
     payload = {
@@ -11,7 +11,7 @@ def test_deepseek_api():
         "messages": [
             {
                 "role": "user",
-                "content": "ok"
+                "content": "can u send some code, like hello world"
             }
         ]
     }

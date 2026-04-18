@@ -1,3 +1,5 @@
+
+
 import json
 import time
 import os
@@ -116,7 +118,7 @@ def init_driver():
 
         driver = uc.Chrome(
             options=options,
-            driver_executable_path="/home/mohit/.cache/selenium/chromedriver/linux64/146.0.7680.153/chromedriver",
+            driver_executable_path="/home/mohit/.cache/selenium/chromedriver/linux64/147.0.7727.57/chromedriver",
             version_main=146,
         )
 
@@ -130,22 +132,49 @@ def init_driver():
         update_agents_registry()
 
         # 2. Open any missing tabs
-        # 2. 🚀 FIXED: Only open the orchestrator tab, DO NOT auto-spawn agents
-        # Agents will ONLY be launched via /v1/launch_agent API
+        # 2. Open any missing tabs
+        if chatgpt_window is None:
+            if len(driver.window_handles) == 1 and (
+                "data:," in driver.current_url
+                or "chrome://" in driver.current_url
+                or "newtab" in driver.title.lower()
+            ):
+                chatgpt_window = driver.current_window_handle
+            else:
+                driver.switch_to.new_window("tab")
+                chatgpt_window = driver.current_window_handle
+            driver.switch_to.window(chatgpt_window)
+            driver.get("https://chatgpt.com/")
+            print("✅ ChatGPT Profile loaded!")
+            time.sleep(3)
+
+        if deepseek_window is None:
+            driver.switch_to.new_window("tab")
+            deepseek_window = driver.current_window_handle
+            driver.get("https://chat.deepseek.com/")
+            print("✅ DeepSeek Profile loaded!")
+            time.sleep(3)
+        if gemini_window is None: # 🚀 NEW: Gemini Initial Load
+            driver.switch_to.new_window("tab")
+            gemini_window = driver.current_window_handle
+            driver.get("https://gemini.google.com/app")
+            print("✅ Gemini Profile loaded!")
+            time.sleep(3)
+
         if orchestrator_window is None:
             driver.switch_to.new_window("tab")
             orchestrator_window = driver.current_window_handle
             if ORCHESTRATOR_MODEL.lower() == "deepseek":
                 driver.get("https://chat.deepseek.com/")
-                print("✅ Orchestrator (DeepSeek) loaded!")
+                print("✅ Orchestrator (DeepSeek) Profile loaded!")
             elif ORCHESTRATOR_MODEL.lower() == "gemini":
                 driver.get("https://gemini.google.com/app")
-                print("✅ Orchestrator (Gemini) loaded!")
+                print("✅ Orchestrator (Gemini) Profile loaded!")
             else:
                 driver.get("https://chatgpt.com/")
-                print("✅ Orchestrator (ChatGPT) loaded!")
+                print("✅ Orchestrator (ChatGPT) Profile loaded!")
             time.sleep(3)
-
+        
         # 🚀 FIX: Scan and register agents AFTER opening the new tabs!
         update_agents_registry()
         time.sleep(3)
@@ -876,6 +905,66 @@ async def list_models():
         "object": "list",
         "data": models_list,
     }
+    
+# ----------------- TOOL CALLING HELPERS -----------------
+
+def inject_tool_instructions(prompt_text: str, tools: Optional[List[dict]]) -> str:
+    if not tools:
+        return prompt_text
+    
+    # Tool array ko pehle safely stringify kar lo
+    tools_json = json.dumps(tools, indent=2)
+    
+    # 🚀 FIX: Breaking the triple backticks so Markdown parsers don't crash
+    ticks = "```"
+    
+    system_instruction = (
+        "You are an AI assistant integrated with an IDE via Roo/Cline. "
+        "The user has granted you access to the following tools.\n"
+        f"AVAILABLE TOOLS:\n{tools_json}\n\n"
+        "CRITICAL INSTRUCTION: If you decide to use a tool to fulfill the request, you MUST NOT output normal conversational text. "
+        f"You MUST output ONLY a valid JSON block enclosed in {ticks}json ... {ticks} exactly matching this structure:\n"
+        f"{ticks}json\n"
+        "{\n"
+        "  \"tool_calls\": [\n"
+        "    {\n"
+        "      \"function\": {\n"
+        "        \"name\": \"exact_tool_name_here\",\n"
+        "        \"arguments\": {\"arg_key\": \"arg_val\"}\n"
+        "      }\n"
+        "    }\n"
+        "  ]\n"
+        "}\n"
+        f"{ticks}\n"
+        "If you do not need to use a tool, just answer normally.\n\n"
+        "--- USER REQUEST ---\n"
+    )
+    return system_instruction + prompt_text
+
+def parse_llm_response_for_tools(md_text: str):
+    # 1. Check if AI outputted a markdown JSON block
+    match = re.search(r'```json\s*(\{.*?\})\s*```', md_text, re.DOTALL)
+    if match:
+        try:
+            parsed_json = json.loads(match.group(1))
+            if "tool_calls" in parsed_json:
+                return parsed_json["tool_calls"], parsed_json.get("content", "")
+        except json.JSONDecodeError:
+            pass
+            
+    # 2. Fallback: Check if AI just outputted raw JSON directly
+    cleaned_text = md_text.strip()
+    if cleaned_text.startswith("{") and "tool_calls" in cleaned_text:
+        try:
+             parsed_json = json.loads(cleaned_text)
+             if "tool_calls" in parsed_json:
+                 return parsed_json["tool_calls"], parsed_json.get("content", "")
+        except json.JSONDecodeError:
+            pass
+            
+    # Agar JSON block nahi mila, toh pure text response wapas bhej do
+    return None, md_text 
+# --------------------------------------------------------
 # ---------------------------------------------------------
 
 @app.post("/v1/chat/completions")
@@ -1028,50 +1117,30 @@ async def openai_mock_api(req: ChatCompletionRequest):
         # 🚀 STREAMING FIX: Just stream the raw text exactly like manual_cline_server.py!
         if getattr(req, "stream", False):
             async def generate():
-                # 🚀 ENHANCED: Full Cline-compatible delta with tool_calls support
-                delta_content = {
-                    "role": "assistant",
-                    "content": md_text,
-                    "tool_calls": None  # Add tool_calls here if you ever need to simulate them
-                }
-                
+                # Prepare Delta
+                delta_content = {"role": "assistant", "content": md_text}
+
+                # Chunk 1: Send the actual data
                 chunk = {
                     "id": req_id,
                     "object": "chat.completion.chunk",
                     "created": created_time,
                     "model": req.model,
-                    "system_fingerprint": f"fp_{uuid.uuid4().hex[:12]}",  # Cline expects this
                     "choices": [
-                        {
-                            "index": 0, 
-                            "delta": delta_content, 
-                            "finish_reason": None,
-                            "logprobs": None  # Optional but good to include
-                        }
+                        {"index": 0, "delta": delta_content, "finish_reason": None}
                     ],
                 }
                 yield f"data: {json.dumps(chunk)}\n\n"
-                
-                # Final chunk with usage stats
+
+                # Chunk 2: Send the stop signal
                 stop_chunk = {
                     "id": req_id,
                     "object": "chat.completion.chunk",
                     "created": created_time,
                     "model": req.model,
-                    "system_fingerprint": f"fp_{uuid.uuid4().hex[:12]}",
                     "choices": [
-                        {
-                            "index": 0, 
-                            "delta": {}, 
-                            "finish_reason": "stop",
-                            "logprobs": None
-                        }
+                        {"index": 0, "delta": {}, "finish_reason": "stop"}
                     ],
-                    "usage": {
-                        "prompt_tokens": len(prompt_to_send) // 4,
-                        "completion_tokens": len(md_text) // 4,
-                        "total_tokens": (len(prompt_to_send) + len(md_text)) // 4
-                    }
                 }
                 yield f"data: {json.dumps(stop_chunk)}\n\n"
                 yield "data: [DONE]\n\n"
@@ -1085,9 +1154,9 @@ async def openai_mock_api(req: ChatCompletionRequest):
             "created": created_time,
             "model": req.model,
             "usage": {
-                "prompt_tokens": len(prompt_to_send) // 4,
+                "prompt_tokens": 150,
                 "completion_tokens": len(md_text) // 4,
-                "total_tokens": (len(prompt_to_send) + len(md_text)) // 4,
+                "total_tokens": 150 + (len(md_text) // 4),
             },
             "choices": [
                 {
@@ -1207,8 +1276,11 @@ class OllamaMessage(BaseModel):
 
 class OllamaChatRequest(BaseModel):
     model: str
-    messages: List[OllamaMessage]
+    messages: List[Any] # Changed to List[Any] for flexibility
     stream: Optional[bool] = False
+    tools: Optional[List[dict]] = None # 🚀 NEW: Catching Roo's tools
+    
+    model_config = ConfigDict(extra="allow")
 
 
 @app.post("/api/chat")
