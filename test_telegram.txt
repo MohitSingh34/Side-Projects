@@ -1,0 +1,2 @@
+This is a test file created to demonstrate the Telegram MCP document sending capability.
+Created by AI assistant at $(date)

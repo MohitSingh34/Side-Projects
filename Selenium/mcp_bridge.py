@@ -7,59 +7,61 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent, CallToolResult
 
-# Create the MCP Server
 app = Server("ai-scraper-mcp-cluster")
+import asyncio
+from collections import deque
 
+# Global registry to track live workers and their rolling logs! 🧠
+worker_registry = {}
 @app.list_tools()
 async def list_tools() -> list[Tool]:
     return [
         Tool(
             name="list_active_agents",
             description="Get a list of all currently active AI agents (browser tabs) available in the swarm.",
-            inputSchema={"type": "object", "properties": {}},
+            inputSchema={"type": "object", "properties": {}}
         ),
         Tool(
-            name="spawn_worker_agent",
-            description="Launch a new worker agent process in the background with its own port and Chrome profile.",
+            name="ask_ai_agent",
+            description="Delegate a task, question, OR SEND A FILE/IMAGE to a specific AI agent running in a browser tab.",
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "agent_id": {"type": "string", "description": "Unique ID for the agent, e.g. worker1"},
-                    "model": {"type": "string", "description": "Model type: chatgpt, deepseek, or gemini"},
-                    "port": {"type": "integer", "description": "Port number, e.g. 8001"},
-                    "profile": {"type": "string", "description": "Path to Chrome profile directory"},
+                    "agent_id": {
+                        "type": "string",
+                        "description": "The ID of the agent (e.g., 'chatgpt', 'gemini')"
+                    },
+                    "prompt": {
+                        "type": "string",
+                        "description": "The detailed task or question for the agent"
+                    },
+                    "files": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "OPTIONAL. A list of local file paths (like screenshots) to send to the agent alongside the prompt."
+                    }
                 },
-                "required": ["agent_id", "model", "port", "profile"],
-            },
+                "required": ["agent_id", "prompt"]
+            }
         ),
         Tool(
-            name="assign_task_to_worker",
-            description="Send a task via HTTP to a specifically spawned worker agent.",
+            name="launch_ai_agent",
+            description="Spawn a new browser tab for a new AI agent (ChatGPT, DeepSeek, or Gemini) to handle more parallel tasks.",
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "port": {"type": "integer", "description": "Port number of the worker, e.g. 8001"},
-                    "prompt": {"type": "string", "description": "The task prompt"},
-                    "files": {"type": "array", "items": {"type": "string"}, "description": "Optional list of file paths"},
+                    "agent_type": {
+                        "type": "string",
+                        "description": "The type of agent to launch: strictly 'chatgpt', 'deepseek', or 'gemini'"
+                    }
                 },
-                "required": ["port", "prompt"],
-            },
-        ),
-        Tool(
-            name="check_task_board",
-            description="Check the task board directory for a completed task file from a worker.",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "agent_id": {"type": "string", "description": "The unique ID of the agent to check, e.g. worker1"},
-                },
-                "required": ["agent_id"],
-            },
+                "required": ["agent_type"]
+            }
         ),
         Tool(
             name="list_system_windows",
             description="Get a list of all visible application windows currently open on the Xubuntu system. Useful to find the exact title for taking screenshots.",
-            inputSchema={"type": "object", "properties": {}},
+            inputSchema={"type": "object", "properties": {}}
         ),
         Tool(
             name="take_system_screenshot",
@@ -69,11 +71,11 @@ async def list_tools() -> list[Tool]:
                 "properties": {
                     "window_title": {
                         "type": "string",
-                        "description": "The exact title of the window to capture (can be found using list_system_windows).",
+                        "description": "The exact title of the window to capture (can be found using list_system_windows)."
                     }
                 },
-                "required": ["window_title"],
-            },
+                "required": ["window_title"]
+            }
         ),
         Tool(
             name="close_system_window",
@@ -83,12 +85,12 @@ async def list_tools() -> list[Tool]:
                 "properties": {
                     "window_id": {
                         "type": "string",
-                        "description": "The exact full ID string of the window to close (e.g., '0x0520000c (latitude mcp_bridge.py — Kate)')",
+                        "description": "The exact full ID string of the window to close (e.g., '0x0520000c (latitude mcp_bridge.py — Kate)')"
                     }
                 },
-                "required": ["window_id"],
-            },
-        ),
+                "required": ["window_id"]
+            }
+        )
     ]
 
 @app.call_tool()
@@ -98,77 +100,42 @@ async def call_tool(name: str, arguments: dict) -> CallToolResult:
             res = requests.get("http://localhost:8000/v1/models", timeout=10)
             data = res.json()
             agents = [model["id"] for model in data.get("data", [])]
-            return CallToolResult(
-                content=[TextContent(type="text", text=f"Available agents for delegation: {json.dumps(agents)}")]
-            )
+            return CallToolResult(content=[TextContent(type="text", text=f"Available agents for delegation: {json.dumps(agents)}")])
         except Exception as e:
             return CallToolResult(content=[TextContent(type="text", text=f"Error connecting to Swarm: {e}")])
 
-elif name == "spawn_worker_agent":
-agent_id = arguments.get("agent_id")
-model = arguments.get("model")
-port = arguments.get("port")
-profile = arguments.get("profile")
-
-script_path = "/home/mohit/Side-Projects/Selenium/ai_scraper_worker.py"
-cmd = [
-"python",
-script_path,
-"--model",
-model,
-"--port",
-str(port),
-"--profile",
-profile,
-]
-
-try:
-process = subprocess.Popen(
-cmd,
-stdout=subprocess.DEVNULL,
-stderr=subprocess.DEVNULL,
-start_new_session=True,
-)
-return CallToolResult(
-content=[TextContent(type="text", text=f"Worker '{agent_id}' ({model}) spawned successfully on port {port} with PID {process.pid}.")]
-)
-except Exception as e:
-return CallToolResult(content=[TextContent(type="text", text=f"Failed to spawn worker: {e}")], isError=True)
-
-    elif name == "assign_task_to_worker":
-        port = arguments.get("port")
+    elif name == "ask_ai_agent":
+        agent_id = arguments.get("agent_id")
         prompt = arguments.get("prompt")
         files = arguments.get("files", [])
-
         try:
-            try:
-                requests.post(
-                    f"http://localhost:{port}/v1/agent_chat",
-                    json={"agent": "worker", "prompt": prompt, "files": files},
-                    timeout=1,
-                )
-            except requests.exceptions.ReadTimeout:
-                pass
-            return CallToolResult(
-                content=[TextContent(type="text", text=f"Task assigned to worker on port {port}. Check task board later.")]
+            res = requests.post(
+                "http://localhost:8000/v1/agent_chat",
+                json={"agent": agent_id, "prompt": prompt, "files": files},
+                timeout=300
             )
+            data = res.json()
+            if "error" in data:
+                return CallToolResult(content=[TextContent(type="text", text=f"Swarm Error: {data['error']}")], isError=True)
+            response_text = data.get("response", str(data))
+            return CallToolResult(content=[TextContent(type="text", text=response_text)])
         except Exception as e:
-            return CallToolResult(content=[TextContent(type="text", text=f"Error assigning task: {e}")], isError=True)
+            return CallToolResult(content=[TextContent(type="text", text=f"Error talking to {agent_id}: {e}")], isError=True)
 
-    elif name == "check_task_board":
-        agent_id = arguments.get("agent_id")
-        file_path = f"/home/mohit/Side-Projects/Selenium/task_board/task_{agent_id}_complete.txt"
-
-        if os.path.exists(file_path):
-            with open(file_path, "r", encoding="utf-8") as f:
-                content = f.read()
-            return CallToolResult(
-                content=[TextContent(type="text", text=f"Task completed. Result:\n{content}")]
+    elif name == "launch_ai_agent":
+        agent_type = arguments.get("agent_type")
+        try:
+            res = requests.post(
+                "http://localhost:8000/v1/launch_agent",
+                json={"agent_type": agent_type},
+                timeout=30
             )
-        else:
-            return CallToolResult(
-                content=[TextContent(type="text", text=f"Task for '{agent_id}' is still in progress (file not found).")]
-            )
+            data = res.json()
+            if "error" in data:
+                return CallToolResult(content=[TextContent(type="text", text=f"Spawn Error: {data['error']}")], isError=True)
+            return CallToolResult(content=[TextContent(type="text", text=f"{data['message']} Available agents now: {json.dumps(data['available_agents'])}")])
+        except Exception as e:
+            return CallToolResult(content=[TextContent(type="text", text=f"Error launching agent: {e}")], isError=True)
 
     elif name == "list_system_windows":
         try:
@@ -186,9 +153,7 @@ return CallToolResult(content=[TextContent(type="text", text=f"Failed to spawn w
             if res.status_code == 200:
                 with open(local_path, "wb") as f:
                     f.write(res.content)
-                return CallToolResult(
-                    content=[TextContent(type="text", text=f"Screenshot taken successfully! Image saved locally at: {local_path}")]
-                )
+                return CallToolResult(content=[TextContent(type="text", text=f"Screenshot taken successfully! Image saved locally at: {local_path}")])
             else:
                 return CallToolResult(content=[TextContent(type="text", text=f"Screenshot failed: {res.text}")], isError=True)
         except Exception as e:
@@ -200,17 +165,15 @@ return CallToolResult(content=[TextContent(type="text", text=f"Failed to spawn w
             res = requests.post(
                 "http://localhost:8761/v1/system/window/close",
                 json={"window_id": window_id},
-                timeout=10,
+                timeout=10
             )
             data = res.json()
             if res.status_code == 200:
-                return CallToolResult(content=[TextContent(type="text", text=data.get("message", "Window closed."))])
+                return CallToolResult(content=[TextContent(type="text", text=data["message"])])
             else:
                 return CallToolResult(content=[TextContent(type="text", text=f"Error closing window: {data}")], isError=True)
         except Exception as e:
             return CallToolResult(content=[TextContent(type="text", text=f"System API Error: {e}")], isError=True)
-
-    raise ValueError(f"Unknown tool: {name}")
 
 async def main():
     async with stdio_server() as (read_stream, write_stream):

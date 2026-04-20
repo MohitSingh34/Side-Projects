@@ -18,8 +18,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-REPLY_FILE = "/home/mohit/Side-Projects/Selenium/notes.txt"
+# 🚀 Define both file paths
+REPLY_FILE_1 = "/home/mohit/Side-Projects/Selenium/notes.txt"
+REPLY_FILE_2 = "/home/mohit/Side-Projects/Selenium/notes2.txt"
 LOG_FILE = "/home/mohit/Side-Projects/Selenium/cline_logs.jsonl"
+
+# 🧠 Global counter track karne ke liye ki kitni requests aayi hain
+request_count = 0
 
 def log_to_file(data_type, data):
     """Log data to JSONL file for later analysis"""
@@ -36,6 +41,18 @@ def log_to_file(data_type, data):
 
 @app.post("/v1/chat/completions")
 async def openai_chat_completions(request: Request):
+    # Global variable ko access karo
+    global request_count
+    request_count += 1
+    
+    # 🔄 Logic for file switching
+    if request_count == 1:
+        current_reply_file = REPLY_FILE_1
+        print(f"🥇 First request detected! Using: {current_reply_file}")
+    else:
+        current_reply_file = REPLY_FILE_2
+        print(f"🔁 Request #{request_count} detected! Switched to: {current_reply_file}")
+
     raw_body = await request.body()
     req_data = json.loads(raw_body)
     
@@ -47,11 +64,12 @@ async def openai_chat_completions(request: Request):
     print(f"Stream: {req_data.get('stream', False)}")
     print("🎀" * 25 + "\n")
 
-    if not os.path.exists(REPLY_FILE):
-        raise HTTPException(status_code=404, detail="File not found")
+    # 🛑 Check if the dynamically selected file exists
+    if not os.path.exists(current_reply_file):
+        raise HTTPException(status_code=404, detail=f"File not found: {current_reply_file}")
         
     try:
-        with open(REPLY_FILE, "r", encoding="utf-8") as f:
+        with open(current_reply_file, "r", encoding="utf-8") as f:
             file_content = f.read().strip()
             
         # Try to parse as JSON first
@@ -70,7 +88,7 @@ async def openai_chat_completions(request: Request):
         if req_data.get("stream", False):
             async def generate():
                 if is_json and mock_response:
-                    # ✅ FIXED: Use the EXACT JSON from notes.txt
+                    # ✅ FIXED: Use the EXACT JSON from the selected notes file
                     # Just update the ID and timestamp
                     chunk = mock_response.copy()
                     chunk["id"] = response_id
@@ -192,5 +210,5 @@ async def openai_chat_completions(request: Request):
 if __name__ == "__main__":
     print("🌸 Manual Roo Server (OpenAI Compatible Mode) is up!")
     print("📊 Full response logging ENABLED")
-    print(f"📁 Log file: {LOG_FILE}")
+    print(f"📁 Log files: {REPLY_FILE_1} (1st req) & {REPLY_FILE_2} (subsequent reqs)")
     uvicorn.run("manual_roo_server:app", host="0.0.0.0", port=8000, reload=False)
