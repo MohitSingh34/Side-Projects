@@ -1,0 +1,5 @@
+<attempt_completion>
+<result>
+Hello. I am the Lead Orchestrator of the AI Swarm, ready to assist with software engineering tasks. I have access to browser-based AI agents, system control tools, and MCP servers. Please provide a task for me to complete.
+</result>
+</attempt_completion>

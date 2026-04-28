@@ -1,0 +1,121 @@
+🚀 Starting V2 ULTIMATE Telegram MCP Test (37 Tools)...
+==================================================
+✅ Connected to telegram_mcp.py
+
+▶️ Testing: get_dialog_list
+   ✅ Success: Dialogs:
+M (ID: 8018606042): Testing Document Upload
+workspace (ID: -1003998465520): No text
+
+▶️ Testing: get_chat_info
+   ✅ Success: Title/Name: M
+ID: 8018606042
+Type: User
+
+▶️ Testing: get_telegram_chat_member
+   ⚠️ Expected/Handled Error: Input validation error: 'me' is not of type 'integer'
+
+▶️ Testing: send_typing_action
+   ✅ Success: 💬 Sent typing action
+
+▶️ Testing: send_telegram_message
+   ✅ Success: ✅ Message sent (ID: 6478)
+
+▶️ Testing: send_animated_message
+   ✅ Success: ✨ Magic animated message sent (ID: 6479)
+
+▶️ Testing: send_telegram_location
+   ⚠️ Expected/Handled Error: Error: GeoPoint.__init__() missing 1 required positional argument: 'access_hash'
+
+▶️ Testing: send_telegram_poll
+   ⚠️ Expected/Handled Error: Error: Poll.__init__() missing 1 required positional argument: 'hash'
+
+▶️ Testing: send_business_message
+   ✅ Success: 💼 Business message sent (ID: 6480)
+
+▶️ Testing: send_safe_bot_to_bot_message
+   ✅ Success: 🤖 Safe message sent to @BotFather (ID: 6481)
+
+▶️ Testing: set_bot_menu_button
+   ⚠️ Expected/Handled Error: ⚠️ set_bot_menu_button is restricted by Telegram for User Accounts. Use @BotFather to configure bot UI.
+
+▶️ Testing: send_telegram_document
+   ✅ Success: 📁 Document sent (ID: 6483)
+
+▶️ Testing: send_telegram_photo
+   ⚠️ Expected/Handled Error: Error: Failure while processing image (caused by SendMediaRequest)
+
+▶️ Testing: send_telegram_video
+   ✅ Success: 🎥 Video sent (ID: 6484)
+
+▶️ Testing: send_telegram_audio
+   ✅ Success: 🎵 Audio sent (ID: 6485)
+
+▶️ Testing: send_telegram_voice
+   ✅ Success: 🎙️ Voice note sent (ID: 6486)
+
+▶️ Testing: send_telegram_animation
+   ✅ Success: 🎞️ Animation sent (ID: 6487)
+
+▶️ Testing: send_telegram_media_group
+   ⚠️ Expected/Handled Error: Error: Failure while processing image (caused by UploadMediaRequest)
+
+▶️ Testing: read_telegram_messages
+   ✅ Success: Recent Messages:
+M (ID: 6487) [Has Media]: Animation Test
+
+   [Grabbed Message ID 6487 for manipulation tests]
+▶️ Testing: react_to_telegram_message
+   ⚠️ Expected/Handled Error: Error: A premium account is required to execute this action (caused by SendReactionRequest)
+
+▶️ Testing: pin_telegram_message
+   ✅ Success: 📌 Message pinned
+
+▶️ Testing: forward_telegram_message
+   ✅ Success: ↪️ Message forwarded
+
+▶️ Testing: edit_telegram_message
+   ✅ Success: ✏️ Message edited
+
+▶️ Testing: download_telegram_media
+   ✅ Success: 📥 Downloaded to /home/mohit/Side-Projects/Selenium/downloaded_test.mp4
+
+▶️ Testing: mark_message_as_read
+   ✅ Success: ✅ Marked as read
+
+▶️ Testing: delete_telegram_message
+   ✅ Success: 🗑️ Message deleted
+
+▶️ Testing: set_telegram_chat_title
+   ⚠️ Expected/Handled Error: Error: EditChatTitleRequest.__init__() got an unexpected keyword argument 'channel'
+
+▶️ Testing: set_telegram_chat_description
+   ⚠️ Expected/Handled Error: Error: EditChatAboutRequest.__init__() got an unexpected keyword argument 'channel'
+
+▶️ Testing: set_telegram_chat_photo
+   ⚠️ Expected/Handled Error: Error: Cannot cast InputPeerSelf to any kind of InputChannel.
+
+▶️ Testing: create_telegram_invite_link
+   ⚠️ Expected/Handled Error: Error: An invalid Peer was used. Make sure to pass the right peer type and that the value is valid (for instance, bots cannot start conversations) (caused by ExportChatInviteRequest)
+
+▶️ Testing: create_secure_invite_link
+   ⚠️ Expected/Handled Error: Error: An invalid Peer was used. Make sure to pass the right peer type and that the value is valid (for instance, bots cannot start conversations) (caused by ExportChatInviteRequest)
+
+▶️ Testing: ban_telegram_member
+   ⚠️ Expected/Handled Error: Error: Cannot cast InputPeerSelf to any kind of InputChannel.
+
+▶️ Testing: unban_telegram_member
+   ⚠️ Expected/Handled Error: Error: Cannot cast InputPeerSelf to any kind of InputChannel.
+
+▶️ Testing: mute_telegram_member
+   ⚠️ Expected/Handled Error: Error: Cannot cast InputPeerSelf to any kind of InputChannel.
+
+▶️ Testing: promote_telegram_member
+   ⚠️ Expected/Handled Error: Error: Cannot cast InputPeerSelf to any kind of InputChannel.
+
+▶️ Testing: set_telegram_admin_title
+   ⚠️ Expected/Handled Error: Error: Cannot cast InputPeerSelf to any kind of InputChannel.
+
+▶️ Testing: manage_chat_join_request
+   ⚠️ Expected/Handled Error: Error: Could not find the input entity for PeerUser(user_id=12345) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+

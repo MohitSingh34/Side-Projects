@@ -1,0 +1,42 @@
+🚀 Starting V3 Telegram MCP Test...
+==================================================
+📌 Admin tests routing to Group ID: -1003998465520
+==================================================
+
+✅ Connected to telegram_mcp.py
+
+▶️ Testing: get_dialog_list
+   ✅ Success: Dialogs:
+BotFather (ID: 93372553): No active command to cancel. I wasn't doing anythi
+M (ID: 8018606042): 🤖 V3 Test Run Initiated
+Mudit (ID: 8764692206): ..
+MCP Test Group 1776573995 (ID: -1003998465520): No text
+Telegram (ID: 777000): **Login code:** 96370. Do **not** give this code t
+TeleMCP (ID: 8666398252): /greet
+Ananda Chacha (ID: 8611942432): No text
+pencarimovie.com (ID: -1002636910616): GET FILE has been fixed, sorry for the inconvenien
+Nikhil Uikey DAVV (ID: 8062502600): hey
+workspace (ID: -5087684322): No text
+IDBot (ID: 100237842): Your own ID is: `8018606042`
+CSE 2026 (ID: -1002458823384): https://t.me/Gate_all/89
+
+Limited time✅
+Make sure 
+The PirateBay🤖 (ID: 5148198541): Showing results for: [lupt](https://piratebybot.t.
+Ragini Singh (ID: 8061138098): https://cdn.fsl-buckets.work/Tumbbad.2018.720p.10b
+Rohit Chacha (ID: 8433657709): No text
+TIFFIN DAVV (ID: 8703986659): No text
+TG CDN (ID: 8158124336): 📌 Visit MoviesMod.plus || Modlist.in 
+
+📥 Click the
+Dolat bagdhari (ID: 8613676269): No text
+Mayank Chichi Davv (ID: 5505366782): https://moviebox.ph/detail/rape-zombie-lust-of-the
+GATE ALL BRANCH (ID: -1002375045631): U can check gate result
+👍
+
+▶️ Testing: send_telegram_message
+   ⚠️ Expected/Handled Error: Error: RPCError 403: PRIVACY_PREMIUM_REQUIRED (caused by SendMessageRequest)
+
+▶️ Testing: send_safe_bot_to_bot_message
+   ✅ Success: 🤖 Safe message sent to @BotFather (ID: 6528)
+

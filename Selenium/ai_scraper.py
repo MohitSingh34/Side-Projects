@@ -1028,50 +1028,39 @@ async def openai_mock_api(req: ChatCompletionRequest):
         # 🚀 STREAMING FIX: Just stream the raw text exactly like manual_cline_server.py!
         if getattr(req, "stream", False):
             async def generate():
-                # 🚀 ENHANCED: Full Cline-compatible delta with tool_calls support
-                delta_content = {
-                    "role": "assistant",
-                    "content": md_text,
-                    "tool_calls": None  # Add tool_calls here if you ever need to simulate them
-                }
-                
-                chunk = {
-                    "id": req_id,
-                    "object": "chat.completion.chunk",
-                    "created": created_time,
-                    "model": req.model,
-                    "system_fingerprint": f"fp_{uuid.uuid4().hex[:12]}",  # Cline expects this
-                    "choices": [
-                        {
-                            "index": 0, 
-                            "delta": delta_content, 
-                            "finish_reason": None,
-                            "logprobs": None  # Optional but good to include
-                        }
-                    ],
-                }
-                yield f"data: {json.dumps(chunk)}\n\n"
-                
-                # Final chunk with usage stats
+                reply_text = md_text or ""
+                chunk_size = 16
+
+                for i in range(0, len(reply_text), chunk_size):
+                    text_part = reply_text[i : i + chunk_size]
+                    chunk = {
+                        "id": req_id,
+                        "object": "chat.completion.chunk",
+                        "created": int(time.time()),
+                        "model": req.model,
+                        "choices": [
+                            {
+                                "index": 0,
+                                "delta": {"content": text_part},
+                                "finish_reason": None,
+                            }
+                        ],
+                    }
+                    yield f"data: {json.dumps(chunk)}\n\n"
+                    await asyncio.sleep(0.01)
+
                 stop_chunk = {
                     "id": req_id,
                     "object": "chat.completion.chunk",
-                    "created": created_time,
+                    "created": int(time.time()),
                     "model": req.model,
-                    "system_fingerprint": f"fp_{uuid.uuid4().hex[:12]}",
                     "choices": [
                         {
-                            "index": 0, 
-                            "delta": {}, 
+                            "index": 0,
+                            "delta": {},
                             "finish_reason": "stop",
-                            "logprobs": None
                         }
                     ],
-                    "usage": {
-                        "prompt_tokens": len(prompt_to_send) // 4,
-                        "completion_tokens": len(md_text) // 4,
-                        "total_tokens": (len(prompt_to_send) + len(md_text)) // 4
-                    }
                 }
                 yield f"data: {json.dumps(stop_chunk)}\n\n"
                 yield "data: [DONE]\n\n"

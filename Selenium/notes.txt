@@ -1,18 +1,16 @@
-<replace_in_file>
-<path>/home/mohit/Side-Projects/Selenium/testfile.txt</path>
-<diff>
-<<<<<<< SEARCH
-        driver = uc.Chrome(
-            options=options,
-            driver_executable_path="/home/mohit/.cache/selenium/chromedriver/linux64/146.0.7680.153/chromedriver",
-            version_main=146,
-        )
-=======
-i replaced
-    two 
-        three 
-four
-five
->>>>>>> REPLACE
-</diff>
-</replace_in_file>
+I need to spawn a new chatgpt worker for background research and simultaneously ask our existing ChatGPT worker to draft the code.
+
+<use_mcp_tool>
+  <server_name>ai-worker-mcp</server_name>
+  <tool_name>spawn_worker_agent</tool_name>
+  <arguments>
+{
+      "worker_name": "research-worker-chat",
+      "model": "chatgpt",
+      "port": 8003,
+      "profile": "/home/mohit/chrome-profile-chat"
+
+}
+  </arguments>
+</use_mcp_tool>
+
